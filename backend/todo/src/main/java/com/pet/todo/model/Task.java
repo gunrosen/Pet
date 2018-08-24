@@ -24,6 +24,14 @@ public class Task implements Serializable {
 
     private Date modifiedTime;
 
+    public Task(@NotBlank String title, @NotBlank String content) {
+        this.title = title;
+        this.content = content;
+        this.createdTime = new Date();
+        this.modifiedTime = new Date();
+    }
+    public Task(){}
+
     public long getId() {
         return id;
     }
