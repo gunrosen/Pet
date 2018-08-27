@@ -34,4 +34,10 @@ public class TaskController {
         taskService.addTask(task);
         return new Envelop(null).toResponseEntity();
     }
+
+    @RequestMapping(method = RequestMethod.PUT)
+    public ResponseEntity<?> editTask(@RequestBody Task task){
+        Task editedTask = taskService.editTask(task);
+        return new Envelop(editedTask).toResponseEntity();
+    }
 }

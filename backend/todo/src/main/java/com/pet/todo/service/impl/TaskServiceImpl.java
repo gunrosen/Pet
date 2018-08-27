@@ -31,4 +31,10 @@ public class TaskServiceImpl implements TaskService {
         task.setCreatedTime(new Date());
         taskRepository.save(task);
     }
+
+    @Override
+    public Task editTask(Task task) {
+        task.setModifiedTime(new Date());
+        return taskRepository.save(task);
+    }
 }

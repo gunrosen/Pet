@@ -11,4 +11,6 @@ public interface TaskService {
     ListDto<Task> getAllTask();
 
     void addTask(Task task);
+
+    Task editTask(Task task);
 }
