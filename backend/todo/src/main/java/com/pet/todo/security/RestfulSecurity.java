@@ -14,7 +14,7 @@ public class RestfulSecurity extends WebSecurityConfigurerAdapter {
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         http.authorizeRequests()
-                .antMatchers("/api/task")
+                .antMatchers("/api/**")
                 .permitAll()
         .and()
         .csrf().disable()

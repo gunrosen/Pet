@@ -13,4 +13,8 @@ public interface TaskService {
     void addTask(Task task);
 
     Task editTask(Task task);
+
+    void deleleTask(long id);
+
+    ListDto<Task> getTask(int page, int size);
 }

@@ -3,6 +3,8 @@ package com.pet.todo.model;
 import javax.persistence.*;
 import javax.validation.constraints.NotBlank;
 import java.io.Serializable;
+import java.time.ZoneId;
+import java.time.ZonedDateTime;
 import java.util.Date;
 
 @Entity
@@ -20,15 +22,15 @@ public class Task implements Serializable {
     private String content;
 
 
-    private Date createdTime;
+    private ZonedDateTime createdTime;
 
-    private Date modifiedTime;
+    private ZonedDateTime modifiedTime;
 
     public Task(@NotBlank String title, @NotBlank String content) {
         this.title = title;
         this.content = content;
-        this.createdTime = new Date();
-        this.modifiedTime = new Date();
+        this.createdTime =  ZonedDateTime.now(ZoneId.systemDefault());
+        this.modifiedTime =  ZonedDateTime.now(ZoneId.systemDefault());
     }
     public Task(){}
 
@@ -56,19 +58,19 @@ public class Task implements Serializable {
         this.content = content;
     }
 
-    public Date getCreatedTime() {
+    public ZonedDateTime getCreatedTime() {
         return createdTime;
     }
 
-    public void setCreatedTime(Date createdTime) {
+    public void setCreatedTime(ZonedDateTime createdTime) {
         this.createdTime = createdTime;
     }
 
-    public Date getModifiedTime() {
+    public ZonedDateTime getModifiedTime() {
         return modifiedTime;
     }
 
-    public void setModifiedTime(Date modifiedTime) {
+    public void setModifiedTime(ZonedDateTime modifiedTime) {
         this.modifiedTime = modifiedTime;
     }
 }

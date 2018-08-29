@@ -6,10 +6,7 @@ import com.pet.todo.restful.dto.ListDto;
 import com.pet.todo.service.TaskService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 
 /**
@@ -23,21 +20,34 @@ public class TaskController {
     @Autowired
     TaskService taskService;
 
-    @RequestMapping(method = RequestMethod.GET)
-    public ResponseEntity<?> getAll(){
-        ListDto<Task> lstDto = taskService.getAllTask();
-        return new Envelop(lstDto).toResponseEntity();
-    }
+//    @RequestMapping(method = RequestMethod.GET)
+//    public ResponseEntity<?> getAll() {
+//        ListDto<Task> lstDto = taskService.getAllTask();
+//        return new Envelop(lstDto).toResponseEntity();
+//    }
 
     @RequestMapping(method = RequestMethod.POST)
-    public ResponseEntity<?> addTask(@RequestBody Task task){
+    public ResponseEntity<?> addTask(@RequestBody Task task) {
         taskService.addTask(task);
         return new Envelop(null).toResponseEntity();
     }
 
     @RequestMapping(method = RequestMethod.PUT)
-    public ResponseEntity<?> editTask(@RequestBody Task task){
+    public ResponseEntity<?> editTask(@RequestBody Task task) {
         Task editedTask = taskService.editTask(task);
         return new Envelop(editedTask).toResponseEntity();
     }
+
+    @RequestMapping(value = "delete/{id}", method = RequestMethod.PUT)
+    public ResponseEntity<?> deleteTask(@PathVariable String id) {
+        taskService.deleleTask(Long.valueOf(id));
+        return new Envelop(null).toResponseEntity();
+    }
+
+    @RequestMapping(value = "", method = RequestMethod.GET)
+    public ResponseEntity<?> getTaskPaging(@RequestParam Integer page, @RequestParam Integer size){
+        ListDto<Task> lstDto = taskService.getTask(page,size);
+        return new Envelop(lstDto).toResponseEntity();
+    }
+
 }
