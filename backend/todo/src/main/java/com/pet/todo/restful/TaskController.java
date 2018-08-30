@@ -1,7 +1,6 @@
 package com.pet.todo.restful;
 
 import com.pet.todo.model.Task;
-import com.pet.todo.repository.TaskRepository;
 import com.pet.todo.restful.dto.ListDto;
 import com.pet.todo.service.TaskService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -40,7 +39,7 @@ public class TaskController {
 
     @RequestMapping(value = "delete/{id}", method = RequestMethod.PUT)
     public ResponseEntity<?> deleteTask(@PathVariable String id) {
-        taskService.deleleTask(Long.valueOf(id));
+        taskService.deleteTask(Long.valueOf(id));
         return new Envelop(null).toResponseEntity();
     }
 

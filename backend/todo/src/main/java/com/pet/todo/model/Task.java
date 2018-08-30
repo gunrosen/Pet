@@ -21,6 +21,8 @@ public class Task implements Serializable {
     @NotBlank
     private String content;
 
+    private Boolean isCompleted;
+
 
     private ZonedDateTime createdTime;
 
@@ -29,6 +31,7 @@ public class Task implements Serializable {
     public Task(@NotBlank String title, @NotBlank String content) {
         this.title = title;
         this.content = content;
+        this.isCompleted = false;
         this.createdTime =  ZonedDateTime.now(ZoneId.systemDefault());
         this.modifiedTime =  ZonedDateTime.now(ZoneId.systemDefault());
     }
@@ -72,5 +75,13 @@ public class Task implements Serializable {
 
     public void setModifiedTime(ZonedDateTime modifiedTime) {
         this.modifiedTime = modifiedTime;
+    }
+
+    public boolean isCompleted() {
+        return isCompleted;
+    }
+
+    public void setCompleted(boolean completed) {
+        isCompleted = completed;
     }
 }

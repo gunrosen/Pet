@@ -37,6 +37,7 @@ public class TaskServiceImpl implements TaskService {
     public void addTask(Task task) {
         task.setModifiedTime(ZonedDateTime.now(ZoneId.systemDefault()));
         task.setCreatedTime(ZonedDateTime.now(ZoneId.systemDefault()));
+        task.setCompleted(false);
         taskRepository.save(task);
     }
 
@@ -54,7 +55,7 @@ public class TaskServiceImpl implements TaskService {
     }
 
     @Override
-    public void deleleTask(long id) {
+    public void deleteTask(long id) {
         Optional<Task> task = taskRepository.findById(id);
         task.orElseThrow(() -> new ResourceNotFoundException("Task", "id", id));
         taskRepository.deleteById(id);
