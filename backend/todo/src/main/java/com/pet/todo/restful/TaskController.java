@@ -1,6 +1,6 @@
 package com.pet.todo.restful;
 
-import com.pet.todo.model.Task;
+import com.pet.todo.domain.Task;
 import com.pet.todo.restful.dto.ListDto;
 import com.pet.todo.service.TaskService;
 import org.springframework.beans.factory.annotation.Autowired;

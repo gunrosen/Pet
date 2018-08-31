@@ -1,20 +1,18 @@
 package com.pet.todo.service.impl;
 
 import com.pet.todo.exception.ResourceNotFoundException;
-import com.pet.todo.model.Task;
+import com.pet.todo.domain.Task;
 import com.pet.todo.repository.TaskRepository;
 import com.pet.todo.restful.dto.ListDto;
 import com.pet.todo.service.TaskService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
-import org.springframework.data.querydsl.QPageRequest;
 import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;
 import java.time.ZoneId;
 import java.time.ZonedDateTime;
-import java.util.Date;
 import java.util.List;
 import java.util.Optional;
 

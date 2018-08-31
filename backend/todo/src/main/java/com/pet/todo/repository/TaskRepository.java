@@ -1,8 +1,7 @@
 package com.pet.todo.repository;
 
-import com.pet.todo.model.Task;
+import com.pet.todo.domain.Task;
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.data.repository.CrudRepository;
 
 
 /**

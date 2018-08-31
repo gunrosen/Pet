@@ -1,11 +1,10 @@
-package com.pet.todo.model;
+package com.pet.todo.domain;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotBlank;
 import java.io.Serializable;
 import java.time.ZoneId;
 import java.time.ZonedDateTime;
-import java.util.Date;
 
 @Entity
 @Table(name = "Task")

@@ -1,6 +1,6 @@
 package com.pet.todo.service;
 
-import com.pet.todo.model.Task;
+import com.pet.todo.domain.Task;
 import com.pet.todo.restful.dto.ListDto;
 
 /**
