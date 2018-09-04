@@ -1,16 +1,19 @@
 package com.pet.todo.domain;
 
-import javax.persistence.Column;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import com.pet.todo.restful.dto.customer.CustomerDto;
+
+import javax.persistence.*;
+import java.io.Serializable;
 import java.math.BigDecimal;
 
 /**
  * Created by Gun on 8/31/18.
  */
+@Entity
 @Table(name = "customers")
-public class Customer {
+public class Customer implements Serializable{
     @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "customerNumber")
     private int customerNumber;
 
@@ -49,6 +52,16 @@ public class Customer {
 
     @Column(name = "creditLimit")
     private BigDecimal creditLimit;
+
+    public Customer(CustomerDto customer) {
+        setCustomerName(customer.getCustomerName());
+        setPhone(customer.getPhone());
+        setContactFirstName(customer.getContactFirstName());
+        setContactLastName(customer.getContactLastName());
+        setAddressLine1(customer.getAddress());
+        setCity(customer.getCity());
+        setCountry(customer.getCountry());
+    }
 
     public int getCustomerNumber() {
         return customerNumber;
