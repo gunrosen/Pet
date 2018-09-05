@@ -1,12 +1,11 @@
 package com.pet.todo.domain;
 
-import javax.persistence.Column;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 /**
  * Created by Gun on 8/31/18.
  */
+@Entity
 @Table(name = "employees")
 public class Employee {
 
@@ -35,6 +34,7 @@ public class Employee {
     @Column(name = "jobTitle")
     private String jobTitle;
 
+    public Employee(){}
 
     public int getEmployeeNumber() {
         return employeeNumber;

@@ -1,8 +1,10 @@
 package com.pet.todo.service.impl;
 
 import com.pet.todo.domain.Customer;
+import com.pet.todo.domain.Employee;
 import com.pet.todo.exception.ResourceNotFoundException;
 import com.pet.todo.repository.CustomerRepository;
+import com.pet.todo.repository.EmployeeRepository;
 import com.pet.todo.restful.dto.ListDto;
 import com.pet.todo.restful.dto.customer.CustomerDto;
 import com.pet.todo.service.CustomerService;
@@ -24,6 +26,9 @@ public class CustomerServiceImpl implements CustomerService {
 
     @Autowired
     CustomerRepository customerRepository;
+
+    @Autowired
+    EmployeeRepository employeeRepository;
 
     @Override
     public ListDto<CustomerDto> getCustomer(int page, int size) {
@@ -48,6 +53,12 @@ public class CustomerServiceImpl implements CustomerService {
     }
 
     @Override
+    public ListDto<CustomerDto> getCustomerManagedBy(int employeeId) {
+        customerRepository.
+        return null;
+    }
+
+    @Override
     public int createCustomer(CustomerDto customer) {
         Customer _customer = new Customer(customer);
         Customer result = customerRepository.save(_customer);
@@ -55,13 +66,12 @@ public class CustomerServiceImpl implements CustomerService {
     }
 
     @Override
-    public int updateCustomer(CustomerDto customer) {
-        int id = customer.getCustomerNumber();
-        Optional<Customer> optionalCustomer = customerRepository.findById(id);
+    public int updateCustomer(int customerId, CustomerDto customer) {
+        Optional<Customer> optionalCustomer = customerRepository.findById(customerId);
         optionalCustomer.orElseThrow(()-> new ResourceNotFoundException("Customer","","null"));
         Customer _customer = new Customer(customer);
         customerRepository.save(_customer);
-        return id;
+        return customerId;
     }
 
     @Override
@@ -69,8 +79,13 @@ public class CustomerServiceImpl implements CustomerService {
         Optional<Customer> optionalCustomer = customerRepository.findById(customerId);
         optionalCustomer.orElseThrow(()-> new ResourceNotFoundException("Customer","","null"));
         Customer _customer = optionalCustomer.get();
-        _customer.setSalesRepEmployeeNumber(employeeId);
-        customerRepository.save(_customer);
+
+        Optional<Employee> opEmployee = employeeRepository.findById(Integer.valueOf(employeeId));
+        opEmployee.ifPresent((em)->{
+            _customer.setSalesRepEmployeeNumber(em.getEmployeeNumber());
+            customerRepository.save(_customer);
+        });
+
     }
 
     @Override
@@ -79,6 +94,8 @@ public class CustomerServiceImpl implements CustomerService {
         optionalCustomer.orElseThrow(()-> new ResourceNotFoundException("Customer","","null"));
         customerRepository.deleteById(customerId);
     }
+
+
 
 
 }

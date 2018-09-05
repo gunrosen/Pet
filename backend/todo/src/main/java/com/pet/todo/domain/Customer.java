@@ -53,6 +53,8 @@ public class Customer implements Serializable{
     @Column(name = "creditLimit")
     private BigDecimal creditLimit;
 
+    public Customer(){}
+
     public Customer(CustomerDto customer) {
         setCustomerName(customer.getCustomerName());
         setPhone(customer.getPhone());

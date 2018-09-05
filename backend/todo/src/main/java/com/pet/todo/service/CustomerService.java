@@ -10,11 +10,15 @@ public interface CustomerService {
 
     ListDto<CustomerDto> getCustomer(int page, int size);
 
+    ListDto<CustomerDto> getCustomerManagedBy(int employeeId);
+
     int createCustomer(CustomerDto customer);
 
-    int updateCustomer(CustomerDto customer);
+    int updateCustomer(int customerId, CustomerDto customer);
 
     void updateEmployee(int customerId, int employeeId);
 
     void deleteCustomer(int customerId);
+
+
 }

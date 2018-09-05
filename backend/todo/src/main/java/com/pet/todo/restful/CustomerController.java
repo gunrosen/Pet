@@ -30,21 +30,27 @@ public class CustomerController {
         return new Envelop(id).toResponseEntity();
     }
 
-    @RequestMapping(method = RequestMethod.PUT)
-    ResponseEntity<?> updateCustomer(@RequestBody CustomerDto customerDto) {
-        int id = customerService.updateCustomer(customerDto);
-        return new Envelop(id).toResponseEntity();
+    @RequestMapping(value = "/{id}/update",method = RequestMethod.PUT)
+    ResponseEntity<?> updateCustomer(@PathVariable int id , @RequestBody CustomerDto customerDto) {
+        int idUpdate = customerService.updateCustomer(id,customerDto);
+        return new Envelop(idUpdate).toResponseEntity();
     }
 
-    @RequestMapping(method = RequestMethod.PUT)
-    ResponseEntity<?> updateEmployeeOfCustomer(@RequestParam int customerId, @RequestParam int employeeId) {
-        customerService.updateEmployee(customerId, employeeId);
+    @RequestMapping(value = "{id}/employee",method = RequestMethod.PUT)
+    ResponseEntity<?> updateEmployeeOfCustomer(@PathVariable int id, @RequestParam int employeeId) {
+        customerService.updateEmployee(id, employeeId);
         return new Envelop(null).toResponseEntity();
     }
 
-    @RequestMapping(value = "/{id}", method = RequestMethod.PUT)
+    @RequestMapping(value = "/{id}/delete", method = RequestMethod.PUT)
     ResponseEntity<?> deleteCustomer(@PathVariable int id) {
         customerService.deleteCustomer(id);
         return new Envelop(id).toResponseEntity();
+    }
+
+    @RequestMapping(value = "/managed-by/{id}", method = RequestMethod.GET)
+    ResponseEntity<?> getCustomerManageBy(@PathVariable int id){
+        ListDto<CustomerDto> dtos = customerService.getCustomerManagedBy(id);
+        return new Envelop(dtos).toResponseEntity();
     }
 }
