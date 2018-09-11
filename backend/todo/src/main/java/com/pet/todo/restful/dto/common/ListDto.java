@@ -1,4 +1,4 @@
-package com.pet.todo.restful.dto;
+package com.pet.todo.restful.dto.common;
 
 import java.io.Serializable;
 import java.util.List;

@@ -1,13 +1,14 @@
 package com.pet.todo.domain;
 
 import javax.persistence.*;
+import java.io.Serializable;
 
 /**
  * Created by Gun on 8/31/18.
  */
 @Entity
 @Table(name = "employees")
-public class Employee {
+public class Employee implements Serializable{
 
     @Id
     @Column(name = "employeeNumber")
@@ -25,11 +26,13 @@ public class Employee {
     @Column(name = "email")
     private String email;
 
-    @Column(name = "officeCode")
-    private String officeCode;
+    @OneToOne
+    @JoinColumn(name = "officeCode")
+    private Office officeCode;
 
-    @Column(name = "reportsTo")
-    private int reportsTo;
+    @OneToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "reportsTo")
+    private Employee reportsTo;
 
     @Column(name = "jobTitle")
     private String jobTitle;
@@ -76,19 +79,19 @@ public class Employee {
         this.email = email;
     }
 
-    public String getOfficeCode() {
+    public Office getOfficeCode() {
         return officeCode;
     }
 
-    public void setOfficeCode(String officeCode) {
+    public void setOfficeCode(Office officeCode) {
         this.officeCode = officeCode;
     }
 
-    public int getReportsTo() {
+    public Employee getReportsTo() {
         return reportsTo;
     }
 
-    public void setReportsTo(int reportsTo) {
+    public void setReportsTo(Employee reportsTo) {
         this.reportsTo = reportsTo;
     }
 

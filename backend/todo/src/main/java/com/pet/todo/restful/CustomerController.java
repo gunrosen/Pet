@@ -1,7 +1,7 @@
 package com.pet.todo.restful;
 
-import com.pet.todo.restful.dto.ListDto;
-import com.pet.todo.restful.dto.customer.CustomerDto;
+import com.pet.todo.restful.dto.common.ListDto;
+import com.pet.todo.restful.dto.CustomerDto;
 import com.pet.todo.service.CustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -51,6 +51,12 @@ public class CustomerController {
     @RequestMapping(value = "/managed-by/{id}", method = RequestMethod.GET)
     ResponseEntity<?> getCustomerManageBy(@PathVariable int id){
         ListDto<CustomerDto> dtos = customerService.getCustomerManagedBy(id);
+        return new Envelop(dtos).toResponseEntity();
+    }
+
+    @RequestMapping(value = "/not-managed/", method = RequestMethod.GET)
+    ResponseEntity<?> getCustomerManageBy(){
+        ListDto<CustomerDto> dtos = customerService.getCustomerNotManaged();
         return new Envelop(dtos).toResponseEntity();
     }
 }

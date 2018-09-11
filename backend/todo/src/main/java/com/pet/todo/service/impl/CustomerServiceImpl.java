@@ -5,14 +5,15 @@ import com.pet.todo.domain.Employee;
 import com.pet.todo.exception.ResourceNotFoundException;
 import com.pet.todo.repository.CustomerRepository;
 import com.pet.todo.repository.EmployeeRepository;
-import com.pet.todo.restful.dto.ListDto;
-import com.pet.todo.restful.dto.customer.CustomerDto;
+import com.pet.todo.restful.dto.common.ListDto;
+import com.pet.todo.restful.dto.CustomerDto;
 import com.pet.todo.service.CustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Optional;
@@ -54,8 +55,26 @@ public class CustomerServiceImpl implements CustomerService {
 
     @Override
     public ListDto<CustomerDto> getCustomerManagedBy(int employeeId) {
-        customerRepository.
-        return null;
+        List<Customer> lst = customerRepository.getCustomerManagedBy(employeeId);
+        List<CustomerDto> lstDto = new ArrayList<>(lst.size());
+        for(Customer c : lst){
+            lstDto.add(new CustomerDto(c));
+        }
+        // Java 8
+        List<CustomerDto> lstDto8 = lst.stream().map(customer -> {
+             return new CustomerDto(customer);
+        }).collect(Collectors.toList());
+        return new ListDto<>(lstDto);
+    }
+
+    @Override
+    public ListDto<CustomerDto> getCustomerNotManaged() {
+        List<Customer> lst = customerRepository.getCustomerNotManaged();
+        // Java 8
+        List<CustomerDto> lstDto8 = lst.stream().map(customer -> {
+            return new CustomerDto(customer);
+        }).collect(Collectors.toList());
+        return new ListDto<>(lstDto8);
     }
 
     @Override
@@ -82,7 +101,7 @@ public class CustomerServiceImpl implements CustomerService {
 
         Optional<Employee> opEmployee = employeeRepository.findById(Integer.valueOf(employeeId));
         opEmployee.ifPresent((em)->{
-            _customer.setSalesRepEmployeeNumber(em.getEmployeeNumber());
+            _customer.setEmployee(em);
             customerRepository.save(_customer);
         });
 

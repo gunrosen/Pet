@@ -1,6 +1,6 @@
 package com.pet.todo.domain;
 
-import com.pet.todo.restful.dto.customer.CustomerDto;
+import com.pet.todo.restful.dto.CustomerDto;
 
 import javax.persistence.*;
 import java.io.Serializable;
@@ -47,8 +47,9 @@ public class Customer implements Serializable{
     @Column(name = "country")
     private String country;
 
-    @Column(name = "salesRepEmployeeNumber")
-    private int salesRepEmployeeNumber;
+    @OneToOne(fetch = FetchType.EAGER)
+    @JoinColumn(name = "salesRepEmployeeNumber")
+    private Employee employee;
 
     @Column(name = "creditLimit")
     private BigDecimal creditLimit;
@@ -153,12 +154,12 @@ public class Customer implements Serializable{
         this.country = country;
     }
 
-    public int getSalesRepEmployeeNumber() {
-        return salesRepEmployeeNumber;
+    public Employee getEmployee() {
+        return employee;
     }
 
-    public void setSalesRepEmployeeNumber(int salesRepEmployeeNumber) {
-        this.salesRepEmployeeNumber = salesRepEmployeeNumber;
+    public void setEmployee(Employee employee) {
+        this.employee = employee;
     }
 
     public BigDecimal getCreditLimit() {

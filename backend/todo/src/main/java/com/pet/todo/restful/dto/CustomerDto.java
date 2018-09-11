@@ -1,4 +1,6 @@
-package com.pet.todo.restful.dto.customer;
+package com.pet.todo.restful.dto;
+
+import com.pet.todo.domain.Customer;
 
 import java.io.Serializable;
 import java.math.BigDecimal;
@@ -17,6 +19,19 @@ public class CustomerDto implements Serializable{
     private String city;
     private String country;
     private BigDecimal creditLimit;
+
+    public CustomerDto(){}
+
+    public CustomerDto(Customer c ){
+        this.customerNumber = c.getCustomerNumber();
+        this.customerName = c.getCustomerName();
+        this.contactFirstName = c.getContactFirstName();
+        this.contactLastName = c.getContactLastName();
+        this.phone = c.getPhone();
+        this.address = c.getAddressLine1();
+        this.city = c.getCity();
+        this.country = c.getCountry();
+    }
 
     public void setCustomerName(String customerName) {
         this.customerName = customerName;
