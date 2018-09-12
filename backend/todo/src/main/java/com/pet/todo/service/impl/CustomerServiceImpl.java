@@ -33,7 +33,7 @@ public class CustomerServiceImpl implements CustomerService {
 
     @Override
     public ListDto<CustomerDto> getCustomer(int page, int size) {
-        Page<Customer> customerPage = customerRepository.findAll(new PageRequest(page,size) );
+        Page<Customer> customerPage = customerRepository.findAll(PageRequest.of(page,size) );
         List<CustomerDto> lstCustomer = customerPage.stream()
                 .sorted(Comparator.comparing(Customer::getCustomerName))
                 .map(customer -> {

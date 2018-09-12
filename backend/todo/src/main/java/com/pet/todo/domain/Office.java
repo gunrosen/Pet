@@ -1,12 +1,14 @@
 package com.pet.todo.domain;
 
 import javax.persistence.Column;
+import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
 /**
  * Created by Gun on 8/31/18.
  */
+@Entity
 @Table(name = "offices")
 public class Office {
 

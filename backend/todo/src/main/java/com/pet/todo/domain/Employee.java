@@ -26,12 +26,12 @@ public class Employee implements Serializable{
     @Column(name = "email")
     private String email;
 
-    @OneToOne
-    @JoinColumn(name = "officeCode")
+    @OneToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "officeCode",referencedColumnName = "officeCode")
     private Office officeCode;
 
     @OneToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "reportsTo")
+    @JoinColumn(name = "reportsTo",referencedColumnName = "employeeNumber")
     private Employee reportsTo;
 
     @Column(name = "jobTitle")

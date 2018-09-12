@@ -48,7 +48,7 @@ public class Customer implements Serializable{
     private String country;
 
     @OneToOne(fetch = FetchType.EAGER)
-    @JoinColumn(name = "salesRepEmployeeNumber")
+    @JoinColumn(name = "salesRepEmployeeNumber",referencedColumnName = "employeeNumber")
     private Employee employee;
 
     @Column(name = "creditLimit")

@@ -17,15 +17,23 @@ public class EmployeeController {
     EmployeeService employeeService;
 
     @RequestMapping(method = RequestMethod.GET)
-    ResponseEntity<?> getCustomer(@RequestParam int page, @RequestParam int size) {
+    ResponseEntity<?> getEmployee(@RequestParam int page, @RequestParam int size) {
         ListDto<EmployeeDto> dtos = employeeService.getEmployee(page, size);
         return new Envelop(dtos).toResponseEntity();
     }
 
 
     @RequestMapping(method = RequestMethod.POST)
-    ResponseEntity<?> createCustomer(@RequestBody EmployeeDto em) {
+    ResponseEntity<?> createEmployee(@RequestBody EmployeeDto em) {
         int id = employeeService.createEmployee(em);
         return new Envelop(id).toResponseEntity();
     }
+
+    @RequestMapping(method = RequestMethod.PUT)
+    ResponseEntity<?> updateEmployee(@RequestBody EmployeeDto em){
+        int id = employeeService.updateEmployee(em);
+        return new Envelop(id).toResponseEntity();
+    }
+
+
 }

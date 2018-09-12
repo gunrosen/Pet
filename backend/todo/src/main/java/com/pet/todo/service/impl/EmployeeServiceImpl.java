@@ -11,6 +11,8 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Optional;
+import java.util.stream.Collectors;
 
 /**
  * Created by Gun on 9/10/18.
@@ -29,13 +31,27 @@ public class EmployeeServiceImpl implements EmployeeService {
     @Override
     public ListDto<EmployeeDto> getEmployee(int page, int size) {
         Page<Employee> pageEmployee = employeeRepository.findAll(new PageRequest(page,size));
-        List<Employee> lst = pageEmployee.getContent();
+        List<EmployeeDto> lst = pageEmployee.stream().map(EmployeeDto::new).collect(Collectors.toList());
         long totalElements = pageEmployee.getTotalElements();
-        return null;
+        return new ListDto<>(totalElements,lst);
     }
 
     @Override
     public int createEmployee(EmployeeDto em) {
-        return 0;
+        Employee _employee = em.toEntity();
+        Employee result = employeeRepository.save(_employee);
+        return result.getEmployeeNumber();
     }
+
+    @Override
+    public int updateEmployee(EmployeeDto em) {
+
+        Optional<Employee> opEmployee = employeeRepository.findById(em.getEmployeeNumber());
+        opEmployee.ifPresent(employee -> {
+
+        });
+        return em.getEmployeeNumber();
+    }
+
+
 }

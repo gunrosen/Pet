@@ -14,4 +14,6 @@ public interface EmployeeService {
     ListDto<EmployeeDto> getEmployee(int page, int size);
 
     int createEmployee(EmployeeDto em);
+
+    int updateEmployee(EmployeeDto em);
 }
