@@ -1,6 +1,7 @@
 package com.pet.todo.service.impl;
 
 import com.pet.todo.domain.Employee;
+import com.pet.todo.exception.ResourceNotFoundException;
 import com.pet.todo.repository.EmployeeRepository;
 import com.pet.todo.restful.dto.EmployeeDto;
 import com.pet.todo.restful.dto.common.ListDto;
@@ -47,9 +48,8 @@ public class EmployeeServiceImpl implements EmployeeService {
     public int updateEmployee(EmployeeDto em) {
 
         Optional<Employee> opEmployee = employeeRepository.findById(em.getEmployeeNumber());
-        opEmployee.ifPresent(employee -> {
-
-        });
+        opEmployee.orElseThrow(()->new ResourceNotFoundException(Employee.class.getName(),"employeeNumber",em.getEmployeeNumber()));
+        employeeRepository.save(opEmployee.get());
         return em.getEmployeeNumber();
     }
 
