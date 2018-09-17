@@ -5,7 +5,9 @@ import com.pet.todo.exception.ResourceNotFoundException;
 import com.pet.todo.repository.EmployeeRepository;
 import com.pet.todo.restful.dto.EmployeeDto;
 import com.pet.todo.restful.dto.common.ListDto;
+
 import com.pet.todo.service.EmployeeService;
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
@@ -21,6 +23,8 @@ import java.util.stream.Collectors;
 @Service
 public class EmployeeServiceImpl implements EmployeeService {
 
+    private static final Logger logger = Logger.getLogger(EmployeeServiceImpl.class);
+
     @Autowired
     EmployeeRepository employeeRepository;
 
@@ -31,7 +35,9 @@ public class EmployeeServiceImpl implements EmployeeService {
 
     @Override
     public ListDto<EmployeeDto> getEmployee(int page, int size) {
-        Page<Employee> pageEmployee = employeeRepository.findAll(new PageRequest(page,size));
+        logger.info("get Employee with page="+page +", size="+size);
+
+        Page<Employee> pageEmployee = employeeRepository.findAll(PageRequest.of(page,size));
         List<EmployeeDto> lst = pageEmployee.stream().map(EmployeeDto::new).collect(Collectors.toList());
         long totalElements = pageEmployee.getTotalElements();
         return new ListDto<>(totalElements,lst);

@@ -2,6 +2,7 @@ package com.pet.todo;
 
 import org.hibernate.boot.model.naming.PhysicalNamingStrategy;
 import org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl;
+import org.springframework.aop.framework.ProxyFactoryBean;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
@@ -17,4 +18,5 @@ public class TodoApplication {
 	public PhysicalNamingStrategy physicalNamingStrategy() {
 		return new PhysicalNamingStrategyStandardImpl();
 	}
+
 }
