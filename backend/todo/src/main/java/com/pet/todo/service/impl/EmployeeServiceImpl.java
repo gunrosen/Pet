@@ -35,7 +35,7 @@ public class EmployeeServiceImpl implements EmployeeService {
 
     @Override
     public ListDto<EmployeeDto> getEmployee(int page, int size) {
-        logger.info("get Employee with page="+page +", size="+size);
+        logger.info("Get Employee with page="+page +", size="+size);
 
         Page<Employee> pageEmployee = employeeRepository.findAll(PageRequest.of(page,size));
         List<EmployeeDto> lst = pageEmployee.stream().map(EmployeeDto::new).collect(Collectors.toList());
