@@ -9,4 +9,7 @@ import java.util.List;
  */
 public interface CustomerCustomizedRepository {
     List<Customer> getCustomerManagedBy(int employeeId);
+
+
+    List<Customer> getCustomerNotManaged();
 }

@@ -12,6 +12,8 @@ import javax.persistence.PersistenceContext;
 import javax.persistence.TypedQuery;
 import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
+import javax.persistence.criteria.Root;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -32,10 +34,24 @@ public class CustomerCustomizedRepositoryImpl implements CustomerCustomizedRepos
 
     @Override
     public List<Customer> getCustomerManagedBy(int employeeId) {
+        CriteriaBuilder cb = em.getCriteriaBuilder();
+        CriteriaQuery q = cb.createQuery(Customer.class);
+        Root o = q.from(Customer.class);
+        q.select(o).where(cb.equal(o.get("salesRepEmployeeNumber"),employeeId));
+
 //        TypedQuery<Customer> query = em.createQuery("select c from customers c " +
 //                "where c.salesRepEmployeeNumber = :employeeId",Customer.class);
 //        return  query.setParameter("employeeId",employeeId).getResultList();
-        return null;
+        return em.createQuery(q).getResultList();
+    }
+
+    @Override
+    public List<Customer> getCustomerNotManaged() {
+        CriteriaBuilder cb = em.getCriteriaBuilder();
+        CriteriaQuery q = cb.createQuery(Customer.class);
+        Root o = q.from(Customer.class);
+        q.select(o).where(cb.equal(o.get("salesRepEmployeeNumber"),null));
+        return em.createQuery(q).getResultList();
     }
 
 

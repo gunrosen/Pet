@@ -1,11 +1,12 @@
 package com.pet.todo.aspect;
 
-import com.sun.javafx.tools.packager.Log;
 import org.apache.log4j.Logger;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.ProceedingJoinPoint;
-import org.aspectj.lang.annotation.*;
-import org.springframework.context.annotation.Configuration;
+import org.aspectj.lang.annotation.Around;
+import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Before;
+import org.aspectj.lang.annotation.Pointcut;
 import org.springframework.stereotype.Component;
 
 import javax.servlet.http.HttpServletRequest;
@@ -16,11 +17,11 @@ import java.util.Enumeration;
  * Created by Gun on 9/17/18.
  */
 @Aspect
-@Configuration
+@Component
 public class LoggerAspectJ {
     private static final Logger logger = Logger.getLogger(LoggerAspectJ.class);
 
-    @Pointcut(value = "execution(* com.pet.todo.service.*.*())")
+    @Pointcut(value = "execution(* com.pet.todo.service.impl.EmployeeServiceImpl.*(..))")
     public void serviceTask(){
 
     }
@@ -47,8 +48,16 @@ public class LoggerAspectJ {
 
     @Before("serviceTask()")
     public void beforeServiceTask(){
+        System.out.print("Before service sysout");
         logger.info("BEFORE serviceTask");
     }
+
+    @Before("controller()")
+    public void beforeControllerTask(){
+        System.out.print("Before Controller stout");
+        logger.info("BEFORE controller");
+    }
+
 
     @Before("controller() && allMethod() && args(..,request)")
     public void logBefore(JoinPoint joinPoint, HttpServletRequest request) {

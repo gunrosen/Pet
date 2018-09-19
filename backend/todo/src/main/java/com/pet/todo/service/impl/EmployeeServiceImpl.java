@@ -35,8 +35,6 @@ public class EmployeeServiceImpl implements EmployeeService {
 
     @Override
     public ListDto<EmployeeDto> getEmployee(int page, int size) {
-        logger.info("Get Employee with page="+page +", size="+size);
-
         Page<Employee> pageEmployee = employeeRepository.findAll(PageRequest.of(page,size));
         List<EmployeeDto> lst = pageEmployee.stream().map(EmployeeDto::new).collect(Collectors.toList());
         long totalElements = pageEmployee.getTotalElements();
@@ -52,12 +50,10 @@ public class EmployeeServiceImpl implements EmployeeService {
 
     @Override
     public int updateEmployee(EmployeeDto em) {
-
         Optional<Employee> opEmployee = employeeRepository.findById(em.getEmployeeNumber());
         opEmployee.orElseThrow(()->new ResourceNotFoundException(Employee.class.getName(),"employeeNumber",em.getEmployeeNumber()));
         employeeRepository.save(opEmployee.get());
         return em.getEmployeeNumber();
     }
-
 
 }

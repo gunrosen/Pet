@@ -70,7 +70,7 @@ public class CustomerServiceImpl implements CustomerService {
     @Override
     public ListDto<CustomerDto> getCustomerNotManaged() {
         List<Customer> lst = customerRepository.getCustomerNotManaged();
-        // Java 8
+//         Java 8
         List<CustomerDto> lstDto8 = lst.stream().map(customer -> {
             return new CustomerDto(customer);
         }).collect(Collectors.toList());
