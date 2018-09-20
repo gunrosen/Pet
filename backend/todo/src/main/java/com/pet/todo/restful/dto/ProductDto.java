@@ -1,41 +1,45 @@
-package com.pet.todo.domain;
+package com.pet.todo.restful.dto;
 
-import javax.persistence.*;
+import com.fasterxml.jackson.annotation.JsonProperty;
+import com.pet.todo.domain.Product;
+import com.pet.todo.domain.ProductLine;
+
+import java.io.Serializable;
 import java.math.BigDecimal;
 
 /**
- * Created by Gun on 9/4/18.
+ * Created by Gun on 9/20/18.
  */
-@Entity
-@Table(name = "products")
-public class Product {
-    @Id
-    @Column(name = "productCode")
+public class ProductDto implements Serializable {
+    public ProductDto(){}
+
+    public ProductDto(Product domain){
+        this.productCode = domain.getProductCode();
+        this.productName = domain.getProductName();
+        this.productDescription = domain.getProductDescription();
+        this.productLine = domain.getProductLine();
+        this.buyPrice = domain.getBuyPrice();
+        this.productScale = domain.getProductScale();
+        this.productVendor = domain.getProductVendor();
+        this.quantityInStock = domain.getQuantityInStock();
+        this.MSRP = domain.getMSRP();
+    }
     private String productCode;
 
-    @Column(name = "productName")
     private String productName;
 
-    @OneToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "productLine",referencedColumnName = "productLine")
     private ProductLine productLine;
 
-    @Column(name = "productScale")
     private String productScale;
 
-    @Column(name = "productVendor")
     private String productVendor;
 
-    @Column(name = "productDescription",columnDefinition = "text")
     private String productDescription;
 
-    @Column(name = "quantityInStock",columnDefinition = "SMALLINT")
     private int quantityInStock;
 
-    @Column(name = "buyPrice")
     private BigDecimal buyPrice;
 
-    @Column(name = "MSRP")
     private BigDecimal MSRP;
 
     public String getProductCode() {

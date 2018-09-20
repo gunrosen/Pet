@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 /**
  * Created by Gun on 9/4/18.
  */
-@RestController
+@RestController(value = "apiCustomer")
 @RequestMapping(value = "/api/customer")
 public class CustomerController {
 

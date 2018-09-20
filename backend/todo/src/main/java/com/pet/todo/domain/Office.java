@@ -10,7 +10,7 @@ import javax.persistence.Table;
  */
 @Entity
 @Table(name = "offices")
-public class Office {
+public class Office extends Domain {
 
     @Id
     @Column(name = "officeCode")

@@ -11,7 +11,8 @@ import org.springframework.web.bind.annotation.*;
 /**
  * Created by Gun on 9/10/18.
  */
-@RestController(value = "/api/employee")
+@RestController(value = "apiEmployee")
+@RequestMapping(value = "/api/employee")
 public class EmployeeController {
     @Autowired
     EmployeeService employeeService;

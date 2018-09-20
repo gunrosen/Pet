@@ -1,6 +1,7 @@
 package com.pet.todo.domain;
 
 import javax.persistence.Column;
+import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 import java.sql.Blob;
@@ -8,6 +9,7 @@ import java.sql.Blob;
 /**
  * Created by Gun on 8/31/18.
  */
+@Entity
 @Table(name = "productlines")
 public class ProductLine {
     @Id
@@ -17,10 +19,10 @@ public class ProductLine {
     @Column(name = "textDescription")
     private String textDescription;
 
-    @Column(name = "htmlDescription")
+    @Column(name = "htmlDescription", columnDefinition = "mediumtext")
     private String htmlDescription;
 
-    @Column(name = "image")
+    @Column(name = "image", columnDefinition = "mediumblob")
     private Blob image;
 
     public String getProductLine() {

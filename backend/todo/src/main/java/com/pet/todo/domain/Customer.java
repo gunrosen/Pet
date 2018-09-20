@@ -11,7 +11,7 @@ import java.math.BigDecimal;
  */
 @Entity
 @Table(name = "customers")
-public class Customer implements Serializable{
+public class Customer extends Domain{
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "customerNumber")
