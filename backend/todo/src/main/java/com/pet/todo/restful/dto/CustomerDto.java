@@ -10,7 +10,7 @@ import java.math.BigDecimal;
  */
 public class CustomerDto implements Serializable{
 
-    private int customerNumber;
+    private Integer customerNumber;
     private String customerName;
     private String contactLastName;
     private String contactFirstName;
@@ -73,11 +73,11 @@ public class CustomerDto implements Serializable{
         return address;
     }
 
-    public int getCustomerNumber() {
+    public Integer getCustomerNumber() {
         return customerNumber;
     }
 
-    public void setCustomerNumber(int customerNumber) {
+    public void setCustomerNumber(Integer customerNumber) {
         this.customerNumber = customerNumber;
     }
 

@@ -8,11 +8,11 @@ import java.io.Serializable;
  */
 @Entity
 @Table(name = "employees")
-public class Employee implements Serializable{
+public class Employee extends Domain{
 
     @Id
     @Column(name = "employeeNumber")
-    private int employeeNumber;
+    private Integer employeeNumber;
 
     @Column(name = "lastName")
     private String lastName;
@@ -39,11 +39,11 @@ public class Employee implements Serializable{
 
     public Employee(){}
 
-    public int getEmployeeNumber() {
+    public Integer getEmployeeNumber() {
         return employeeNumber;
     }
 
-    public void setEmployeeNumber(int employeeNumber) {
+    public void setEmployeeNumber(Integer employeeNumber) {
         this.employeeNumber = employeeNumber;
     }
 

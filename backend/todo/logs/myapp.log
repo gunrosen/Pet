@@ -22,3 +22,281 @@
 2018-09-19 16:02:41 INFO  EmployeeServiceImpl:38 - Get Employee with page=0, size=10
 2018-09-19 16:47:28 INFO  LoggerAspectJ:52 - BEFORE serviceTask
 2018-09-19 16:49:49 INFO  LoggerAspectJ:52 - BEFORE serviceTask
+2018-09-21 15:06:51 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-09-21 15:06:51 DEBUG LoggerAspectJ:65 - Entering in Method :  error
+2018-09-21 15:06:51 DEBUG LoggerAspectJ:66 - Class Name :  org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-09-21 15:06:51 DEBUG LoggerAspectJ:67 - Arguments :  [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@4d4fefb6]]
+2018-09-21 15:06:51 DEBUG LoggerAspectJ:68 - Target class : org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-09-21 15:06:51 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-09-21 15:06:51 DEBUG LoggerAspectJ:72 - Method Type : POST
+2018-09-21 15:06:51 DEBUG LoggerAspectJ:77 - Header Name: content-type Header Value : application/json
+2018-09-21 15:06:51 DEBUG LoggerAspectJ:77 - Header Name: cache-control Header Value : no-cache
+2018-09-21 15:06:51 DEBUG LoggerAspectJ:77 - Header Name: postman-token Header Value : 68828a8c-aeef-40b4-b028-2ee0dc3addbd
+2018-09-21 15:06:51 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : PostmanRuntime/7.3.0
+2018-09-21 15:06:51 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : */*
+2018-09-21 15:06:51 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : 127.0.0.1:8080
+2018-09-21 15:06:51 DEBUG LoggerAspectJ:77 - Header Name: cookie Header Value : JSESSIONID=D78FA289751D5783E5C2EF131C228AB5
+2018-09-21 15:06:51 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate
+2018-09-21 15:06:51 DEBUG LoggerAspectJ:77 - Header Name: content-length Header Value : 267
+2018-09-21 15:06:51 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-09-21 15:06:51 DEBUG LoggerAspectJ:79 - Request Path info :/error
+2018-09-21 15:06:51 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-09-21 15:06:51 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error () execution time : 40 ms
+2018-09-21 15:12:15 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-09-21 15:12:15 DEBUG LoggerAspectJ:65 - Entering in Method :  error
+2018-09-21 15:12:15 DEBUG LoggerAspectJ:66 - Class Name :  org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-09-21 15:12:15 DEBUG LoggerAspectJ:67 - Arguments :  [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@4466193d]]
+2018-09-21 15:12:15 DEBUG LoggerAspectJ:68 - Target class : org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-09-21 15:12:15 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-09-21 15:12:15 DEBUG LoggerAspectJ:72 - Method Type : POST
+2018-09-21 15:12:15 DEBUG LoggerAspectJ:77 - Header Name: content-type Header Value : application/json
+2018-09-21 15:12:15 DEBUG LoggerAspectJ:77 - Header Name: cache-control Header Value : no-cache
+2018-09-21 15:12:15 DEBUG LoggerAspectJ:77 - Header Name: postman-token Header Value : 5b0a07fd-44e2-4a31-8690-b7b90697a028
+2018-09-21 15:12:15 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : PostmanRuntime/7.3.0
+2018-09-21 15:12:15 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : */*
+2018-09-21 15:12:15 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : 127.0.0.1:8080
+2018-09-21 15:12:15 DEBUG LoggerAspectJ:77 - Header Name: cookie Header Value : JSESSIONID=D78FA289751D5783E5C2EF131C228AB5
+2018-09-21 15:12:15 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate
+2018-09-21 15:12:15 DEBUG LoggerAspectJ:77 - Header Name: content-length Header Value : 267
+2018-09-21 15:12:15 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-09-21 15:12:15 DEBUG LoggerAspectJ:79 - Request Path info :/error
+2018-09-21 15:12:15 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-09-21 15:12:15 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error () execution time : 17 ms
+2018-09-21 15:12:46 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-09-21 15:12:46 DEBUG LoggerAspectJ:65 - Entering in Method :  error
+2018-09-21 15:12:46 DEBUG LoggerAspectJ:66 - Class Name :  org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-09-21 15:12:46 DEBUG LoggerAspectJ:67 - Arguments :  [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@22069d68]]
+2018-09-21 15:12:46 DEBUG LoggerAspectJ:68 - Target class : org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-09-21 15:12:46 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-09-21 15:12:46 DEBUG LoggerAspectJ:72 - Method Type : POST
+2018-09-21 15:12:46 DEBUG LoggerAspectJ:77 - Header Name: content-type Header Value : application/json
+2018-09-21 15:12:46 DEBUG LoggerAspectJ:77 - Header Name: cache-control Header Value : no-cache
+2018-09-21 15:12:46 DEBUG LoggerAspectJ:77 - Header Name: postman-token Header Value : 19ee5397-8e42-4c85-b788-34c9957f37eb
+2018-09-21 15:12:46 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : PostmanRuntime/7.3.0
+2018-09-21 15:12:46 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : */*
+2018-09-21 15:12:46 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : 127.0.0.1:8080
+2018-09-21 15:12:46 DEBUG LoggerAspectJ:77 - Header Name: cookie Header Value : JSESSIONID=D78FA289751D5783E5C2EF131C228AB5
+2018-09-21 15:12:46 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate
+2018-09-21 15:12:46 DEBUG LoggerAspectJ:77 - Header Name: content-length Header Value : 267
+2018-09-21 15:12:46 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-09-21 15:12:46 DEBUG LoggerAspectJ:79 - Request Path info :/error
+2018-09-21 15:12:46 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-09-21 15:12:46 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error () execution time : 37 ms
+2018-09-21 15:32:43 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-09-21 15:32:43 DEBUG LoggerAspectJ:65 - Entering in Method :  error
+2018-09-21 15:32:43 DEBUG LoggerAspectJ:66 - Class Name :  org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-09-21 15:32:43 DEBUG LoggerAspectJ:67 - Arguments :  [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@6f1205d0]]
+2018-09-21 15:32:43 DEBUG LoggerAspectJ:68 - Target class : org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-09-21 15:32:43 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-09-21 15:32:43 DEBUG LoggerAspectJ:72 - Method Type : PUT
+2018-09-21 15:32:43 DEBUG LoggerAspectJ:77 - Header Name: content-type Header Value : application/json
+2018-09-21 15:32:43 DEBUG LoggerAspectJ:77 - Header Name: cache-control Header Value : no-cache
+2018-09-21 15:32:43 DEBUG LoggerAspectJ:77 - Header Name: postman-token Header Value : 01edcc37-8d3e-4274-ac70-a7fd7c0ed9de
+2018-09-21 15:32:43 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : PostmanRuntime/7.3.0
+2018-09-21 15:32:43 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : */*
+2018-09-21 15:32:43 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : 127.0.0.1:8080
+2018-09-21 15:32:43 DEBUG LoggerAspectJ:77 - Header Name: cookie Header Value : JSESSIONID=D78FA289751D5783E5C2EF131C228AB5
+2018-09-21 15:32:43 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate
+2018-09-21 15:32:43 DEBUG LoggerAspectJ:77 - Header Name: content-length Header Value : 283
+2018-09-21 15:32:43 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-09-21 15:32:43 DEBUG LoggerAspectJ:79 - Request Path info :/error
+2018-09-21 15:32:43 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-09-21 15:32:43 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error () execution time : 38 ms
+2018-09-21 15:33:26 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-09-21 15:33:26 DEBUG LoggerAspectJ:65 - Entering in Method :  error
+2018-09-21 15:33:26 DEBUG LoggerAspectJ:66 - Class Name :  org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-09-21 15:33:26 DEBUG LoggerAspectJ:67 - Arguments :  [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@6ca19dcd]]
+2018-09-21 15:33:26 DEBUG LoggerAspectJ:68 - Target class : org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-09-21 15:33:26 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-09-21 15:33:26 DEBUG LoggerAspectJ:72 - Method Type : PUT
+2018-09-21 15:33:26 DEBUG LoggerAspectJ:77 - Header Name: content-type Header Value : application/json
+2018-09-21 15:33:26 DEBUG LoggerAspectJ:77 - Header Name: cache-control Header Value : no-cache
+2018-09-21 15:33:26 DEBUG LoggerAspectJ:77 - Header Name: postman-token Header Value : 0ed5815c-e6e7-45aa-9d07-5a086e6077d6
+2018-09-21 15:33:26 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : PostmanRuntime/7.3.0
+2018-09-21 15:33:26 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : */*
+2018-09-21 15:33:26 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : 127.0.0.1:8080
+2018-09-21 15:33:26 DEBUG LoggerAspectJ:77 - Header Name: cookie Header Value : JSESSIONID=D78FA289751D5783E5C2EF131C228AB5
+2018-09-21 15:33:26 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate
+2018-09-21 15:33:26 DEBUG LoggerAspectJ:77 - Header Name: content-length Header Value : 283
+2018-09-21 15:33:26 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-09-21 15:33:26 DEBUG LoggerAspectJ:79 - Request Path info :/error
+2018-09-21 15:33:26 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-09-21 15:33:26 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error () execution time : 23 ms
+2018-09-21 15:35:24 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-09-21 15:35:24 DEBUG LoggerAspectJ:65 - Entering in Method :  error
+2018-09-21 15:35:24 DEBUG LoggerAspectJ:66 - Class Name :  org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-09-21 15:35:24 DEBUG LoggerAspectJ:67 - Arguments :  [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@899abae]]
+2018-09-21 15:35:24 DEBUG LoggerAspectJ:68 - Target class : org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-09-21 15:35:24 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-09-21 15:35:24 DEBUG LoggerAspectJ:72 - Method Type : PUT
+2018-09-21 15:35:24 DEBUG LoggerAspectJ:77 - Header Name: content-type Header Value : application/json
+2018-09-21 15:35:24 DEBUG LoggerAspectJ:77 - Header Name: cache-control Header Value : no-cache
+2018-09-21 15:35:24 DEBUG LoggerAspectJ:77 - Header Name: postman-token Header Value : 093e1b43-7e2a-4386-b1f0-e0ca45392025
+2018-09-21 15:35:24 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : PostmanRuntime/7.3.0
+2018-09-21 15:35:24 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : */*
+2018-09-21 15:35:24 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : 127.0.0.1:8080
+2018-09-21 15:35:24 DEBUG LoggerAspectJ:77 - Header Name: cookie Header Value : JSESSIONID=D78FA289751D5783E5C2EF131C228AB5
+2018-09-21 15:35:24 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate
+2018-09-21 15:35:24 DEBUG LoggerAspectJ:77 - Header Name: content-length Header Value : 283
+2018-09-21 15:35:24 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-09-21 15:35:24 DEBUG LoggerAspectJ:79 - Request Path info :/error
+2018-09-21 15:35:24 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-09-21 15:35:24 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error () execution time : 33 ms
+2018-09-21 15:36:27 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-09-21 15:36:28 DEBUG LoggerAspectJ:65 - Entering in Method :  error
+2018-09-21 15:36:28 DEBUG LoggerAspectJ:66 - Class Name :  org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-09-21 15:36:28 DEBUG LoggerAspectJ:67 - Arguments :  [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@204c31a5]]
+2018-09-21 15:36:28 DEBUG LoggerAspectJ:68 - Target class : org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-09-21 15:36:28 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-09-21 15:36:28 DEBUG LoggerAspectJ:72 - Method Type : PUT
+2018-09-21 15:36:28 DEBUG LoggerAspectJ:77 - Header Name: content-type Header Value : application/json
+2018-09-21 15:36:28 DEBUG LoggerAspectJ:77 - Header Name: cache-control Header Value : no-cache
+2018-09-21 15:36:28 DEBUG LoggerAspectJ:77 - Header Name: postman-token Header Value : 617734ea-c94f-4749-bfd1-d7f8c18fbf32
+2018-09-21 15:36:28 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : PostmanRuntime/7.3.0
+2018-09-21 15:36:28 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : */*
+2018-09-21 15:36:28 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : 127.0.0.1:8080
+2018-09-21 15:36:28 DEBUG LoggerAspectJ:77 - Header Name: cookie Header Value : JSESSIONID=D78FA289751D5783E5C2EF131C228AB5
+2018-09-21 15:36:28 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate
+2018-09-21 15:36:28 DEBUG LoggerAspectJ:77 - Header Name: content-length Header Value : 283
+2018-09-21 15:36:28 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-09-21 15:36:28 DEBUG LoggerAspectJ:79 - Request Path info :/error
+2018-09-21 15:36:28 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-09-21 15:36:28 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error () execution time : 27 ms
+2018-09-21 15:42:05 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-09-21 15:42:05 DEBUG LoggerAspectJ:65 - Entering in Method :  error
+2018-09-21 15:42:05 DEBUG LoggerAspectJ:66 - Class Name :  org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-09-21 15:42:05 DEBUG LoggerAspectJ:67 - Arguments :  [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@30ab661e]]
+2018-09-21 15:42:05 DEBUG LoggerAspectJ:68 - Target class : org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-09-21 15:42:05 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-09-21 15:42:05 DEBUG LoggerAspectJ:72 - Method Type : PUT
+2018-09-21 15:42:05 DEBUG LoggerAspectJ:77 - Header Name: content-type Header Value : application/json
+2018-09-21 15:42:05 DEBUG LoggerAspectJ:77 - Header Name: cache-control Header Value : no-cache
+2018-09-21 15:42:05 DEBUG LoggerAspectJ:77 - Header Name: postman-token Header Value : 8b3d628c-80cd-4ef3-911f-a90f7ed5153d
+2018-09-21 15:42:05 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : PostmanRuntime/7.3.0
+2018-09-21 15:42:05 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : */*
+2018-09-21 15:42:05 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : 127.0.0.1:8080
+2018-09-21 15:42:05 DEBUG LoggerAspectJ:77 - Header Name: cookie Header Value : JSESSIONID=D78FA289751D5783E5C2EF131C228AB5
+2018-09-21 15:42:05 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate
+2018-09-21 15:42:05 DEBUG LoggerAspectJ:77 - Header Name: content-length Header Value : 283
+2018-09-21 15:42:05 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-09-21 15:42:05 DEBUG LoggerAspectJ:79 - Request Path info :/error
+2018-09-21 15:42:05 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-09-21 15:42:05 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error () execution time : 73 ms
+2018-09-21 15:44:12 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-09-21 15:44:12 DEBUG LoggerAspectJ:65 - Entering in Method :  error
+2018-09-21 15:44:12 DEBUG LoggerAspectJ:66 - Class Name :  org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-09-21 15:44:12 DEBUG LoggerAspectJ:67 - Arguments :  [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@32ebd726]]
+2018-09-21 15:44:12 DEBUG LoggerAspectJ:68 - Target class : org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-09-21 15:44:12 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-09-21 15:44:12 DEBUG LoggerAspectJ:72 - Method Type : PUT
+2018-09-21 15:44:12 DEBUG LoggerAspectJ:77 - Header Name: content-type Header Value : application/json
+2018-09-21 15:44:12 DEBUG LoggerAspectJ:77 - Header Name: cache-control Header Value : no-cache
+2018-09-21 15:44:12 DEBUG LoggerAspectJ:77 - Header Name: postman-token Header Value : 874c3619-fbf4-4fee-ac46-5dc7634bd5d1
+2018-09-21 15:44:12 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : PostmanRuntime/7.3.0
+2018-09-21 15:44:12 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : */*
+2018-09-21 15:44:12 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : 127.0.0.1:8080
+2018-09-21 15:44:12 DEBUG LoggerAspectJ:77 - Header Name: cookie Header Value : JSESSIONID=D78FA289751D5783E5C2EF131C228AB5
+2018-09-21 15:44:12 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate
+2018-09-21 15:44:12 DEBUG LoggerAspectJ:77 - Header Name: content-length Header Value : 283
+2018-09-21 15:44:12 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-09-21 15:44:12 DEBUG LoggerAspectJ:79 - Request Path info :/error
+2018-09-21 15:44:12 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-09-21 15:44:12 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error () execution time : 43 ms
+2018-09-21 15:45:43 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-09-21 15:45:43 DEBUG LoggerAspectJ:65 - Entering in Method :  error
+2018-09-21 15:45:43 DEBUG LoggerAspectJ:66 - Class Name :  org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-09-21 15:45:43 DEBUG LoggerAspectJ:67 - Arguments :  [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@6647c827]]
+2018-09-21 15:45:43 DEBUG LoggerAspectJ:68 - Target class : org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-09-21 15:45:43 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-09-21 15:45:43 DEBUG LoggerAspectJ:72 - Method Type : PUT
+2018-09-21 15:45:43 DEBUG LoggerAspectJ:77 - Header Name: content-type Header Value : application/json
+2018-09-21 15:45:43 DEBUG LoggerAspectJ:77 - Header Name: cache-control Header Value : no-cache
+2018-09-21 15:45:43 DEBUG LoggerAspectJ:77 - Header Name: postman-token Header Value : 36c8edd1-6dec-4025-ba22-0ff41427f18b
+2018-09-21 15:45:43 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : PostmanRuntime/7.3.0
+2018-09-21 15:45:43 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : */*
+2018-09-21 15:45:43 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : 127.0.0.1:8080
+2018-09-21 15:45:43 DEBUG LoggerAspectJ:77 - Header Name: cookie Header Value : JSESSIONID=D78FA289751D5783E5C2EF131C228AB5
+2018-09-21 15:45:43 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate
+2018-09-21 15:45:43 DEBUG LoggerAspectJ:77 - Header Name: content-length Header Value : 283
+2018-09-21 15:45:43 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-09-21 15:45:43 DEBUG LoggerAspectJ:79 - Request Path info :/error
+2018-09-21 15:45:43 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-09-21 15:45:43 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error () execution time : 39 ms
+2018-09-21 15:47:01 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-09-21 15:47:01 DEBUG LoggerAspectJ:65 - Entering in Method :  error
+2018-09-21 15:47:01 DEBUG LoggerAspectJ:66 - Class Name :  org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-09-21 15:47:01 DEBUG LoggerAspectJ:67 - Arguments :  [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@60e17590]]
+2018-09-21 15:47:01 DEBUG LoggerAspectJ:68 - Target class : org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-09-21 15:47:01 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-09-21 15:47:01 DEBUG LoggerAspectJ:72 - Method Type : PUT
+2018-09-21 15:47:01 DEBUG LoggerAspectJ:77 - Header Name: content-type Header Value : application/json
+2018-09-21 15:47:01 DEBUG LoggerAspectJ:77 - Header Name: cache-control Header Value : no-cache
+2018-09-21 15:47:01 DEBUG LoggerAspectJ:77 - Header Name: postman-token Header Value : 4c89da6c-84a0-48c5-80fd-dc089b5c6aef
+2018-09-21 15:47:01 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : PostmanRuntime/7.3.0
+2018-09-21 15:47:01 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : */*
+2018-09-21 15:47:01 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : 127.0.0.1:8080
+2018-09-21 15:47:01 DEBUG LoggerAspectJ:77 - Header Name: cookie Header Value : JSESSIONID=D78FA289751D5783E5C2EF131C228AB5
+2018-09-21 15:47:01 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate
+2018-09-21 15:47:01 DEBUG LoggerAspectJ:77 - Header Name: content-length Header Value : 283
+2018-09-21 15:47:01 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-09-21 15:47:01 DEBUG LoggerAspectJ:79 - Request Path info :/error
+2018-09-21 15:47:01 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-09-21 15:47:01 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error () execution time : 42 ms
+2018-09-21 15:47:35 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-09-21 15:47:35 DEBUG LoggerAspectJ:65 - Entering in Method :  error
+2018-09-21 15:47:35 DEBUG LoggerAspectJ:66 - Class Name :  org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-09-21 15:47:35 DEBUG LoggerAspectJ:67 - Arguments :  [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@12c5ac5a]]
+2018-09-21 15:47:35 DEBUG LoggerAspectJ:68 - Target class : org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-09-21 15:47:35 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-09-21 15:47:35 DEBUG LoggerAspectJ:72 - Method Type : PUT
+2018-09-21 15:47:35 DEBUG LoggerAspectJ:77 - Header Name: content-type Header Value : application/json
+2018-09-21 15:47:35 DEBUG LoggerAspectJ:77 - Header Name: cache-control Header Value : no-cache
+2018-09-21 15:47:35 DEBUG LoggerAspectJ:77 - Header Name: postman-token Header Value : a9454dda-94fd-4853-8fcd-a45b3c558a86
+2018-09-21 15:47:35 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : PostmanRuntime/7.3.0
+2018-09-21 15:47:35 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : */*
+2018-09-21 15:47:35 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : 127.0.0.1:8080
+2018-09-21 15:47:35 DEBUG LoggerAspectJ:77 - Header Name: cookie Header Value : JSESSIONID=D78FA289751D5783E5C2EF131C228AB5
+2018-09-21 15:47:35 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate
+2018-09-21 15:47:35 DEBUG LoggerAspectJ:77 - Header Name: content-length Header Value : 303
+2018-09-21 15:47:35 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-09-21 15:47:35 DEBUG LoggerAspectJ:79 - Request Path info :/error
+2018-09-21 15:47:35 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-09-21 15:47:35 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error () execution time : 23 ms
+2018-09-21 15:48:06 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-09-21 15:48:06 DEBUG LoggerAspectJ:65 - Entering in Method :  error
+2018-09-21 15:48:06 DEBUG LoggerAspectJ:66 - Class Name :  org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-09-21 15:48:06 DEBUG LoggerAspectJ:67 - Arguments :  [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@7e1c8a03]]
+2018-09-21 15:48:06 DEBUG LoggerAspectJ:68 - Target class : org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-09-21 15:48:06 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-09-21 15:48:06 DEBUG LoggerAspectJ:72 - Method Type : PUT
+2018-09-21 15:48:06 DEBUG LoggerAspectJ:77 - Header Name: content-type Header Value : application/json
+2018-09-21 15:48:06 DEBUG LoggerAspectJ:77 - Header Name: cache-control Header Value : no-cache
+2018-09-21 15:48:06 DEBUG LoggerAspectJ:77 - Header Name: postman-token Header Value : 1760c07f-90cd-4ece-9178-5975d81587a9
+2018-09-21 15:48:06 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : PostmanRuntime/7.3.0
+2018-09-21 15:48:06 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : */*
+2018-09-21 15:48:06 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : 127.0.0.1:8080
+2018-09-21 15:48:06 DEBUG LoggerAspectJ:77 - Header Name: cookie Header Value : JSESSIONID=D78FA289751D5783E5C2EF131C228AB5
+2018-09-21 15:48:06 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate
+2018-09-21 15:48:06 DEBUG LoggerAspectJ:77 - Header Name: content-length Header Value : 303
+2018-09-21 15:48:06 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-09-21 15:48:06 DEBUG LoggerAspectJ:79 - Request Path info :/error
+2018-09-21 15:48:06 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-09-21 15:48:06 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error () execution time : 16 ms
+2018-09-21 16:10:48 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-09-21 16:10:48 DEBUG LoggerAspectJ:65 - Entering in Method :  error
+2018-09-21 16:10:48 DEBUG LoggerAspectJ:66 - Class Name :  org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-09-21 16:10:48 DEBUG LoggerAspectJ:67 - Arguments :  [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@4054e10a]]
+2018-09-21 16:10:48 DEBUG LoggerAspectJ:68 - Target class : org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-09-21 16:10:48 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-09-21 16:10:48 DEBUG LoggerAspectJ:72 - Method Type : GET
+2018-09-21 16:10:48 DEBUG LoggerAspectJ:77 - Header Name: cache-control Header Value : no-cache
+2018-09-21 16:10:48 DEBUG LoggerAspectJ:77 - Header Name: postman-token Header Value : 8221c53a-4b91-4a11-b5bc-0c5f05089bf7
+2018-09-21 16:10:48 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : PostmanRuntime/7.3.0
+2018-09-21 16:10:48 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : */*
+2018-09-21 16:10:48 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : 127.0.0.1:8080
+2018-09-21 16:10:48 DEBUG LoggerAspectJ:77 - Header Name: cookie Header Value : JSESSIONID=D78FA289751D5783E5C2EF131C228AB5
+2018-09-21 16:10:48 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate
+2018-09-21 16:10:48 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-09-21 16:10:48 DEBUG LoggerAspectJ:79 - Request Path info :/error
+2018-09-21 16:10:48 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-09-21 16:10:48 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error () execution time : 24 ms

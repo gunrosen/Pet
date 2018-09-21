@@ -1,12 +1,14 @@
 package com.pet.todo.domain;
 
 import javax.persistence.Column;
+import javax.persistence.MappedSuperclass;
 import java.io.Serializable;
 import java.util.Date;
 
 /**
  * Created by Gun on 9/20/18.
  */
+@MappedSuperclass
 public abstract class Domain implements Serializable {
 
     @Column(name = "lastModifiedDate")

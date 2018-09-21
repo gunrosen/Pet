@@ -11,6 +11,7 @@ import com.pet.todo.service.CustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
+import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -23,7 +24,7 @@ import java.util.stream.Collectors;
  * Created by Gun on 9/4/18.
  */
 @Service
-public class CustomerServiceImpl implements CustomerService {
+public class CustomerServiceImpl extends AbstractService<CustomerDto, Customer, Integer> implements CustomerService {
 
     @Autowired
     CustomerRepository customerRepository;
@@ -31,38 +32,17 @@ public class CustomerServiceImpl implements CustomerService {
     @Autowired
     EmployeeRepository employeeRepository;
 
-    @Override
-    public ListDto<CustomerDto> getCustomer(int page, int size) {
-        Page<Customer> customerPage = customerRepository.findAll(PageRequest.of(page,size) );
-        List<CustomerDto> lstCustomer = customerPage.stream()
-                .sorted(Comparator.comparing(Customer::getCustomerName))
-                .map(customer -> {
-                    CustomerDto item = new CustomerDto();
-                    item.setCustomerNumber(customer.getCustomerNumber());
-                    item.setAddress(customer.getAddressLine1());
-                    item.setContactFirstName(customer.getContactFirstName());
-                    item.setContactLastName(customer.getContactLastName());
-                    item.setCustomerName(customer.getCustomerName());
-                    item.setPhone(customer.getPhone());
-                    item.setCity(customer.getCity());
-                    item.setCountry(customer.getCountry());
-                    return item;
-                })
-                .collect(Collectors.toList());
-
-        return new ListDto<>(customerPage.getTotalElements(),lstCustomer);
-    }
 
     @Override
     public ListDto<CustomerDto> getCustomerManagedBy(int employeeId) {
         List<Customer> lst = customerRepository.getCustomerManagedBy(employeeId);
         List<CustomerDto> lstDto = new ArrayList<>(lst.size());
-        for(Customer c : lst){
+        for (Customer c : lst) {
             lstDto.add(new CustomerDto(c));
         }
         // Java 8
         List<CustomerDto> lstDto8 = lst.stream().map(customer -> {
-             return new CustomerDto(customer);
+            return new CustomerDto(customer);
         }).collect(Collectors.toList());
         return new ListDto<>(lstDto);
     }
@@ -77,30 +57,15 @@ public class CustomerServiceImpl implements CustomerService {
         return new ListDto<>(lstDto8);
     }
 
-    @Override
-    public int createCustomer(CustomerDto customer) {
-        Customer _customer = new Customer(customer);
-        Customer result = customerRepository.save(_customer);
-        return result.getCustomerNumber();
-    }
-
-    @Override
-    public int updateCustomer(int customerId, CustomerDto customer) {
-        Optional<Customer> optionalCustomer = customerRepository.findById(customerId);
-        optionalCustomer.orElseThrow(()-> new ResourceNotFoundException("Customer","","null"));
-        Customer _customer = new Customer(customer);
-        customerRepository.save(_customer);
-        return customerId;
-    }
 
     @Override
     public void updateEmployee(int customerId, int employeeId) {
         Optional<Customer> optionalCustomer = customerRepository.findById(customerId);
-        optionalCustomer.orElseThrow(()-> new ResourceNotFoundException("Customer","","null"));
+        optionalCustomer.orElseThrow(() -> new ResourceNotFoundException("Customer", "", "null"));
         Customer _customer = optionalCustomer.get();
 
         Optional<Employee> opEmployee = employeeRepository.findById(Integer.valueOf(employeeId));
-        opEmployee.ifPresent((em)->{
+        opEmployee.ifPresent((em) -> {
             _customer.setEmployee(em);
             customerRepository.save(_customer);
         });
@@ -110,11 +75,56 @@ public class CustomerServiceImpl implements CustomerService {
     @Override
     public void deleteCustomer(int customerId) {
         Optional<Customer> optionalCustomer = customerRepository.findById(customerId);
-        optionalCustomer.orElseThrow(()-> new ResourceNotFoundException("Customer","","null"));
+        optionalCustomer.orElseThrow(() -> new ResourceNotFoundException("Customer", "", "null"));
         customerRepository.deleteById(customerId);
     }
 
 
+    @Override
+    protected JpaRepository<Customer, Integer> getRepository() {
+        return customerRepository;
+    }
 
+    @Override
+    protected CustomerDto convertToDto(Customer domain) {
+        CustomerDto item = new CustomerDto();
+        item.setCustomerNumber(domain.getCustomerNumber());
+        item.setAddress(domain.getAddressLine1());
+        item.setContactFirstName(domain.getContactFirstName());
+        item.setContactLastName(domain.getContactLastName());
+        item.setCustomerName(domain.getCustomerName());
+        item.setPhone(domain.getPhone());
+        item.setCity(domain.getCity());
+        item.setCountry(domain.getCountry());
+        return item;
+    }
 
+    @Override
+    protected Customer convertToDomain(CustomerDto dto) {
+        Customer domain = new Customer();
+        domain.setCustomerNumber(dto.getCustomerNumber());
+        domain.setAddressLine1(dto.getAddress());
+        domain.setContactFirstName(dto.getContactFirstName());
+        domain.setContactLastName(dto.getContactLastName());
+        domain.setCustomerName(dto.getCustomerName());
+        domain.setPhone(dto.getPhone());
+        domain.setCity(dto.getCity());
+        domain.setCountry(dto.getCountry());
+        return domain;
+    }
+
+    @Override
+    protected Integer getObjectId(CustomerDto customerDto) {
+        return customerDto.getCustomerNumber();
+    }
+
+    @Override
+    protected Integer getDomainId(Customer domain) {
+        return domain.getCustomerNumber();
+    }
+
+    @Override
+    protected CustomerDto emptyDTO() {
+        return new CustomerDto();
+    }
 }

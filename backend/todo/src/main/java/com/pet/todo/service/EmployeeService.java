@@ -7,13 +7,6 @@ import com.pet.todo.restful.dto.common.ListDto;
 /**
  * Created by Gun on 9/5/18.
  */
-public interface EmployeeService {
+public interface EmployeeService extends BaseService<EmployeeDto,Integer> {
 
-    Employee findEmployeeById(int id);
-
-    ListDto<EmployeeDto> getEmployee(int page, int size);
-
-    int createEmployee(EmployeeDto em);
-
-    int updateEmployee(EmployeeDto em);
 }

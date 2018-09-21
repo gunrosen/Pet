@@ -4,6 +4,7 @@ import com.pet.todo.restful.dto.common.ListDto;
 import com.pet.todo.restful.dto.CustomerDto;
 import com.pet.todo.service.CustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.PageRequest;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -17,22 +18,28 @@ public class CustomerController {
     @Autowired
     CustomerService customerService;
 
+    @RequestMapping(method = RequestMethod.GET , value = "/{id}")
+    ResponseEntity<?> getCustomerById(@PathVariable int id){
+        CustomerDto dto = customerService.findById(id);
+        return new Envelop(dto).toResponseEntity();
+    }
+
     @RequestMapping(method = RequestMethod.GET)
     ResponseEntity<?> getCustomer(@RequestParam int page, @RequestParam int size) {
-        ListDto<CustomerDto> dtos = customerService.getCustomer(page, size);
+        ListDto<CustomerDto> dtos = customerService.getList(PageRequest.of(page, size));
         return new Envelop(dtos).toResponseEntity();
     }
 
 
     @RequestMapping(method = RequestMethod.POST)
     ResponseEntity<?> createCustomer(@RequestBody CustomerDto customer) {
-        int id = customerService.createCustomer(customer);
+        int id = customerService.create(customer);
         return new Envelop(id).toResponseEntity();
     }
 
-    @RequestMapping(value = "/{id}/update",method = RequestMethod.PUT)
-    ResponseEntity<?> updateCustomer(@PathVariable int id , @RequestBody CustomerDto customerDto) {
-        int idUpdate = customerService.updateCustomer(id,customerDto);
+    @RequestMapping(method = RequestMethod.PUT)
+    ResponseEntity<?> updateCustomer(@RequestBody CustomerDto customerDto) {
+        int idUpdate = customerService.update(customerDto);
         return new Envelop(idUpdate).toResponseEntity();
     }
 
