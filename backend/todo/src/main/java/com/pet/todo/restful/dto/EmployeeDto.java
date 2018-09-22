@@ -97,6 +97,7 @@ public class EmployeeDto implements AbstractDto<Employee>{
     @Override
     public Employee toDomain() {
         Employee em = new Employee();
+        em.setEmployeeNumber(this.employeeNumber);
         em.setFirstName(this.firstName);
         em.setLastName(this.lastName);
         em.setEmail(this.email);

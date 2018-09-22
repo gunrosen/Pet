@@ -11,6 +11,7 @@ import java.io.Serializable;
 public class Employee extends Domain{
 
     @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "employeeNumber")
     private Integer employeeNumber;
 

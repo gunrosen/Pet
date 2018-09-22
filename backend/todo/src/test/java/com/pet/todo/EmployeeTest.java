@@ -42,8 +42,8 @@ public class EmployeeTest {
         dto1.setEmail("gunrosen@mail.com");
         dto1.setExtension("Mr.");
         dto1.setJobTitle("Dr.");
-        dto1.setFirstName("Hung");
-        dto1.setLastName("Pham");
+        dto1.setFirstName("Hung1");
+        dto1.setLastName("Pham1");
         dto1.setOfficeCode(office);
 
         EmployeeDto dto2 = new EmployeeDto();
@@ -51,13 +51,14 @@ public class EmployeeTest {
         dto2.setEmail("gunrosen@mail.com");
         dto2.setExtension("Mr.");
         dto2.setJobTitle("Dr.");
-        dto1.setFirstName("Hung");
-        dto1.setLastName("Pham");
+        dto2.setFirstName("Hung2");
+        dto2.setLastName("Pham2");
         dto2.setOfficeCode(office);
 
         int id1 = employeeService.create(dto1);
-        int id2 = employeeService.create(dto2);
         lstIds.add(id1);
+
+        int id2 = employeeService.create(dto2);
         lstIds.add(id2);
 
     }
@@ -70,13 +71,22 @@ public class EmployeeTest {
     }
 
     @Test
-    public void count() {
-
+    public void testListEmployee() {
+        List<EmployeeDto> lstDto = employeeService.getList().getList();
+        lstDto.forEach(Assert::assertNotNull);
     }
 
     @Test
-    public void test1() {
+    public void testEditEmployee(){
         List<EmployeeDto> lstDto = employeeService.getList().getList();
-        lstDto.forEach(Assert::assertNotNull);
+        EmployeeDto employeeDto = lstDto.get(0);
+        assertNotNull(employeeDto);
+        employeeDto.setFirstName("firstName");
+        employeeDto.setLastName("lastName");
+        Integer idUpdate = employeeService.update(employeeDto);
+        EmployeeDto updateDto = employeeService.findById(idUpdate);
+        assertTrue("firstName".equalsIgnoreCase(updateDto.getFirstName()));
+        assertTrue("lastName".equalsIgnoreCase(updateDto.getLastName()));
+
     }
 }

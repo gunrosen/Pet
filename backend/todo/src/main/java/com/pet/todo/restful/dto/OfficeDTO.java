@@ -27,6 +27,20 @@ public class OfficeDto implements AbstractDto<Office> {
 
     private String territory;
 
+    public OfficeDto(){}
+
+    public OfficeDto(Office domain){
+        this.setOfficeCode(domain.getOfficeCode());
+        this.setAddressLine1(domain.getAddressLine1());
+        this.setAddressLine2(domain.getAddressLine2());
+        this.setCity(domain.getCity());
+        this.setCountry(domain.getCountry());
+        this.setPhone(domain.getPhone());
+        this.setPostalCode(domain.getPostalCode());
+        this.setState(domain.getState());
+        this.setTerritory(domain.getTerritory());
+    }
+
     public String getOfficeCode() {
         return officeCode;
     }

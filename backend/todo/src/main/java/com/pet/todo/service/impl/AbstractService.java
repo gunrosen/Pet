@@ -62,7 +62,7 @@ public abstract class AbstractService<DTO extends Serializable, DOMAIN extends D
         Optional<DOMAIN> domain = getRepository().findById(objectId);
         domain.orElseThrow(() -> new ResourceNotFoundException());
 
-        DOMAIN _domain = domain.get();
+        DOMAIN _domain = convertToDomain(dto);
         _domain.setLastModifiedDate(new Date());
         DOMAIN updateDomain = getRepository().save(_domain);
         return getDomainId(updateDomain);
