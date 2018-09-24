@@ -27,7 +27,7 @@ public class Employee extends Domain{
     @Column(name = "email")
     private String email;
 
-    @OneToOne(fetch = FetchType.LAZY)
+    @OneToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "officeCode",referencedColumnName = "officeCode")
     private Office officeCode;
 

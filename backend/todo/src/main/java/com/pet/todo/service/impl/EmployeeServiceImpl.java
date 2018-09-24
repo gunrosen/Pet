@@ -59,4 +59,5 @@ public class EmployeeServiceImpl extends AbstractService<EmployeeDto,Employee,In
     protected EmployeeDto emptyDTO() {
         return new EmployeeDto();
     }
+
 }

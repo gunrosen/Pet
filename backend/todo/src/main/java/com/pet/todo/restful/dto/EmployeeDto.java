@@ -28,6 +28,8 @@ public class EmployeeDto implements AbstractDto<Employee>{
         this.jobTitle = em.getJobTitle();
         this.firstName = em.getFirstName();
         this.lastName = em.getLastName();
+        this.officeCode = new OfficeDto(em.getOfficeCode());
+        this.extension = em.getExtension();
     }
 
     public Integer getEmployeeNumber() {
