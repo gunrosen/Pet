@@ -3,6 +3,7 @@ package com.pet.todo.restful;
 import com.pet.todo.restful.dto.common.ListDto;
 import com.pet.todo.restful.dto.CustomerDto;
 import com.pet.todo.service.CustomerService;
+import com.pet.todo.support.annotation.VersionApi;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.http.ResponseEntity;
@@ -16,6 +17,7 @@ import org.springframework.web.bind.annotation.*;
 public class CustomerController {
 
     @Autowired
+    @VersionApi(value = VersionApi.V.VER_1)
     CustomerService customerService;
 
     @RequestMapping(method = RequestMethod.GET , value = "/{id}")

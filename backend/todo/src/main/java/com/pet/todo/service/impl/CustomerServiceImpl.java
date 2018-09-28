@@ -8,6 +8,7 @@ import com.pet.todo.repository.EmployeeRepository;
 import com.pet.todo.restful.dto.common.ListDto;
 import com.pet.todo.restful.dto.CustomerDto;
 import com.pet.todo.service.CustomerService;
+import com.pet.todo.support.annotation.VersionApi;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
@@ -23,7 +24,8 @@ import java.util.stream.Collectors;
 /**
  * Created by Gun on 9/4/18.
  */
-@Service
+@Service(value = "customerService1" )
+@VersionApi(value = VersionApi.V.VER_1)
 public class CustomerServiceImpl extends AbstractService<CustomerDto, Customer, Integer> implements CustomerService {
 
     @Autowired
