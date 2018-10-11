@@ -1,6 +1,7 @@
 package com.pet.todo.domain;
 
 import javax.persistence.Column;
+import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 import java.util.Date;
@@ -8,8 +9,9 @@ import java.util.Date;
 /**
  * Created by Gun on 8/31/18.
  */
+@Entity
 @Table(name = "orders")
-public class Order {
+public class Order extends Domain{
 
     @Id
     @Column(name = "orderNumber")

@@ -1,20 +1,22 @@
 package com.pet.todo.domain;
 
-import javax.persistence.Column;
-import javax.persistence.Table;
+import javax.persistence.*;
 import java.math.BigDecimal;
 
 /**
  * Created by Gun on 8/31/18.
  */
+@Entity
 @Table(name = "orderdetails")
-public class OrderDetail {
+public class OrderDetail extends Domain{
 
     @Column(name = "orderNumber")
     private int orderNumber;
 
     @Column(name = "productCode")
-    private String productCode;
+    @OneToOne(fetch = FetchType.EAGER)
+    @JoinColumn(name = "productCode", referencedColumnName = "productCode")
+    private Product product;
 
     @Column(name = "quantityOrdered")
     private int quantityOrdered;
@@ -33,12 +35,12 @@ public class OrderDetail {
         this.orderNumber = orderNumber;
     }
 
-    public String getProductCode() {
-        return productCode;
+    public Product getProduct() {
+        return product;
     }
 
-    public void setProductCode(String productCode) {
-        this.productCode = productCode;
+    public void setProduct(Product product) {
+        this.product = product;
     }
 
     public int getQuantityOrdered() {
