@@ -1,6 +1,7 @@
 package com.pet.todo.domain;
 
 import javax.persistence.*;
+import java.io.Serializable;
 import java.math.BigDecimal;
 
 /**
@@ -9,13 +10,14 @@ import java.math.BigDecimal;
 @Entity
 @Table(name = "orderdetails")
 public class OrderDetail extends Domain{
+    @EmbeddedId
+    OrderDetailId id;
 
-    @Column(name = "orderNumber")
+    @Column(name = "orderNumber",insertable = false,updatable = false)
     private int orderNumber;
 
-    @Column(name = "productCode")
     @OneToOne(fetch = FetchType.EAGER)
-    @JoinColumn(name = "productCode", referencedColumnName = "productCode")
+    @JoinColumn(name = "productCode", referencedColumnName = "productCode",insertable = false,updatable = false)
     private Product product;
 
     @Column(name = "quantityOrdered")
@@ -26,6 +28,8 @@ public class OrderDetail extends Domain{
 
     @Column(name = "orderLineNumber")
     private int orderLineNumber;
+
+    public OrderDetail(){}
 
     public int getOrderNumber() {
         return orderNumber;
@@ -66,4 +70,18 @@ public class OrderDetail extends Domain{
     public void setOrderLineNumber(int orderLineNumber) {
         this.orderLineNumber = orderLineNumber;
     }
+
+
+}
+
+@Embeddable
+ class OrderDetailId implements Serializable{
+
+    @Column(name = "orderNumber")
+    private int orderNumber;
+    @Column(name = "productCode")
+    private String productCode;
+
+    public OrderDetailId(){}
+
 }

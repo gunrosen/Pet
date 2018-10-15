@@ -13,6 +13,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Service;
 
+import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -37,13 +38,19 @@ public class OrderServiceImpl extends AbstractService<OrderListDto,Order,Integer
     @Override
     public OrderDto getOrderInfo(int orderNumber) {
         List<OrderDetail> orderDetails = orderDetailRepository.getOrderDetail(orderNumber);
-        List<OrderDetailDto> orderDetailDtos = orderDetails.stream().map(orderDetail -> {return convertToDto(orderDetail)}).collect(Collectors.toList());
+        OrderDetailDto[] orderDetailDtos = orderDetails.stream()
+                .map(OrderDetailDto::new)
+                .toArray(value -> new OrderDetailDto[value]);
         Order order = orderRepository.findById(orderNumber).get();
         OrderDto dto = new OrderDto();
         dto.setComments(order.getComments());
         dto.setCustomerNumber(order.getCustomerNumber());
-        dto.setItems();
-        return orderD;
+        dto.setStatus(order.getStatus());
+        dto.setShippedDate(order.getShippedDate());
+        dto.setOrderDate(order.getOrderDate());
+        dto.setRequiredDate(order.getRequiredDate());
+        dto.setItems(orderDetailDtos);
+        return dto;
     }
 
     @Override

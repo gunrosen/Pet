@@ -17,7 +17,7 @@ public class ProductDto implements Serializable {
         this.productCode = domain.getProductCode();
         this.productName = domain.getProductName();
         this.productDescription = domain.getProductDescription();
-        this.productLine = domain.getProductLine();
+        this.productLine = new ProductLineDto(domain.getProductLine());
         this.buyPrice = domain.getBuyPrice();
         this.productScale = domain.getProductScale();
         this.productVendor = domain.getProductVendor();
@@ -28,7 +28,7 @@ public class ProductDto implements Serializable {
 
     private String productName;
 
-    private ProductLine productLine;
+    private ProductLineDto productLine;
 
     private String productScale;
 
@@ -58,11 +58,11 @@ public class ProductDto implements Serializable {
         this.productName = productName;
     }
 
-    public ProductLine getProductLine() {
+    public ProductLineDto getProductLine() {
         return productLine;
     }
 
-    public void setProductLine(ProductLine productLine) {
+    public void setProductLine(ProductLineDto productLine) {
         this.productLine = productLine;
     }
 

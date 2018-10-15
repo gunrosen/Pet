@@ -1,10 +1,10 @@
 package com.pet.todo.restful.dto.order;
 
 import com.pet.todo.restful.dto.CustomerDto;
-import com.pet.todo.restful.dto.common.ListDto;
 
 import java.io.Serializable;
 import java.util.Date;
+import java.util.List;
 
 /**
  * Created by Gun on 10/11/18.
@@ -19,7 +19,7 @@ public class OrderDto implements Serializable {
     private int customerNumber;
 
     private CustomerDto customer;
-    private ListDto<OrderDetailDto> items;
+    private OrderDetailDto[] items;
 
     public void setOrderNumber(int orderNumber) {
         this.orderNumber = orderNumber;
@@ -53,7 +53,43 @@ public class OrderDto implements Serializable {
         this.customer = customer;
     }
 
-    public void setItems(ListDto<OrderDetailDto> items) {
+    public void setItems(OrderDetailDto[] items) {
         this.items = items;
+    }
+
+    public int getOrderNumber() {
+        return orderNumber;
+    }
+
+    public Date getOrderDate() {
+        return orderDate;
+    }
+
+    public Date getRequiredDate() {
+        return requiredDate;
+    }
+
+    public Date getShippedDate() {
+        return shippedDate;
+    }
+
+    public String getStatus() {
+        return status;
+    }
+
+    public String getComments() {
+        return comments;
+    }
+
+    public int getCustomerNumber() {
+        return customerNumber;
+    }
+
+    public CustomerDto getCustomer() {
+        return customer;
+    }
+
+    public OrderDetailDto[] getItems() {
+        return items;
     }
 }
