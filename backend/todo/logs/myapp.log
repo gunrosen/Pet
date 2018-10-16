@@ -554,3 +554,1198 @@
 2018-10-15 16:55:28 DEBUG LoggerAspectJ:79 - Request Path info :/error
 2018-10-15 16:55:28 DEBUG LoggerAspectJ:80 - End Header Section of request 
 2018-10-15 16:55:28 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error () execution time : 84 ms
+2018-10-16 10:27:15 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 10:27:15 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 10:27:15 DEBUG LoggerAspectJ:65 - Entering in Method :  getDocumentation
+2018-10-16 10:27:15 DEBUG LoggerAspectJ:66 - Class Name :  springfox.documentation.swagger2.web.Swagger2Controller
+2018-10-16 10:27:15 DEBUG LoggerAspectJ:65 - Entering in Method :  error
+2018-10-16 10:27:15 DEBUG LoggerAspectJ:67 - Arguments :  [null, SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@4918dde0]]
+2018-10-16 10:27:15 DEBUG LoggerAspectJ:68 - Target class : springfox.documentation.swagger2.web.Swagger2Controller
+2018-10-16 10:27:15 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-10-16 10:27:15 DEBUG LoggerAspectJ:66 - Class Name :  org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 10:27:15 DEBUG LoggerAspectJ:72 - Method Type : GET
+2018-10-16 10:27:15 DEBUG LoggerAspectJ:67 - Arguments :  [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@5d463b7a]]
+2018-10-16 10:27:15 DEBUG LoggerAspectJ:68 - Target class : org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 10:27:15 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-10-16 10:27:15 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : localhost:8080
+2018-10-16 10:27:15 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-10-16 10:27:15 DEBUG LoggerAspectJ:77 - Header Name: upgrade-insecure-requests Header Value : 1
+2018-10-16 10:27:15 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+2018-10-16 10:27:15 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+2018-10-16 10:27:15 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate, br
+2018-10-16 10:27:15 DEBUG LoggerAspectJ:77 - Header Name: accept-language Header Value : en-US,en;q=0.9,vi;q=0.8
+2018-10-16 10:27:15 DEBUG LoggerAspectJ:77 - Header Name: cookie Header Value : _ga=GA1.1.373225076.1523950554; COOKIE_SUPPORT=true; SCREEN_NAME=59442b394f5130716535465a37452b6c53316b6575773d3d; GUEST_LANGUAGE_ID=vi_VN
+2018-10-16 10:27:15 DEBUG LoggerAspectJ:79 - Request Path info :/v2/api-docs
+2018-10-16 10:27:15 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-10-16 10:27:15 DEBUG LoggerAspectJ:72 - Method Type : GET
+2018-10-16 10:27:15 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : localhost:8080
+2018-10-16 10:27:15 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-10-16 10:27:15 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+2018-10-16 10:27:15 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : */*
+2018-10-16 10:27:15 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate, br
+2018-10-16 10:27:15 DEBUG LoggerAspectJ:77 - Header Name: accept-language Header Value : en-US,en;q=0.9,vi;q=0.8
+2018-10-16 10:27:15 DEBUG LoggerAspectJ:77 - Header Name: cookie Header Value : _ga=GA1.1.373225076.1523950554; COOKIE_SUPPORT=true; SCREEN_NAME=59442b394f5130716535465a37452b6c53316b6575773d3d; GUEST_LANGUAGE_ID=vi_VN
+2018-10-16 10:27:15 DEBUG LoggerAspectJ:79 - Request Path info :/error
+2018-10-16 10:27:15 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-10-16 10:27:15 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error () execution time : 129 ms
+2018-10-16 10:27:15 DEBUG LoggerAspectJ:94 - Method springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation () execution time : 590 ms
+2018-10-16 10:27:52 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 10:27:52 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml () execution time : 29 ms
+2018-10-16 10:28:14 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 10:28:14 DEBUG LoggerAspectJ:65 - Entering in Method :  getDocumentation
+2018-10-16 10:28:14 DEBUG LoggerAspectJ:66 - Class Name :  springfox.documentation.swagger2.web.Swagger2Controller
+2018-10-16 10:28:14 DEBUG LoggerAspectJ:67 - Arguments :  [null, SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@3b8d4787]]
+2018-10-16 10:28:14 DEBUG LoggerAspectJ:68 - Target class : springfox.documentation.swagger2.web.Swagger2Controller
+2018-10-16 10:28:14 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-10-16 10:28:14 DEBUG LoggerAspectJ:72 - Method Type : GET
+2018-10-16 10:28:14 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : localhost:8080
+2018-10-16 10:28:14 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-10-16 10:28:14 DEBUG LoggerAspectJ:77 - Header Name: upgrade-insecure-requests Header Value : 1
+2018-10-16 10:28:14 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+2018-10-16 10:28:14 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+2018-10-16 10:28:14 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate, br
+2018-10-16 10:28:14 DEBUG LoggerAspectJ:77 - Header Name: accept-language Header Value : en-US,en;q=0.9,vi;q=0.8
+2018-10-16 10:28:14 DEBUG LoggerAspectJ:77 - Header Name: cookie Header Value : _ga=GA1.1.373225076.1523950554; COOKIE_SUPPORT=true; SCREEN_NAME=59442b394f5130716535465a37452b6c53316b6575773d3d; GUEST_LANGUAGE_ID=vi_VN
+2018-10-16 10:28:14 DEBUG LoggerAspectJ:79 - Request Path info :/v2/api-docs
+2018-10-16 10:28:14 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-10-16 10:28:14 DEBUG LoggerAspectJ:94 - Method springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation () execution time : 26 ms
+2018-10-16 10:28:27 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 10:28:27 DEBUG LoggerAspectJ:65 - Entering in Method :  error
+2018-10-16 10:28:27 DEBUG LoggerAspectJ:66 - Class Name :  org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 10:28:27 DEBUG LoggerAspectJ:67 - Arguments :  [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@c1441bf]]
+2018-10-16 10:28:27 DEBUG LoggerAspectJ:68 - Target class : org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 10:28:27 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-10-16 10:28:27 DEBUG LoggerAspectJ:72 - Method Type : GET
+2018-10-16 10:28:27 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 10:28:27 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : localhost:8080
+2018-10-16 10:28:27 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-10-16 10:28:27 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+2018-10-16 10:28:27 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : */*
+2018-10-16 10:28:27 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate, br
+2018-10-16 10:28:27 DEBUG LoggerAspectJ:77 - Header Name: accept-language Header Value : en-US,en;q=0.9,vi;q=0.8
+2018-10-16 10:28:27 DEBUG LoggerAspectJ:77 - Header Name: cookie Header Value : _ga=GA1.1.373225076.1523950554; COOKIE_SUPPORT=true; SCREEN_NAME=59442b394f5130716535465a37452b6c53316b6575773d3d; GUEST_LANGUAGE_ID=vi_VN
+2018-10-16 10:28:27 DEBUG LoggerAspectJ:79 - Request Path info :/error
+2018-10-16 10:28:27 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-10-16 10:28:27 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error () execution time : 6 ms
+2018-10-16 10:28:27 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml () execution time : 6 ms
+2018-10-16 10:28:33 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 10:28:33 DEBUG LoggerAspectJ:65 - Entering in Method :  getDocumentation
+2018-10-16 10:28:33 DEBUG LoggerAspectJ:66 - Class Name :  springfox.documentation.swagger2.web.Swagger2Controller
+2018-10-16 10:28:33 DEBUG LoggerAspectJ:67 - Arguments :  [null, SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@544fc01c]]
+2018-10-16 10:28:33 DEBUG LoggerAspectJ:68 - Target class : springfox.documentation.swagger2.web.Swagger2Controller
+2018-10-16 10:28:33 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-10-16 10:28:33 DEBUG LoggerAspectJ:72 - Method Type : GET
+2018-10-16 10:28:33 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : localhost:8080
+2018-10-16 10:28:33 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-10-16 10:28:33 DEBUG LoggerAspectJ:77 - Header Name: upgrade-insecure-requests Header Value : 1
+2018-10-16 10:28:33 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+2018-10-16 10:28:33 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+2018-10-16 10:28:33 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate, br
+2018-10-16 10:28:33 DEBUG LoggerAspectJ:77 - Header Name: accept-language Header Value : en-US,en;q=0.9,vi;q=0.8
+2018-10-16 10:28:33 DEBUG LoggerAspectJ:77 - Header Name: cookie Header Value : _ga=GA1.1.373225076.1523950554; COOKIE_SUPPORT=true; SCREEN_NAME=59442b394f5130716535465a37452b6c53316b6575773d3d; GUEST_LANGUAGE_ID=vi_VN
+2018-10-16 10:28:33 DEBUG LoggerAspectJ:79 - Request Path info :/v2/api-docs
+2018-10-16 10:28:33 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-10-16 10:28:33 DEBUG LoggerAspectJ:94 - Method springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation () execution time : 12 ms
+2018-10-16 10:31:19 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 10:31:19 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml () execution time : 5 ms
+2018-10-16 10:31:43 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 10:31:43 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml () execution time : 23 ms
+2018-10-16 10:32:36 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 10:32:36 DEBUG LoggerAspectJ:65 - Entering in Method :  error
+2018-10-16 10:32:36 DEBUG LoggerAspectJ:66 - Class Name :  org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 10:32:36 DEBUG LoggerAspectJ:67 - Arguments :  [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@784dfcc5]]
+2018-10-16 10:32:36 DEBUG LoggerAspectJ:68 - Target class : org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 10:32:36 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-10-16 10:32:36 DEBUG LoggerAspectJ:72 - Method Type : GET
+2018-10-16 10:32:36 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : localhost:8080
+2018-10-16 10:32:36 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-10-16 10:32:36 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : application/json, text/javascript, */*; q=0.01
+2018-10-16 10:32:36 DEBUG LoggerAspectJ:77 - Header Name: x-requested-with Header Value : XMLHttpRequest
+2018-10-16 10:32:36 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+2018-10-16 10:32:36 DEBUG LoggerAspectJ:77 - Header Name: referer Header Value : http://localhost:8080/swagger-ui.html
+2018-10-16 10:32:36 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate, br
+2018-10-16 10:32:36 DEBUG LoggerAspectJ:77 - Header Name: accept-language Header Value : en-US,en;q=0.9,vi;q=0.8
+2018-10-16 10:32:36 DEBUG LoggerAspectJ:77 - Header Name: cookie Header Value : _ga=GA1.1.373225076.1523950554; COOKIE_SUPPORT=true; SCREEN_NAME=59442b394f5130716535465a37452b6c53316b6575773d3d; GUEST_LANGUAGE_ID=vi_VN
+2018-10-16 10:32:36 DEBUG LoggerAspectJ:79 - Request Path info :/error
+2018-10-16 10:32:36 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-10-16 10:32:36 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error () execution time : 54 ms
+2018-10-16 10:32:44 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 10:32:44 DEBUG LoggerAspectJ:65 - Entering in Method :  error
+2018-10-16 10:32:44 DEBUG LoggerAspectJ:66 - Class Name :  org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 10:32:44 DEBUG LoggerAspectJ:67 - Arguments :  [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@3cb7bd68]]
+2018-10-16 10:32:44 DEBUG LoggerAspectJ:68 - Target class : org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 10:32:44 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-10-16 10:32:44 DEBUG LoggerAspectJ:72 - Method Type : GET
+2018-10-16 10:32:44 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : localhost:8080
+2018-10-16 10:32:44 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-10-16 10:32:44 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : application/json, text/javascript, */*; q=0.01
+2018-10-16 10:32:44 DEBUG LoggerAspectJ:77 - Header Name: x-requested-with Header Value : XMLHttpRequest
+2018-10-16 10:32:44 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+2018-10-16 10:32:44 DEBUG LoggerAspectJ:77 - Header Name: referer Header Value : http://localhost:8080/swagger-ui.html
+2018-10-16 10:32:44 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate, br
+2018-10-16 10:32:44 DEBUG LoggerAspectJ:77 - Header Name: accept-language Header Value : en-US,en;q=0.9,vi;q=0.8
+2018-10-16 10:32:44 DEBUG LoggerAspectJ:77 - Header Name: cookie Header Value : _ga=GA1.1.373225076.1523950554; COOKIE_SUPPORT=true; SCREEN_NAME=59442b394f5130716535465a37452b6c53316b6575773d3d; GUEST_LANGUAGE_ID=vi_VN
+2018-10-16 10:32:44 DEBUG LoggerAspectJ:79 - Request Path info :/error
+2018-10-16 10:32:44 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-10-16 10:32:44 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error () execution time : 6 ms
+2018-10-16 10:34:13 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 10:34:13 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml () execution time : 21 ms
+2018-10-16 10:34:18 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 10:34:18 DEBUG LoggerAspectJ:65 - Entering in Method :  error
+2018-10-16 10:34:18 DEBUG LoggerAspectJ:66 - Class Name :  org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 10:34:18 DEBUG LoggerAspectJ:67 - Arguments :  [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@6a440c89]]
+2018-10-16 10:34:18 DEBUG LoggerAspectJ:68 - Target class : org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 10:34:18 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-10-16 10:34:18 DEBUG LoggerAspectJ:72 - Method Type : GET
+2018-10-16 10:34:18 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : localhost:8080
+2018-10-16 10:34:18 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-10-16 10:34:18 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : application/json, text/javascript, */*; q=0.01
+2018-10-16 10:34:18 DEBUG LoggerAspectJ:77 - Header Name: x-requested-with Header Value : XMLHttpRequest
+2018-10-16 10:34:18 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+2018-10-16 10:34:18 DEBUG LoggerAspectJ:77 - Header Name: referer Header Value : http://localhost:8080/swagger-ui.html
+2018-10-16 10:34:18 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate, br
+2018-10-16 10:34:18 DEBUG LoggerAspectJ:77 - Header Name: accept-language Header Value : en-US,en;q=0.9,vi;q=0.8
+2018-10-16 10:34:18 DEBUG LoggerAspectJ:77 - Header Name: cookie Header Value : _ga=GA1.1.373225076.1523950554; COOKIE_SUPPORT=true; SCREEN_NAME=59442b394f5130716535465a37452b6c53316b6575773d3d; GUEST_LANGUAGE_ID=vi_VN
+2018-10-16 10:34:18 DEBUG LoggerAspectJ:79 - Request Path info :/error
+2018-10-16 10:34:18 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-10-16 10:34:18 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error () execution time : 5 ms
+2018-10-16 10:36:32 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 10:36:32 DEBUG LoggerAspectJ:65 - Entering in Method :  error
+2018-10-16 10:36:32 DEBUG LoggerAspectJ:66 - Class Name :  org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 10:36:32 DEBUG LoggerAspectJ:67 - Arguments :  [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@595238ba]]
+2018-10-16 10:36:32 DEBUG LoggerAspectJ:68 - Target class : org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 10:36:32 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-10-16 10:36:32 DEBUG LoggerAspectJ:72 - Method Type : GET
+2018-10-16 10:36:32 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : localhost:8080
+2018-10-16 10:36:32 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-10-16 10:36:32 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : application/json, text/javascript, */*; q=0.01
+2018-10-16 10:36:32 DEBUG LoggerAspectJ:77 - Header Name: x-requested-with Header Value : XMLHttpRequest
+2018-10-16 10:36:32 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+2018-10-16 10:36:32 DEBUG LoggerAspectJ:77 - Header Name: referer Header Value : http://localhost:8080/swagger-ui.html
+2018-10-16 10:36:32 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate, br
+2018-10-16 10:36:32 DEBUG LoggerAspectJ:77 - Header Name: accept-language Header Value : en-US,en;q=0.9,vi;q=0.8
+2018-10-16 10:36:32 DEBUG LoggerAspectJ:77 - Header Name: cookie Header Value : _ga=GA1.1.373225076.1523950554; COOKIE_SUPPORT=true; SCREEN_NAME=59442b394f5130716535465a37452b6c53316b6575773d3d; GUEST_LANGUAGE_ID=vi_VN
+2018-10-16 10:36:32 DEBUG LoggerAspectJ:79 - Request Path info :/error
+2018-10-16 10:36:32 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-10-16 10:36:32 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error () execution time : 15 ms
+2018-10-16 11:14:00 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 11:14:00 DEBUG LoggerAspectJ:65 - Entering in Method :  error
+2018-10-16 11:14:00 DEBUG LoggerAspectJ:66 - Class Name :  org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 11:14:00 DEBUG LoggerAspectJ:67 - Arguments :  [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@bfd4d7a]]
+2018-10-16 11:14:00 DEBUG LoggerAspectJ:68 - Target class : org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 11:14:00 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-10-16 11:14:00 DEBUG LoggerAspectJ:72 - Method Type : GET
+2018-10-16 11:14:00 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : 127.0.0.1:8080
+2018-10-16 11:14:00 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-10-16 11:14:00 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+2018-10-16 11:14:00 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : */*
+2018-10-16 11:14:00 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate, br
+2018-10-16 11:14:00 DEBUG LoggerAspectJ:77 - Header Name: accept-language Header Value : en-US,en;q=0.9,vi;q=0.8
+2018-10-16 11:14:00 DEBUG LoggerAspectJ:79 - Request Path info :/error
+2018-10-16 11:14:00 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-10-16 11:14:00 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error () execution time : 35 ms
+2018-10-16 11:14:00 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 11:14:00 DEBUG LoggerAspectJ:65 - Entering in Method :  error
+2018-10-16 11:14:00 DEBUG LoggerAspectJ:66 - Class Name :  org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 11:14:00 DEBUG LoggerAspectJ:67 - Arguments :  [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@32520971]]
+2018-10-16 11:14:00 DEBUG LoggerAspectJ:68 - Target class : org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 11:14:00 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-10-16 11:14:00 DEBUG LoggerAspectJ:72 - Method Type : GET
+2018-10-16 11:14:00 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : 127.0.0.1:8080
+2018-10-16 11:14:00 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-10-16 11:14:00 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : application/json, text/javascript, */*; q=0.01
+2018-10-16 11:14:00 DEBUG LoggerAspectJ:77 - Header Name: x-requested-with Header Value : XMLHttpRequest
+2018-10-16 11:14:00 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+2018-10-16 11:14:00 DEBUG LoggerAspectJ:77 - Header Name: referer Header Value : http://127.0.0.1:8080/swagger-ui.html
+2018-10-16 11:14:00 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate, br
+2018-10-16 11:14:00 DEBUG LoggerAspectJ:77 - Header Name: accept-language Header Value : en-US,en;q=0.9,vi;q=0.8
+2018-10-16 11:14:00 DEBUG LoggerAspectJ:79 - Request Path info :/error
+2018-10-16 11:14:00 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-10-16 11:14:00 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error () execution time : 7 ms
+2018-10-16 11:17:49 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 11:17:49 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml () execution time : 20 ms
+2018-10-16 11:17:51 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 11:17:51 DEBUG LoggerAspectJ:65 - Entering in Method :  error
+2018-10-16 11:17:51 DEBUG LoggerAspectJ:66 - Class Name :  org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 11:17:51 DEBUG LoggerAspectJ:67 - Arguments :  [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@d5bd2c1]]
+2018-10-16 11:17:51 DEBUG LoggerAspectJ:68 - Target class : org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 11:17:51 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-10-16 11:17:51 DEBUG LoggerAspectJ:72 - Method Type : GET
+2018-10-16 11:17:51 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : 127.0.0.1:8080
+2018-10-16 11:17:51 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-10-16 11:17:51 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : application/json, text/javascript, */*; q=0.01
+2018-10-16 11:17:51 DEBUG LoggerAspectJ:77 - Header Name: x-requested-with Header Value : XMLHttpRequest
+2018-10-16 11:17:51 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+2018-10-16 11:17:51 DEBUG LoggerAspectJ:77 - Header Name: referer Header Value : http://127.0.0.1:8080/swagger-ui.html
+2018-10-16 11:17:51 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate, br
+2018-10-16 11:17:51 DEBUG LoggerAspectJ:77 - Header Name: accept-language Header Value : en-US,en;q=0.9,vi;q=0.8
+2018-10-16 11:17:51 DEBUG LoggerAspectJ:79 - Request Path info :/error
+2018-10-16 11:17:51 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-10-16 11:17:51 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error () execution time : 6 ms
+2018-10-16 11:20:59 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 11:20:59 DEBUG LoggerAspectJ:65 - Entering in Method :  error
+2018-10-16 11:20:59 DEBUG LoggerAspectJ:66 - Class Name :  org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 11:20:59 DEBUG LoggerAspectJ:67 - Arguments :  [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@218d08e0]]
+2018-10-16 11:20:59 DEBUG LoggerAspectJ:68 - Target class : org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 11:20:59 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-10-16 11:20:59 DEBUG LoggerAspectJ:72 - Method Type : GET
+2018-10-16 11:20:59 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : 127.0.0.1:8080
+2018-10-16 11:20:59 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-10-16 11:20:59 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : application/json, text/javascript, */*; q=0.01
+2018-10-16 11:20:59 DEBUG LoggerAspectJ:77 - Header Name: x-requested-with Header Value : XMLHttpRequest
+2018-10-16 11:20:59 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+2018-10-16 11:20:59 DEBUG LoggerAspectJ:77 - Header Name: referer Header Value : http://127.0.0.1:8080/swagger-ui.html
+2018-10-16 11:20:59 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate, br
+2018-10-16 11:20:59 DEBUG LoggerAspectJ:77 - Header Name: accept-language Header Value : en-US,en;q=0.9,vi;q=0.8
+2018-10-16 11:20:59 DEBUG LoggerAspectJ:79 - Request Path info :/error
+2018-10-16 11:20:59 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-10-16 11:20:59 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error () execution time : 28 ms
+2018-10-16 11:21:10 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 11:21:10 DEBUG LoggerAspectJ:65 - Entering in Method :  error
+2018-10-16 11:21:10 DEBUG LoggerAspectJ:66 - Class Name :  org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 11:21:10 DEBUG LoggerAspectJ:67 - Arguments :  [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@5ecac834]]
+2018-10-16 11:21:10 DEBUG LoggerAspectJ:68 - Target class : org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 11:21:10 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-10-16 11:21:10 DEBUG LoggerAspectJ:72 - Method Type : GET
+2018-10-16 11:21:10 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : 127.0.0.1:8080
+2018-10-16 11:21:10 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-10-16 11:21:10 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : application/json, text/javascript, */*; q=0.01
+2018-10-16 11:21:10 DEBUG LoggerAspectJ:77 - Header Name: x-requested-with Header Value : XMLHttpRequest
+2018-10-16 11:21:10 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+2018-10-16 11:21:10 DEBUG LoggerAspectJ:77 - Header Name: referer Header Value : http://127.0.0.1:8080/swagger-ui.html
+2018-10-16 11:21:10 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate, br
+2018-10-16 11:21:10 DEBUG LoggerAspectJ:77 - Header Name: accept-language Header Value : en-US,en;q=0.9,vi;q=0.8
+2018-10-16 11:21:10 DEBUG LoggerAspectJ:79 - Request Path info :/error
+2018-10-16 11:21:10 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-10-16 11:21:10 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error () execution time : 5 ms
+2018-10-16 11:26:58 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 11:26:58 DEBUG LoggerAspectJ:65 - Entering in Method :  error
+2018-10-16 11:26:58 DEBUG LoggerAspectJ:66 - Class Name :  org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 11:26:58 DEBUG LoggerAspectJ:67 - Arguments :  [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@4be84c69]]
+2018-10-16 11:26:58 DEBUG LoggerAspectJ:68 - Target class : org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 11:26:58 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-10-16 11:26:58 DEBUG LoggerAspectJ:72 - Method Type : GET
+2018-10-16 11:26:58 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : 127.0.0.1:8080
+2018-10-16 11:26:58 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-10-16 11:26:58 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+2018-10-16 11:26:58 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : */*
+2018-10-16 11:26:58 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate, br
+2018-10-16 11:26:58 DEBUG LoggerAspectJ:77 - Header Name: accept-language Header Value : en-US,en;q=0.9,vi;q=0.8
+2018-10-16 11:26:58 DEBUG LoggerAspectJ:79 - Request Path info :/error
+2018-10-16 11:26:58 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-10-16 11:26:58 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error () execution time : 53 ms
+2018-10-16 11:27:44 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 11:27:44 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml () execution time : 50 ms
+2018-10-16 11:28:03 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 11:28:03 DEBUG LoggerAspectJ:94 - Method springfox.documentation.swagger.web.ApiResourceController.swaggerResources () execution time : 42 ms
+2018-10-16 11:28:14 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 11:28:14 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml () execution time : 21 ms
+2018-10-16 11:28:17 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 11:28:17 DEBUG LoggerAspectJ:94 - Method springfox.documentation.swagger.web.ApiResourceController.uiConfiguration () execution time : 5 ms
+2018-10-16 11:31:12 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 11:31:12 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml () execution time : 38 ms
+2018-10-16 11:31:14 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 11:31:14 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml () execution time : 10 ms
+2018-10-16 11:31:15 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 11:31:15 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml () execution time : 6 ms
+2018-10-16 11:43:18 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 11:43:18 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml () execution time : 21 ms
+2018-10-16 11:43:21 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 11:43:21 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml () execution time : 18 ms
+2018-10-16 13:30:58 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 13:30:58 DEBUG LoggerAspectJ:65 - Entering in Method :  error
+2018-10-16 13:30:58 DEBUG LoggerAspectJ:66 - Class Name :  org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 13:30:58 DEBUG LoggerAspectJ:67 - Arguments :  [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@51678f36]]
+2018-10-16 13:30:58 DEBUG LoggerAspectJ:68 - Target class : org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 13:30:58 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-10-16 13:30:58 DEBUG LoggerAspectJ:72 - Method Type : GET
+2018-10-16 13:30:58 DEBUG LoggerAspectJ:77 - Header Name: cache-control Header Value : no-cache
+2018-10-16 13:30:58 DEBUG LoggerAspectJ:77 - Header Name: postman-token Header Value : e3cc3abe-353c-46f3-bbd5-27267075fc42
+2018-10-16 13:30:58 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : PostmanRuntime/7.3.0
+2018-10-16 13:30:58 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : */*
+2018-10-16 13:30:58 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : 127.0.0.1:8080
+2018-10-16 13:30:58 DEBUG LoggerAspectJ:77 - Header Name: cookie Header Value : JSESSIONID=D78FA289751D5783E5C2EF131C228AB5
+2018-10-16 13:30:58 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate
+2018-10-16 13:30:58 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-10-16 13:30:58 DEBUG LoggerAspectJ:79 - Request Path info :/error
+2018-10-16 13:30:58 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-10-16 13:30:58 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error () execution time : 41 ms
+2018-10-16 13:31:03 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 13:31:03 DEBUG LoggerAspectJ:65 - Entering in Method :  error
+2018-10-16 13:31:03 DEBUG LoggerAspectJ:66 - Class Name :  org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 13:31:03 DEBUG LoggerAspectJ:67 - Arguments :  [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@62e83de3]]
+2018-10-16 13:31:03 DEBUG LoggerAspectJ:68 - Target class : org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 13:31:03 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-10-16 13:31:03 DEBUG LoggerAspectJ:72 - Method Type : GET
+2018-10-16 13:31:03 DEBUG LoggerAspectJ:77 - Header Name: cache-control Header Value : no-cache
+2018-10-16 13:31:03 DEBUG LoggerAspectJ:77 - Header Name: postman-token Header Value : e55b8b61-78b8-4c10-bebc-ff6e636a7b31
+2018-10-16 13:31:03 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : PostmanRuntime/7.3.0
+2018-10-16 13:31:03 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : */*
+2018-10-16 13:31:03 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : 127.0.0.1:8080
+2018-10-16 13:31:03 DEBUG LoggerAspectJ:77 - Header Name: cookie Header Value : JSESSIONID=79852F4FA7AFB3CB3E7519B79412CF46
+2018-10-16 13:31:03 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate
+2018-10-16 13:31:03 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-10-16 13:31:03 DEBUG LoggerAspectJ:79 - Request Path info :/error
+2018-10-16 13:31:03 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-10-16 13:31:03 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error () execution time : 9 ms
+2018-10-16 13:47:20 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 13:47:20 DEBUG LoggerAspectJ:65 - Entering in Method :  error
+2018-10-16 13:47:20 DEBUG LoggerAspectJ:66 - Class Name :  org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 13:47:20 DEBUG LoggerAspectJ:67 - Arguments :  [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@50548b47]]
+2018-10-16 13:47:20 DEBUG LoggerAspectJ:68 - Target class : org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 13:47:20 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-10-16 13:47:20 DEBUG LoggerAspectJ:72 - Method Type : GET
+2018-10-16 13:47:20 DEBUG LoggerAspectJ:77 - Header Name: cache-control Header Value : no-cache
+2018-10-16 13:47:20 DEBUG LoggerAspectJ:77 - Header Name: postman-token Header Value : be5b22d0-7a7c-4999-8ba7-3723a4ca6095
+2018-10-16 13:47:20 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : PostmanRuntime/7.3.0
+2018-10-16 13:47:20 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : */*
+2018-10-16 13:47:20 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : 127.0.0.1:8080
+2018-10-16 13:47:20 DEBUG LoggerAspectJ:77 - Header Name: cookie Header Value : JSESSIONID=79852F4FA7AFB3CB3E7519B79412CF46
+2018-10-16 13:47:20 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate
+2018-10-16 13:47:20 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-10-16 13:47:20 DEBUG LoggerAspectJ:79 - Request Path info :/error
+2018-10-16 13:47:20 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-10-16 13:47:20 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error () execution time : 43 ms
+2018-10-16 13:47:21 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 13:47:21 DEBUG LoggerAspectJ:65 - Entering in Method :  error
+2018-10-16 13:47:21 DEBUG LoggerAspectJ:66 - Class Name :  org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 13:47:21 DEBUG LoggerAspectJ:67 - Arguments :  [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@73be7882]]
+2018-10-16 13:47:21 DEBUG LoggerAspectJ:68 - Target class : org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 13:47:21 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-10-16 13:47:21 DEBUG LoggerAspectJ:72 - Method Type : GET
+2018-10-16 13:47:21 DEBUG LoggerAspectJ:77 - Header Name: cache-control Header Value : no-cache
+2018-10-16 13:47:21 DEBUG LoggerAspectJ:77 - Header Name: postman-token Header Value : a76bc2c8-f4f6-40b2-8c95-0dd0ad129ec8
+2018-10-16 13:47:21 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : PostmanRuntime/7.3.0
+2018-10-16 13:47:21 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : */*
+2018-10-16 13:47:21 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : 127.0.0.1:8080
+2018-10-16 13:47:21 DEBUG LoggerAspectJ:77 - Header Name: cookie Header Value : JSESSIONID=79852F4FA7AFB3CB3E7519B79412CF46
+2018-10-16 13:47:21 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate
+2018-10-16 13:47:21 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-10-16 13:47:21 DEBUG LoggerAspectJ:79 - Request Path info :/error
+2018-10-16 13:47:21 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-10-16 13:47:21 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error () execution time : 6 ms
+2018-10-16 13:47:25 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 13:47:25 DEBUG LoggerAspectJ:65 - Entering in Method :  error
+2018-10-16 13:47:25 DEBUG LoggerAspectJ:66 - Class Name :  org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 13:47:25 DEBUG LoggerAspectJ:67 - Arguments :  [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@529c04bb]]
+2018-10-16 13:47:25 DEBUG LoggerAspectJ:68 - Target class : org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 13:47:25 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-10-16 13:47:25 DEBUG LoggerAspectJ:72 - Method Type : GET
+2018-10-16 13:47:25 DEBUG LoggerAspectJ:77 - Header Name: cache-control Header Value : no-cache
+2018-10-16 13:47:25 DEBUG LoggerAspectJ:77 - Header Name: postman-token Header Value : d756045e-ddc8-40a9-8082-67015af3933b
+2018-10-16 13:47:25 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : PostmanRuntime/7.3.0
+2018-10-16 13:47:25 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : */*
+2018-10-16 13:47:25 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : 127.0.0.1:8080
+2018-10-16 13:47:25 DEBUG LoggerAspectJ:77 - Header Name: cookie Header Value : JSESSIONID=79852F4FA7AFB3CB3E7519B79412CF46
+2018-10-16 13:47:25 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate
+2018-10-16 13:47:25 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-10-16 13:47:25 DEBUG LoggerAspectJ:79 - Request Path info :/error
+2018-10-16 13:47:25 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-10-16 13:47:25 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error () execution time : 7 ms
+2018-10-16 13:52:04 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 13:52:04 DEBUG LoggerAspectJ:94 - Method springfox.documentation.swagger.web.ApiResourceController.uiConfiguration () execution time : 33 ms
+2018-10-16 13:52:05 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 13:52:05 DEBUG LoggerAspectJ:94 - Method springfox.documentation.swagger.web.ApiResourceController.securityConfiguration () execution time : 2 ms
+2018-10-16 13:52:05 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 13:52:05 DEBUG LoggerAspectJ:94 - Method springfox.documentation.swagger.web.ApiResourceController.swaggerResources () execution time : 0 ms
+2018-10-16 13:52:05 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 13:52:05 DEBUG LoggerAspectJ:65 - Entering in Method :  error
+2018-10-16 13:52:05 DEBUG LoggerAspectJ:66 - Class Name :  org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 13:52:05 DEBUG LoggerAspectJ:67 - Arguments :  [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@e113ec3]]
+2018-10-16 13:52:05 DEBUG LoggerAspectJ:68 - Target class : org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 13:52:05 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-10-16 13:52:05 DEBUG LoggerAspectJ:72 - Method Type : GET
+2018-10-16 13:52:05 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : 127.0.0.1:8080
+2018-10-16 13:52:05 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-10-16 13:52:05 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+2018-10-16 13:52:05 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : */*
+2018-10-16 13:52:05 DEBUG LoggerAspectJ:77 - Header Name: referer Header Value : http://127.0.0.1:8080/swagger-ui.html
+2018-10-16 13:52:05 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate, br
+2018-10-16 13:52:05 DEBUG LoggerAspectJ:77 - Header Name: accept-language Header Value : en-US,en;q=0.9,vi;q=0.8
+2018-10-16 13:52:05 DEBUG LoggerAspectJ:77 - Header Name: cookie Header Value : JSESSIONID=B6134B63914594321B5B224CF7942B1B
+2018-10-16 13:52:05 DEBUG LoggerAspectJ:79 - Request Path info :/error
+2018-10-16 13:52:05 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-10-16 13:52:05 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error () execution time : 20 ms
+2018-10-16 13:52:05 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 13:52:05 DEBUG LoggerAspectJ:65 - Entering in Method :  error
+2018-10-16 13:52:05 DEBUG LoggerAspectJ:66 - Class Name :  org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 13:52:05 DEBUG LoggerAspectJ:67 - Arguments :  [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@75a991b9]]
+2018-10-16 13:52:05 DEBUG LoggerAspectJ:68 - Target class : org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 13:52:05 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-10-16 13:52:05 DEBUG LoggerAspectJ:72 - Method Type : GET
+2018-10-16 13:52:05 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : 127.0.0.1:8080
+2018-10-16 13:52:05 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-10-16 13:52:05 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+2018-10-16 13:52:05 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : */*
+2018-10-16 13:52:05 DEBUG LoggerAspectJ:77 - Header Name: referer Header Value : http://127.0.0.1:8080/swagger-ui.html
+2018-10-16 13:52:05 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate, br
+2018-10-16 13:52:05 DEBUG LoggerAspectJ:77 - Header Name: accept-language Header Value : en-US,en;q=0.9,vi;q=0.8
+2018-10-16 13:52:05 DEBUG LoggerAspectJ:77 - Header Name: cookie Header Value : JSESSIONID=B6134B63914594321B5B224CF7942B1B
+2018-10-16 13:52:05 DEBUG LoggerAspectJ:79 - Request Path info :/error
+2018-10-16 13:52:05 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-10-16 13:52:05 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error () execution time : 6 ms
+2018-10-16 13:52:20 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 13:52:20 DEBUG LoggerAspectJ:65 - Entering in Method :  error
+2018-10-16 13:52:20 DEBUG LoggerAspectJ:66 - Class Name :  org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 13:52:20 DEBUG LoggerAspectJ:67 - Arguments :  [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@753e9be]]
+2018-10-16 13:52:20 DEBUG LoggerAspectJ:68 - Target class : org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 13:52:20 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-10-16 13:52:20 DEBUG LoggerAspectJ:72 - Method Type : GET
+2018-10-16 13:52:20 DEBUG LoggerAspectJ:77 - Header Name: cache-control Header Value : no-cache
+2018-10-16 13:52:20 DEBUG LoggerAspectJ:77 - Header Name: postman-token Header Value : cff62d13-1534-4a39-b114-2adee9927c93
+2018-10-16 13:52:20 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : PostmanRuntime/7.3.0
+2018-10-16 13:52:20 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : */*
+2018-10-16 13:52:20 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : 127.0.0.1:8080
+2018-10-16 13:52:20 DEBUG LoggerAspectJ:77 - Header Name: cookie Header Value : JSESSIONID=79852F4FA7AFB3CB3E7519B79412CF46
+2018-10-16 13:52:20 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate
+2018-10-16 13:52:20 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-10-16 13:52:20 DEBUG LoggerAspectJ:79 - Request Path info :/error
+2018-10-16 13:52:20 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-10-16 13:52:20 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error () execution time : 22 ms
+2018-10-16 13:52:22 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 13:52:22 DEBUG LoggerAspectJ:65 - Entering in Method :  error
+2018-10-16 13:52:22 DEBUG LoggerAspectJ:66 - Class Name :  org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 13:52:22 DEBUG LoggerAspectJ:67 - Arguments :  [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@5e8d6ace]]
+2018-10-16 13:52:22 DEBUG LoggerAspectJ:68 - Target class : org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 13:52:22 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-10-16 13:52:22 DEBUG LoggerAspectJ:72 - Method Type : GET
+2018-10-16 13:52:22 DEBUG LoggerAspectJ:77 - Header Name: cache-control Header Value : no-cache
+2018-10-16 13:52:22 DEBUG LoggerAspectJ:77 - Header Name: postman-token Header Value : a1d696be-089a-458b-a0d0-bfa4f921202b
+2018-10-16 13:52:22 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : PostmanRuntime/7.3.0
+2018-10-16 13:52:22 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : */*
+2018-10-16 13:52:22 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : 127.0.0.1:8080
+2018-10-16 13:52:22 DEBUG LoggerAspectJ:77 - Header Name: cookie Header Value : JSESSIONID=79852F4FA7AFB3CB3E7519B79412CF46
+2018-10-16 13:52:22 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate
+2018-10-16 13:52:22 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-10-16 13:52:22 DEBUG LoggerAspectJ:79 - Request Path info :/error
+2018-10-16 13:52:22 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-10-16 13:52:22 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error () execution time : 6 ms
+2018-10-16 13:52:24 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 13:52:24 DEBUG LoggerAspectJ:65 - Entering in Method :  error
+2018-10-16 13:52:24 DEBUG LoggerAspectJ:66 - Class Name :  org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 13:52:24 DEBUG LoggerAspectJ:67 - Arguments :  [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@3822ed61]]
+2018-10-16 13:52:24 DEBUG LoggerAspectJ:68 - Target class : org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 13:52:24 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-10-16 13:52:24 DEBUG LoggerAspectJ:72 - Method Type : GET
+2018-10-16 13:52:24 DEBUG LoggerAspectJ:77 - Header Name: cache-control Header Value : no-cache
+2018-10-16 13:52:24 DEBUG LoggerAspectJ:77 - Header Name: postman-token Header Value : 088aa93c-365c-4353-8df7-910a547aa819
+2018-10-16 13:52:24 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : PostmanRuntime/7.3.0
+2018-10-16 13:52:24 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : */*
+2018-10-16 13:52:24 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : 127.0.0.1:8080
+2018-10-16 13:52:24 DEBUG LoggerAspectJ:77 - Header Name: cookie Header Value : JSESSIONID=79852F4FA7AFB3CB3E7519B79412CF46
+2018-10-16 13:52:24 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate
+2018-10-16 13:52:24 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-10-16 13:52:24 DEBUG LoggerAspectJ:79 - Request Path info :/error
+2018-10-16 13:52:24 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-10-16 13:52:24 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error () execution time : 5 ms
+2018-10-16 13:52:26 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 13:52:26 DEBUG LoggerAspectJ:65 - Entering in Method :  error
+2018-10-16 13:52:26 DEBUG LoggerAspectJ:66 - Class Name :  org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 13:52:26 DEBUG LoggerAspectJ:67 - Arguments :  [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@11d023ec]]
+2018-10-16 13:52:26 DEBUG LoggerAspectJ:68 - Target class : org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 13:52:26 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-10-16 13:52:26 DEBUG LoggerAspectJ:72 - Method Type : GET
+2018-10-16 13:52:26 DEBUG LoggerAspectJ:77 - Header Name: cache-control Header Value : no-cache
+2018-10-16 13:52:26 DEBUG LoggerAspectJ:77 - Header Name: postman-token Header Value : 592c6f74-ca9f-4f44-824c-3def8c06ea10
+2018-10-16 13:52:26 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : PostmanRuntime/7.3.0
+2018-10-16 13:52:26 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : */*
+2018-10-16 13:52:26 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : 127.0.0.1:8080
+2018-10-16 13:52:26 DEBUG LoggerAspectJ:77 - Header Name: cookie Header Value : JSESSIONID=79852F4FA7AFB3CB3E7519B79412CF46
+2018-10-16 13:52:26 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate
+2018-10-16 13:52:26 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-10-16 13:52:26 DEBUG LoggerAspectJ:79 - Request Path info :/error
+2018-10-16 13:52:26 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-10-16 13:52:26 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error () execution time : 7 ms
+2018-10-16 13:52:30 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 13:52:30 DEBUG LoggerAspectJ:65 - Entering in Method :  error
+2018-10-16 13:52:30 DEBUG LoggerAspectJ:66 - Class Name :  org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 13:52:30 DEBUG LoggerAspectJ:67 - Arguments :  [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@7002989]]
+2018-10-16 13:52:30 DEBUG LoggerAspectJ:68 - Target class : org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 13:52:30 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-10-16 13:52:30 DEBUG LoggerAspectJ:72 - Method Type : GET
+2018-10-16 13:52:30 DEBUG LoggerAspectJ:77 - Header Name: cache-control Header Value : no-cache
+2018-10-16 13:52:30 DEBUG LoggerAspectJ:77 - Header Name: postman-token Header Value : 64c73f25-52ee-48fa-bad8-fefd40ec49e8
+2018-10-16 13:52:30 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : PostmanRuntime/7.3.0
+2018-10-16 13:52:30 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : */*
+2018-10-16 13:52:30 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : 127.0.0.1:8080
+2018-10-16 13:52:30 DEBUG LoggerAspectJ:77 - Header Name: cookie Header Value : JSESSIONID=79852F4FA7AFB3CB3E7519B79412CF46
+2018-10-16 13:52:30 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate
+2018-10-16 13:52:30 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-10-16 13:52:30 DEBUG LoggerAspectJ:79 - Request Path info :/error
+2018-10-16 13:52:30 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-10-16 13:52:30 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error () execution time : 19 ms
+2018-10-16 13:54:15 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 13:54:15 DEBUG LoggerAspectJ:65 - Entering in Method :  error
+2018-10-16 13:54:15 DEBUG LoggerAspectJ:66 - Class Name :  org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 13:54:15 DEBUG LoggerAspectJ:67 - Arguments :  [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@5e13a771]]
+2018-10-16 13:54:15 DEBUG LoggerAspectJ:68 - Target class : org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 13:54:15 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-10-16 13:54:15 DEBUG LoggerAspectJ:72 - Method Type : GET
+2018-10-16 13:54:15 DEBUG LoggerAspectJ:77 - Header Name: cache-control Header Value : no-cache
+2018-10-16 13:54:15 DEBUG LoggerAspectJ:77 - Header Name: postman-token Header Value : 1392bf61-a41a-4bf5-9a7c-5b4a09bf4e71
+2018-10-16 13:54:15 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : PostmanRuntime/7.3.0
+2018-10-16 13:54:15 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : */*
+2018-10-16 13:54:15 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : 127.0.0.1:8080
+2018-10-16 13:54:15 DEBUG LoggerAspectJ:77 - Header Name: cookie Header Value : JSESSIONID=79852F4FA7AFB3CB3E7519B79412CF46
+2018-10-16 13:54:15 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate
+2018-10-16 13:54:15 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-10-16 13:54:15 DEBUG LoggerAspectJ:79 - Request Path info :/error
+2018-10-16 13:54:15 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-10-16 13:54:15 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error () execution time : 54 ms
+2018-10-16 13:54:17 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 13:54:17 DEBUG LoggerAspectJ:65 - Entering in Method :  error
+2018-10-16 13:54:17 DEBUG LoggerAspectJ:66 - Class Name :  org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 13:54:17 DEBUG LoggerAspectJ:67 - Arguments :  [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@7d703b3b]]
+2018-10-16 13:54:17 DEBUG LoggerAspectJ:68 - Target class : org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 13:54:17 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-10-16 13:54:17 DEBUG LoggerAspectJ:72 - Method Type : GET
+2018-10-16 13:54:17 DEBUG LoggerAspectJ:77 - Header Name: cache-control Header Value : no-cache
+2018-10-16 13:54:17 DEBUG LoggerAspectJ:77 - Header Name: postman-token Header Value : dfe68ba8-71c7-484a-b8d3-97ae16ae8ce7
+2018-10-16 13:54:17 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : PostmanRuntime/7.3.0
+2018-10-16 13:54:17 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : */*
+2018-10-16 13:54:17 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : 127.0.0.1:8080
+2018-10-16 13:54:17 DEBUG LoggerAspectJ:77 - Header Name: cookie Header Value : JSESSIONID=79852F4FA7AFB3CB3E7519B79412CF46
+2018-10-16 13:54:17 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate
+2018-10-16 13:54:17 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-10-16 13:54:17 DEBUG LoggerAspectJ:79 - Request Path info :/error
+2018-10-16 13:54:17 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-10-16 13:54:17 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error () execution time : 7 ms
+2018-10-16 13:54:24 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 13:54:24 DEBUG LoggerAspectJ:65 - Entering in Method :  error
+2018-10-16 13:54:24 DEBUG LoggerAspectJ:66 - Class Name :  org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 13:54:24 DEBUG LoggerAspectJ:67 - Arguments :  [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@57a95d2d]]
+2018-10-16 13:54:24 DEBUG LoggerAspectJ:68 - Target class : org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 13:54:24 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-10-16 13:54:24 DEBUG LoggerAspectJ:72 - Method Type : GET
+2018-10-16 13:54:24 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : 127.0.0.1:8080
+2018-10-16 13:54:24 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-10-16 13:54:24 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : application/json
+2018-10-16 13:54:24 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+2018-10-16 13:54:24 DEBUG LoggerAspectJ:77 - Header Name: content-type Header Value : application/json
+2018-10-16 13:54:24 DEBUG LoggerAspectJ:77 - Header Name: referer Header Value : http://127.0.0.1:8080/swagger-ui.html
+2018-10-16 13:54:24 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate, br
+2018-10-16 13:54:24 DEBUG LoggerAspectJ:77 - Header Name: accept-language Header Value : en-US,en;q=0.9,vi;q=0.8
+2018-10-16 13:54:24 DEBUG LoggerAspectJ:77 - Header Name: cookie Header Value : JSESSIONID=B6134B63914594321B5B224CF7942B1B
+2018-10-16 13:54:24 DEBUG LoggerAspectJ:79 - Request Path info :/error
+2018-10-16 13:54:24 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-10-16 13:54:24 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error () execution time : 21 ms
+2018-10-16 13:54:38 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 13:54:38 DEBUG LoggerAspectJ:65 - Entering in Method :  error
+2018-10-16 13:54:38 DEBUG LoggerAspectJ:66 - Class Name :  org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 13:54:38 DEBUG LoggerAspectJ:67 - Arguments :  [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@7272d041]]
+2018-10-16 13:54:38 DEBUG LoggerAspectJ:68 - Target class : org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 13:54:38 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-10-16 13:54:38 DEBUG LoggerAspectJ:72 - Method Type : GET
+2018-10-16 13:54:38 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : 127.0.0.1:8080
+2018-10-16 13:54:38 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-10-16 13:54:38 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : application/json
+2018-10-16 13:54:38 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+2018-10-16 13:54:38 DEBUG LoggerAspectJ:77 - Header Name: content-type Header Value : application/json
+2018-10-16 13:54:38 DEBUG LoggerAspectJ:77 - Header Name: referer Header Value : http://127.0.0.1:8080/swagger-ui.html
+2018-10-16 13:54:38 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate, br
+2018-10-16 13:54:38 DEBUG LoggerAspectJ:77 - Header Name: accept-language Header Value : en-US,en;q=0.9,vi;q=0.8
+2018-10-16 13:54:38 DEBUG LoggerAspectJ:77 - Header Name: cookie Header Value : JSESSIONID=B6134B63914594321B5B224CF7942B1B
+2018-10-16 13:54:38 DEBUG LoggerAspectJ:79 - Request Path info :/error
+2018-10-16 13:54:38 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-10-16 13:54:38 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error () execution time : 6 ms
+2018-10-16 13:54:39 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 13:54:39 DEBUG LoggerAspectJ:65 - Entering in Method :  error
+2018-10-16 13:54:39 DEBUG LoggerAspectJ:66 - Class Name :  org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 13:54:39 DEBUG LoggerAspectJ:67 - Arguments :  [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@3da0c500]]
+2018-10-16 13:54:39 DEBUG LoggerAspectJ:68 - Target class : org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 13:54:39 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-10-16 13:54:39 DEBUG LoggerAspectJ:72 - Method Type : GET
+2018-10-16 13:54:39 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : 127.0.0.1:8080
+2018-10-16 13:54:39 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-10-16 13:54:39 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : application/json
+2018-10-16 13:54:39 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+2018-10-16 13:54:39 DEBUG LoggerAspectJ:77 - Header Name: content-type Header Value : application/json
+2018-10-16 13:54:39 DEBUG LoggerAspectJ:77 - Header Name: referer Header Value : http://127.0.0.1:8080/swagger-ui.html
+2018-10-16 13:54:39 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate, br
+2018-10-16 13:54:39 DEBUG LoggerAspectJ:77 - Header Name: accept-language Header Value : en-US,en;q=0.9,vi;q=0.8
+2018-10-16 13:54:39 DEBUG LoggerAspectJ:77 - Header Name: cookie Header Value : JSESSIONID=B6134B63914594321B5B224CF7942B1B
+2018-10-16 13:54:39 DEBUG LoggerAspectJ:79 - Request Path info :/error
+2018-10-16 13:54:39 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-10-16 13:54:39 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error () execution time : 6 ms
+2018-10-16 13:54:39 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 13:54:39 DEBUG LoggerAspectJ:65 - Entering in Method :  error
+2018-10-16 13:54:39 DEBUG LoggerAspectJ:66 - Class Name :  org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 13:54:39 DEBUG LoggerAspectJ:67 - Arguments :  [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@45a4923b]]
+2018-10-16 13:54:39 DEBUG LoggerAspectJ:68 - Target class : org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 13:54:39 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-10-16 13:54:39 DEBUG LoggerAspectJ:72 - Method Type : GET
+2018-10-16 13:54:39 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : 127.0.0.1:8080
+2018-10-16 13:54:39 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-10-16 13:54:39 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : application/json
+2018-10-16 13:54:39 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+2018-10-16 13:54:39 DEBUG LoggerAspectJ:77 - Header Name: content-type Header Value : application/json
+2018-10-16 13:54:39 DEBUG LoggerAspectJ:77 - Header Name: referer Header Value : http://127.0.0.1:8080/swagger-ui.html
+2018-10-16 13:54:39 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate, br
+2018-10-16 13:54:39 DEBUG LoggerAspectJ:77 - Header Name: accept-language Header Value : en-US,en;q=0.9,vi;q=0.8
+2018-10-16 13:54:39 DEBUG LoggerAspectJ:77 - Header Name: cookie Header Value : JSESSIONID=B6134B63914594321B5B224CF7942B1B
+2018-10-16 13:54:39 DEBUG LoggerAspectJ:79 - Request Path info :/error
+2018-10-16 13:54:39 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-10-16 13:54:39 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error () execution time : 6 ms
+2018-10-16 13:54:41 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 13:54:41 DEBUG LoggerAspectJ:65 - Entering in Method :  error
+2018-10-16 13:54:41 DEBUG LoggerAspectJ:66 - Class Name :  org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 13:54:41 DEBUG LoggerAspectJ:67 - Arguments :  [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@73da5791]]
+2018-10-16 13:54:41 DEBUG LoggerAspectJ:68 - Target class : org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 13:54:41 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-10-16 13:54:41 DEBUG LoggerAspectJ:72 - Method Type : GET
+2018-10-16 13:54:41 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : 127.0.0.1:8080
+2018-10-16 13:54:41 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-10-16 13:54:41 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : application/json
+2018-10-16 13:54:41 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+2018-10-16 13:54:41 DEBUG LoggerAspectJ:77 - Header Name: content-type Header Value : application/json
+2018-10-16 13:54:41 DEBUG LoggerAspectJ:77 - Header Name: referer Header Value : http://127.0.0.1:8080/swagger-ui.html
+2018-10-16 13:54:41 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate, br
+2018-10-16 13:54:41 DEBUG LoggerAspectJ:77 - Header Name: accept-language Header Value : en-US,en;q=0.9,vi;q=0.8
+2018-10-16 13:54:41 DEBUG LoggerAspectJ:77 - Header Name: cookie Header Value : JSESSIONID=B6134B63914594321B5B224CF7942B1B
+2018-10-16 13:54:41 DEBUG LoggerAspectJ:79 - Request Path info :/error
+2018-10-16 13:54:41 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-10-16 13:54:41 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error () execution time : 6 ms
+2018-10-16 13:54:42 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 13:54:42 DEBUG LoggerAspectJ:65 - Entering in Method :  error
+2018-10-16 13:54:42 DEBUG LoggerAspectJ:66 - Class Name :  org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 13:54:42 DEBUG LoggerAspectJ:67 - Arguments :  [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@57400e6a]]
+2018-10-16 13:54:42 DEBUG LoggerAspectJ:68 - Target class : org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 13:54:42 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-10-16 13:54:42 DEBUG LoggerAspectJ:72 - Method Type : GET
+2018-10-16 13:54:42 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : 127.0.0.1:8080
+2018-10-16 13:54:42 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-10-16 13:54:42 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : application/json
+2018-10-16 13:54:42 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+2018-10-16 13:54:42 DEBUG LoggerAspectJ:77 - Header Name: content-type Header Value : application/json
+2018-10-16 13:54:42 DEBUG LoggerAspectJ:77 - Header Name: referer Header Value : http://127.0.0.1:8080/swagger-ui.html
+2018-10-16 13:54:42 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate, br
+2018-10-16 13:54:42 DEBUG LoggerAspectJ:77 - Header Name: accept-language Header Value : en-US,en;q=0.9,vi;q=0.8
+2018-10-16 13:54:42 DEBUG LoggerAspectJ:77 - Header Name: cookie Header Value : JSESSIONID=B6134B63914594321B5B224CF7942B1B
+2018-10-16 13:54:42 DEBUG LoggerAspectJ:79 - Request Path info :/error
+2018-10-16 13:54:42 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-10-16 13:54:42 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error () execution time : 6 ms
+2018-10-16 13:54:43 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 13:54:43 DEBUG LoggerAspectJ:65 - Entering in Method :  error
+2018-10-16 13:54:43 DEBUG LoggerAspectJ:66 - Class Name :  org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 13:54:43 DEBUG LoggerAspectJ:67 - Arguments :  [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@7ed94f39]]
+2018-10-16 13:54:43 DEBUG LoggerAspectJ:68 - Target class : org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 13:54:43 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-10-16 13:54:43 DEBUG LoggerAspectJ:72 - Method Type : GET
+2018-10-16 13:54:43 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : 127.0.0.1:8080
+2018-10-16 13:54:43 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-10-16 13:54:43 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : application/json
+2018-10-16 13:54:43 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+2018-10-16 13:54:43 DEBUG LoggerAspectJ:77 - Header Name: content-type Header Value : application/json
+2018-10-16 13:54:43 DEBUG LoggerAspectJ:77 - Header Name: referer Header Value : http://127.0.0.1:8080/swagger-ui.html
+2018-10-16 13:54:43 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate, br
+2018-10-16 13:54:43 DEBUG LoggerAspectJ:77 - Header Name: accept-language Header Value : en-US,en;q=0.9,vi;q=0.8
+2018-10-16 13:54:43 DEBUG LoggerAspectJ:77 - Header Name: cookie Header Value : JSESSIONID=B6134B63914594321B5B224CF7942B1B
+2018-10-16 13:54:43 DEBUG LoggerAspectJ:79 - Request Path info :/error
+2018-10-16 13:54:43 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-10-16 13:54:43 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error () execution time : 6 ms
+2018-10-16 13:55:51 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 13:55:51 DEBUG LoggerAspectJ:94 - Method springfox.documentation.swagger.web.ApiResourceController.uiConfiguration () execution time : 33 ms
+2018-10-16 13:55:51 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 13:55:51 DEBUG LoggerAspectJ:94 - Method springfox.documentation.swagger.web.ApiResourceController.securityConfiguration () execution time : 2 ms
+2018-10-16 13:55:51 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 13:55:51 DEBUG LoggerAspectJ:94 - Method springfox.documentation.swagger.web.ApiResourceController.swaggerResources () execution time : 1 ms
+2018-10-16 13:55:51 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 13:55:51 DEBUG LoggerAspectJ:65 - Entering in Method :  error
+2018-10-16 13:55:51 DEBUG LoggerAspectJ:66 - Class Name :  org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 13:55:51 DEBUG LoggerAspectJ:67 - Arguments :  [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@130ea62]]
+2018-10-16 13:55:51 DEBUG LoggerAspectJ:68 - Target class : org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 13:55:51 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-10-16 13:55:51 DEBUG LoggerAspectJ:72 - Method Type : GET
+2018-10-16 13:55:51 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : 127.0.0.1:8080
+2018-10-16 13:55:51 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-10-16 13:55:51 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+2018-10-16 13:55:51 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : */*
+2018-10-16 13:55:51 DEBUG LoggerAspectJ:77 - Header Name: referer Header Value : http://127.0.0.1:8080/swagger-ui.html
+2018-10-16 13:55:51 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate, br
+2018-10-16 13:55:51 DEBUG LoggerAspectJ:77 - Header Name: accept-language Header Value : en-US,en;q=0.9,vi;q=0.8
+2018-10-16 13:55:51 DEBUG LoggerAspectJ:77 - Header Name: cookie Header Value : JSESSIONID=B6134B63914594321B5B224CF7942B1B
+2018-10-16 13:55:51 DEBUG LoggerAspectJ:79 - Request Path info :/error
+2018-10-16 13:55:51 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-10-16 13:55:51 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error () execution time : 20 ms
+2018-10-16 13:55:51 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 13:55:51 DEBUG LoggerAspectJ:65 - Entering in Method :  error
+2018-10-16 13:55:51 DEBUG LoggerAspectJ:66 - Class Name :  org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 13:55:51 DEBUG LoggerAspectJ:67 - Arguments :  [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@2019c212]]
+2018-10-16 13:55:51 DEBUG LoggerAspectJ:68 - Target class : org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 13:55:51 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-10-16 13:55:51 DEBUG LoggerAspectJ:72 - Method Type : GET
+2018-10-16 13:55:51 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : 127.0.0.1:8080
+2018-10-16 13:55:51 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-10-16 13:55:51 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+2018-10-16 13:55:51 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : */*
+2018-10-16 13:55:51 DEBUG LoggerAspectJ:77 - Header Name: referer Header Value : http://127.0.0.1:8080/swagger-ui.html
+2018-10-16 13:55:51 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate, br
+2018-10-16 13:55:51 DEBUG LoggerAspectJ:77 - Header Name: accept-language Header Value : en-US,en;q=0.9,vi;q=0.8
+2018-10-16 13:55:51 DEBUG LoggerAspectJ:77 - Header Name: cookie Header Value : JSESSIONID=B6134B63914594321B5B224CF7942B1B
+2018-10-16 13:55:51 DEBUG LoggerAspectJ:79 - Request Path info :/error
+2018-10-16 13:55:51 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-10-16 13:55:51 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error () execution time : 6 ms
+2018-10-16 13:56:01 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 13:56:01 DEBUG LoggerAspectJ:65 - Entering in Method :  error
+2018-10-16 13:56:01 DEBUG LoggerAspectJ:66 - Class Name :  org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 13:56:01 DEBUG LoggerAspectJ:67 - Arguments :  [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@48a4f16d]]
+2018-10-16 13:56:01 DEBUG LoggerAspectJ:68 - Target class : org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 13:56:01 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-10-16 13:56:01 DEBUG LoggerAspectJ:72 - Method Type : GET
+2018-10-16 13:56:01 DEBUG LoggerAspectJ:77 - Header Name: cache-control Header Value : no-cache
+2018-10-16 13:56:01 DEBUG LoggerAspectJ:77 - Header Name: postman-token Header Value : 022f3087-2fa0-4faa-a1cb-f6a9ff858892
+2018-10-16 13:56:01 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : PostmanRuntime/7.3.0
+2018-10-16 13:56:01 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : */*
+2018-10-16 13:56:01 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : 127.0.0.1:8080
+2018-10-16 13:56:01 DEBUG LoggerAspectJ:77 - Header Name: cookie Header Value : JSESSIONID=79852F4FA7AFB3CB3E7519B79412CF46
+2018-10-16 13:56:01 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate
+2018-10-16 13:56:01 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-10-16 13:56:01 DEBUG LoggerAspectJ:79 - Request Path info :/error
+2018-10-16 13:56:01 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-10-16 13:56:01 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error () execution time : 9 ms
+2018-10-16 13:56:02 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 13:56:02 DEBUG LoggerAspectJ:65 - Entering in Method :  error
+2018-10-16 13:56:02 DEBUG LoggerAspectJ:66 - Class Name :  org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 13:56:02 DEBUG LoggerAspectJ:67 - Arguments :  [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@3af3ef71]]
+2018-10-16 13:56:02 DEBUG LoggerAspectJ:68 - Target class : org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 13:56:02 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-10-16 13:56:02 DEBUG LoggerAspectJ:72 - Method Type : GET
+2018-10-16 13:56:02 DEBUG LoggerAspectJ:77 - Header Name: cache-control Header Value : no-cache
+2018-10-16 13:56:02 DEBUG LoggerAspectJ:77 - Header Name: postman-token Header Value : 1579bb9a-378f-47f5-bbd4-3deb0d011be8
+2018-10-16 13:56:02 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : PostmanRuntime/7.3.0
+2018-10-16 13:56:02 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : */*
+2018-10-16 13:56:02 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : 127.0.0.1:8080
+2018-10-16 13:56:02 DEBUG LoggerAspectJ:77 - Header Name: cookie Header Value : JSESSIONID=79852F4FA7AFB3CB3E7519B79412CF46
+2018-10-16 13:56:02 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate
+2018-10-16 13:56:02 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-10-16 13:56:02 DEBUG LoggerAspectJ:79 - Request Path info :/error
+2018-10-16 13:56:02 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-10-16 13:56:02 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error () execution time : 6 ms
+2018-10-16 13:56:03 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 13:56:03 DEBUG LoggerAspectJ:65 - Entering in Method :  error
+2018-10-16 13:56:03 DEBUG LoggerAspectJ:66 - Class Name :  org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 13:56:03 DEBUG LoggerAspectJ:67 - Arguments :  [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@3587664f]]
+2018-10-16 13:56:03 DEBUG LoggerAspectJ:68 - Target class : org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 13:56:03 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-10-16 13:56:03 DEBUG LoggerAspectJ:72 - Method Type : GET
+2018-10-16 13:56:03 DEBUG LoggerAspectJ:77 - Header Name: cache-control Header Value : no-cache
+2018-10-16 13:56:03 DEBUG LoggerAspectJ:77 - Header Name: postman-token Header Value : 010c7dfa-192f-4e47-b424-ad174508308a
+2018-10-16 13:56:03 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : PostmanRuntime/7.3.0
+2018-10-16 13:56:03 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : */*
+2018-10-16 13:56:03 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : 127.0.0.1:8080
+2018-10-16 13:56:03 DEBUG LoggerAspectJ:77 - Header Name: cookie Header Value : JSESSIONID=79852F4FA7AFB3CB3E7519B79412CF46
+2018-10-16 13:56:03 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate
+2018-10-16 13:56:03 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-10-16 13:56:03 DEBUG LoggerAspectJ:79 - Request Path info :/error
+2018-10-16 13:56:03 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-10-16 13:56:03 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error () execution time : 6 ms
+2018-10-16 13:56:59 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 13:56:59 DEBUG LoggerAspectJ:94 - Method springfox.documentation.swagger.web.ApiResourceController.uiConfiguration () execution time : 27 ms
+2018-10-16 13:56:59 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 13:56:59 DEBUG LoggerAspectJ:94 - Method springfox.documentation.swagger.web.ApiResourceController.securityConfiguration () execution time : 2 ms
+2018-10-16 13:56:59 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 13:56:59 DEBUG LoggerAspectJ:94 - Method springfox.documentation.swagger.web.ApiResourceController.swaggerResources () execution time : 1 ms
+2018-10-16 13:56:59 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 13:56:59 DEBUG LoggerAspectJ:65 - Entering in Method :  error
+2018-10-16 13:56:59 DEBUG LoggerAspectJ:66 - Class Name :  org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 13:56:59 DEBUG LoggerAspectJ:67 - Arguments :  [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@5e6b79c4]]
+2018-10-16 13:56:59 DEBUG LoggerAspectJ:68 - Target class : org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 13:56:59 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-10-16 13:56:59 DEBUG LoggerAspectJ:72 - Method Type : GET
+2018-10-16 13:56:59 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : 127.0.0.1:8080
+2018-10-16 13:56:59 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-10-16 13:56:59 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+2018-10-16 13:56:59 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : */*
+2018-10-16 13:56:59 DEBUG LoggerAspectJ:77 - Header Name: referer Header Value : http://127.0.0.1:8080/swagger-ui.html
+2018-10-16 13:56:59 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate, br
+2018-10-16 13:56:59 DEBUG LoggerAspectJ:77 - Header Name: accept-language Header Value : en-US,en;q=0.9,vi;q=0.8
+2018-10-16 13:56:59 DEBUG LoggerAspectJ:77 - Header Name: cookie Header Value : JSESSIONID=B6134B63914594321B5B224CF7942B1B
+2018-10-16 13:56:59 DEBUG LoggerAspectJ:79 - Request Path info :/error
+2018-10-16 13:56:59 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-10-16 13:56:59 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error () execution time : 21 ms
+2018-10-16 13:56:59 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 13:56:59 DEBUG LoggerAspectJ:65 - Entering in Method :  error
+2018-10-16 13:56:59 DEBUG LoggerAspectJ:66 - Class Name :  org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 13:56:59 DEBUG LoggerAspectJ:67 - Arguments :  [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@59cfa250]]
+2018-10-16 13:56:59 DEBUG LoggerAspectJ:68 - Target class : org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 13:56:59 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-10-16 13:56:59 DEBUG LoggerAspectJ:72 - Method Type : GET
+2018-10-16 13:56:59 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : 127.0.0.1:8080
+2018-10-16 13:56:59 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-10-16 13:56:59 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+2018-10-16 13:56:59 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : */*
+2018-10-16 13:56:59 DEBUG LoggerAspectJ:77 - Header Name: referer Header Value : http://127.0.0.1:8080/swagger-ui.html
+2018-10-16 13:56:59 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate, br
+2018-10-16 13:56:59 DEBUG LoggerAspectJ:77 - Header Name: accept-language Header Value : en-US,en;q=0.9,vi;q=0.8
+2018-10-16 13:56:59 DEBUG LoggerAspectJ:77 - Header Name: cookie Header Value : JSESSIONID=B6134B63914594321B5B224CF7942B1B
+2018-10-16 13:56:59 DEBUG LoggerAspectJ:79 - Request Path info :/error
+2018-10-16 13:56:59 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-10-16 13:56:59 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error () execution time : 6 ms
+2018-10-16 13:57:09 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 13:57:09 DEBUG LoggerAspectJ:65 - Entering in Method :  error
+2018-10-16 13:57:09 DEBUG LoggerAspectJ:66 - Class Name :  org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 13:57:09 DEBUG LoggerAspectJ:67 - Arguments :  [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@79b88955]]
+2018-10-16 13:57:09 DEBUG LoggerAspectJ:68 - Target class : org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 13:57:09 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-10-16 13:57:09 DEBUG LoggerAspectJ:72 - Method Type : GET
+2018-10-16 13:57:09 DEBUG LoggerAspectJ:77 - Header Name: cache-control Header Value : no-cache
+2018-10-16 13:57:09 DEBUG LoggerAspectJ:77 - Header Name: postman-token Header Value : b074d5cd-96ab-4903-b40d-d92bef4e2a02
+2018-10-16 13:57:09 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : PostmanRuntime/7.3.0
+2018-10-16 13:57:09 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : */*
+2018-10-16 13:57:09 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : 127.0.0.1:8080
+2018-10-16 13:57:09 DEBUG LoggerAspectJ:77 - Header Name: cookie Header Value : JSESSIONID=79852F4FA7AFB3CB3E7519B79412CF46
+2018-10-16 13:57:09 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate
+2018-10-16 13:57:09 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-10-16 13:57:09 DEBUG LoggerAspectJ:79 - Request Path info :/error
+2018-10-16 13:57:09 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-10-16 13:57:09 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error () execution time : 23 ms
+2018-10-16 13:57:10 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 13:57:10 DEBUG LoggerAspectJ:65 - Entering in Method :  error
+2018-10-16 13:57:10 DEBUG LoggerAspectJ:66 - Class Name :  org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 13:57:10 DEBUG LoggerAspectJ:67 - Arguments :  [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@4a3829d]]
+2018-10-16 13:57:10 DEBUG LoggerAspectJ:68 - Target class : org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 13:57:10 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-10-16 13:57:10 DEBUG LoggerAspectJ:72 - Method Type : GET
+2018-10-16 13:57:10 DEBUG LoggerAspectJ:77 - Header Name: cache-control Header Value : no-cache
+2018-10-16 13:57:10 DEBUG LoggerAspectJ:77 - Header Name: postman-token Header Value : 15a417be-017a-4ce1-a52c-216fbd97ca50
+2018-10-16 13:57:10 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : PostmanRuntime/7.3.0
+2018-10-16 13:57:10 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : */*
+2018-10-16 13:57:10 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : 127.0.0.1:8080
+2018-10-16 13:57:10 DEBUG LoggerAspectJ:77 - Header Name: cookie Header Value : JSESSIONID=79852F4FA7AFB3CB3E7519B79412CF46
+2018-10-16 13:57:10 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate
+2018-10-16 13:57:10 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-10-16 13:57:10 DEBUG LoggerAspectJ:79 - Request Path info :/error
+2018-10-16 13:57:10 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-10-16 13:57:10 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error () execution time : 6 ms
+2018-10-16 13:57:36 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 13:57:36 DEBUG LoggerAspectJ:65 - Entering in Method :  error
+2018-10-16 13:57:36 DEBUG LoggerAspectJ:66 - Class Name :  org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 13:57:36 DEBUG LoggerAspectJ:67 - Arguments :  [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@2524f754]]
+2018-10-16 13:57:36 DEBUG LoggerAspectJ:68 - Target class : org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 13:57:36 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-10-16 13:57:36 DEBUG LoggerAspectJ:72 - Method Type : GET
+2018-10-16 13:57:36 DEBUG LoggerAspectJ:77 - Header Name: cache-control Header Value : no-cache
+2018-10-16 13:57:36 DEBUG LoggerAspectJ:77 - Header Name: postman-token Header Value : e708aab4-c8df-4c88-9e81-07c3457de39e
+2018-10-16 13:57:36 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : PostmanRuntime/7.3.0
+2018-10-16 13:57:36 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : */*
+2018-10-16 13:57:36 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : 127.0.0.1:8080
+2018-10-16 13:57:36 DEBUG LoggerAspectJ:77 - Header Name: cookie Header Value : JSESSIONID=79852F4FA7AFB3CB3E7519B79412CF46
+2018-10-16 13:57:36 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate
+2018-10-16 13:57:36 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-10-16 13:57:36 DEBUG LoggerAspectJ:79 - Request Path info :/error
+2018-10-16 13:57:36 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-10-16 13:57:36 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error () execution time : 6 ms
+2018-10-16 14:00:05 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 14:00:05 DEBUG LoggerAspectJ:65 - Entering in Method :  error
+2018-10-16 14:00:05 DEBUG LoggerAspectJ:66 - Class Name :  org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 14:00:05 DEBUG LoggerAspectJ:67 - Arguments :  [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@7725570d]]
+2018-10-16 14:00:05 DEBUG LoggerAspectJ:68 - Target class : org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 14:00:05 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-10-16 14:00:05 DEBUG LoggerAspectJ:72 - Method Type : GET
+2018-10-16 14:00:05 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : 127.0.0.1:8080
+2018-10-16 14:00:05 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-10-16 14:00:05 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : application/json
+2018-10-16 14:00:05 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+2018-10-16 14:00:05 DEBUG LoggerAspectJ:77 - Header Name: content-type Header Value : application/json
+2018-10-16 14:00:05 DEBUG LoggerAspectJ:77 - Header Name: referer Header Value : http://127.0.0.1:8080/swagger-ui.html
+2018-10-16 14:00:05 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate, br
+2018-10-16 14:00:05 DEBUG LoggerAspectJ:77 - Header Name: accept-language Header Value : en-US,en;q=0.9,vi;q=0.8
+2018-10-16 14:00:05 DEBUG LoggerAspectJ:77 - Header Name: cookie Header Value : JSESSIONID=B6134B63914594321B5B224CF7942B1B
+2018-10-16 14:00:05 DEBUG LoggerAspectJ:79 - Request Path info :/error
+2018-10-16 14:00:05 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-10-16 14:00:05 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error () execution time : 42 ms
+2018-10-16 14:08:59 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 14:08:59 DEBUG LoggerAspectJ:65 - Entering in Method :  error
+2018-10-16 14:08:59 DEBUG LoggerAspectJ:66 - Class Name :  org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 14:08:59 DEBUG LoggerAspectJ:67 - Arguments :  [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@543aca19]]
+2018-10-16 14:08:59 DEBUG LoggerAspectJ:68 - Target class : org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 14:08:59 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-10-16 14:08:59 DEBUG LoggerAspectJ:72 - Method Type : GET
+2018-10-16 14:08:59 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : 127.0.0.1:8080
+2018-10-16 14:08:59 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-10-16 14:08:59 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+2018-10-16 14:08:59 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : */*
+2018-10-16 14:08:59 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate, br
+2018-10-16 14:08:59 DEBUG LoggerAspectJ:77 - Header Name: accept-language Header Value : en-US,en;q=0.9,vi;q=0.8
+2018-10-16 14:08:59 DEBUG LoggerAspectJ:77 - Header Name: cookie Header Value : JSESSIONID=B6134B63914594321B5B224CF7942B1B
+2018-10-16 14:08:59 DEBUG LoggerAspectJ:79 - Request Path info :/error
+2018-10-16 14:08:59 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-10-16 14:08:59 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error () execution time : 97 ms
+2018-10-16 14:09:00 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 14:09:00 DEBUG LoggerAspectJ:65 - Entering in Method :  error
+2018-10-16 14:09:00 DEBUG LoggerAspectJ:66 - Class Name :  org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 14:09:00 DEBUG LoggerAspectJ:67 - Arguments :  [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.savedrequest.SavedRequestAwareWrapper@58f10ac8]]
+2018-10-16 14:09:00 DEBUG LoggerAspectJ:68 - Target class : org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 14:09:00 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-10-16 14:09:00 DEBUG LoggerAspectJ:72 - Method Type : GET
+2018-10-16 14:09:00 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : */*
+2018-10-16 14:09:00 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate, br
+2018-10-16 14:09:00 DEBUG LoggerAspectJ:77 - Header Name: accept-language Header Value : en-US,en;q=0.9,vi;q=0.8
+2018-10-16 14:09:00 DEBUG LoggerAspectJ:77 - Header Name: authorization Header Value : Basic Og==
+2018-10-16 14:09:00 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-10-16 14:09:00 DEBUG LoggerAspectJ:77 - Header Name: cookie Header Value : JSESSIONID=B6134B63914594321B5B224CF7942B1B
+2018-10-16 14:09:00 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : 127.0.0.1:8080
+2018-10-16 14:09:00 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+2018-10-16 14:09:00 DEBUG LoggerAspectJ:79 - Request Path info :/error
+2018-10-16 14:09:00 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-10-16 14:09:00 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error () execution time : 6 ms
+2018-10-16 14:09:03 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 14:09:03 DEBUG LoggerAspectJ:65 - Entering in Method :  error
+2018-10-16 14:09:03 DEBUG LoggerAspectJ:66 - Class Name :  org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 14:09:03 DEBUG LoggerAspectJ:67 - Arguments :  [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@2abac8bd]]
+2018-10-16 14:09:03 DEBUG LoggerAspectJ:68 - Target class : org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 14:09:03 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-10-16 14:09:03 DEBUG LoggerAspectJ:72 - Method Type : GET
+2018-10-16 14:09:03 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : 127.0.0.1:8080
+2018-10-16 14:09:03 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-10-16 14:09:03 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : application/json
+2018-10-16 14:09:03 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+2018-10-16 14:09:03 DEBUG LoggerAspectJ:77 - Header Name: content-type Header Value : application/json
+2018-10-16 14:09:03 DEBUG LoggerAspectJ:77 - Header Name: referer Header Value : http://127.0.0.1:8080/swagger-ui.html
+2018-10-16 14:09:03 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate, br
+2018-10-16 14:09:03 DEBUG LoggerAspectJ:77 - Header Name: accept-language Header Value : en-US,en;q=0.9,vi;q=0.8
+2018-10-16 14:09:03 DEBUG LoggerAspectJ:77 - Header Name: cookie Header Value : JSESSIONID=B6134B63914594321B5B224CF7942B1B
+2018-10-16 14:09:03 DEBUG LoggerAspectJ:79 - Request Path info :/error
+2018-10-16 14:09:03 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-10-16 14:09:03 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error () execution time : 6 ms
+2018-10-16 14:44:21 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 14:44:21 DEBUG LoggerAspectJ:65 - Entering in Method :  error
+2018-10-16 14:44:21 DEBUG LoggerAspectJ:66 - Class Name :  org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 14:44:21 DEBUG LoggerAspectJ:67 - Arguments :  [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@2cde3b28]]
+2018-10-16 14:44:21 DEBUG LoggerAspectJ:68 - Target class : org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 14:44:21 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-10-16 14:44:21 DEBUG LoggerAspectJ:72 - Method Type : GET
+2018-10-16 14:44:21 DEBUG LoggerAspectJ:77 - Header Name: cache-control Header Value : no-cache
+2018-10-16 14:44:21 DEBUG LoggerAspectJ:77 - Header Name: postman-token Header Value : 8575dfab-a940-45f7-9c6d-a878df0750d4
+2018-10-16 14:44:21 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : PostmanRuntime/7.3.0
+2018-10-16 14:44:21 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : */*
+2018-10-16 14:44:21 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : 127.0.0.1:8080
+2018-10-16 14:44:21 DEBUG LoggerAspectJ:77 - Header Name: cookie Header Value : JSESSIONID=79852F4FA7AFB3CB3E7519B79412CF46
+2018-10-16 14:44:21 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate
+2018-10-16 14:44:21 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-10-16 14:44:21 DEBUG LoggerAspectJ:79 - Request Path info :/error
+2018-10-16 14:44:21 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-10-16 14:44:21 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error () execution time : 38 ms
+2018-10-16 14:51:06 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 14:51:06 DEBUG LoggerAspectJ:65 - Entering in Method :  error
+2018-10-16 14:51:06 DEBUG LoggerAspectJ:66 - Class Name :  org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 14:51:06 DEBUG LoggerAspectJ:67 - Arguments :  [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@1bf3a7bf]]
+2018-10-16 14:51:06 DEBUG LoggerAspectJ:68 - Target class : org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 14:51:06 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-10-16 14:51:06 DEBUG LoggerAspectJ:72 - Method Type : GET
+2018-10-16 14:51:06 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : 127.0.0.1:8080
+2018-10-16 14:51:06 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-10-16 14:51:06 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+2018-10-16 14:51:06 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : */*
+2018-10-16 14:51:06 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate, br
+2018-10-16 14:51:06 DEBUG LoggerAspectJ:77 - Header Name: accept-language Header Value : en-US,en;q=0.9,vi;q=0.8
+2018-10-16 14:51:06 DEBUG LoggerAspectJ:77 - Header Name: cookie Header Value : JSESSIONID=B6134B63914594321B5B224CF7942B1B
+2018-10-16 14:51:06 DEBUG LoggerAspectJ:79 - Request Path info :/error
+2018-10-16 14:51:06 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-10-16 14:51:06 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error () execution time : 86 ms
+2018-10-16 14:51:07 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 14:51:07 DEBUG LoggerAspectJ:94 - Method springfox.documentation.swagger.web.ApiResourceController.uiConfiguration () execution time : 15 ms
+2018-10-16 14:51:07 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 14:51:07 DEBUG LoggerAspectJ:94 - Method springfox.documentation.swagger.web.ApiResourceController.securityConfiguration () execution time : 1 ms
+2018-10-16 14:51:07 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 14:51:07 DEBUG LoggerAspectJ:94 - Method springfox.documentation.swagger.web.ApiResourceController.swaggerResources () execution time : 1 ms
+2018-10-16 14:51:07 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 14:51:07 DEBUG LoggerAspectJ:65 - Entering in Method :  error
+2018-10-16 14:51:07 DEBUG LoggerAspectJ:66 - Class Name :  org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 14:51:07 DEBUG LoggerAspectJ:67 - Arguments :  [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@7ea9f930]]
+2018-10-16 14:51:07 DEBUG LoggerAspectJ:68 - Target class : org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 14:51:07 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-10-16 14:51:07 DEBUG LoggerAspectJ:72 - Method Type : GET
+2018-10-16 14:51:07 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : 127.0.0.1:8080
+2018-10-16 14:51:07 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-10-16 14:51:07 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+2018-10-16 14:51:07 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : */*
+2018-10-16 14:51:07 DEBUG LoggerAspectJ:77 - Header Name: referer Header Value : http://127.0.0.1:8080/swagger-ui.html
+2018-10-16 14:51:07 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate, br
+2018-10-16 14:51:07 DEBUG LoggerAspectJ:77 - Header Name: accept-language Header Value : en-US,en;q=0.9,vi;q=0.8
+2018-10-16 14:51:07 DEBUG LoggerAspectJ:77 - Header Name: cookie Header Value : JSESSIONID=B6134B63914594321B5B224CF7942B1B
+2018-10-16 14:51:07 DEBUG LoggerAspectJ:79 - Request Path info :/error
+2018-10-16 14:51:07 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-10-16 14:51:07 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error () execution time : 6 ms
+2018-10-16 14:51:07 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 14:51:07 DEBUG LoggerAspectJ:65 - Entering in Method :  error
+2018-10-16 14:51:07 DEBUG LoggerAspectJ:66 - Class Name :  org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 14:51:07 DEBUG LoggerAspectJ:67 - Arguments :  [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@3307b615]]
+2018-10-16 14:51:07 DEBUG LoggerAspectJ:68 - Target class : org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 14:51:07 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-10-16 14:51:07 DEBUG LoggerAspectJ:72 - Method Type : GET
+2018-10-16 14:51:07 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : 127.0.0.1:8080
+2018-10-16 14:51:07 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-10-16 14:51:07 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+2018-10-16 14:51:07 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : */*
+2018-10-16 14:51:07 DEBUG LoggerAspectJ:77 - Header Name: referer Header Value : http://127.0.0.1:8080/swagger-ui.html
+2018-10-16 14:51:07 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate, br
+2018-10-16 14:51:07 DEBUG LoggerAspectJ:77 - Header Name: accept-language Header Value : en-US,en;q=0.9,vi;q=0.8
+2018-10-16 14:51:07 DEBUG LoggerAspectJ:77 - Header Name: cookie Header Value : JSESSIONID=B6134B63914594321B5B224CF7942B1B
+2018-10-16 14:51:07 DEBUG LoggerAspectJ:79 - Request Path info :/error
+2018-10-16 14:51:07 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-10-16 14:51:07 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error () execution time : 7 ms
+2018-10-16 14:55:16 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 14:55:16 DEBUG LoggerAspectJ:94 - Method springfox.documentation.swagger.web.ApiResourceController.uiConfiguration () execution time : 16 ms
+2018-10-16 14:55:16 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 14:55:16 DEBUG LoggerAspectJ:94 - Method springfox.documentation.swagger.web.ApiResourceController.securityConfiguration () execution time : 4 ms
+2018-10-16 14:55:16 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 14:55:16 DEBUG LoggerAspectJ:94 - Method springfox.documentation.swagger.web.ApiResourceController.swaggerResources () execution time : 0 ms
+2018-10-16 14:55:16 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 14:55:16 DEBUG LoggerAspectJ:65 - Entering in Method :  error
+2018-10-16 14:55:16 DEBUG LoggerAspectJ:66 - Class Name :  org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 14:55:16 DEBUG LoggerAspectJ:67 - Arguments :  [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@e120609]]
+2018-10-16 14:55:16 DEBUG LoggerAspectJ:68 - Target class : org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 14:55:16 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-10-16 14:55:16 DEBUG LoggerAspectJ:72 - Method Type : GET
+2018-10-16 14:55:16 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : 127.0.0.1:8080
+2018-10-16 14:55:16 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-10-16 14:55:16 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : */*
+2018-10-16 14:55:16 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/601.7.7 (KHTML, like Gecko) Version/9.1.2 Safari/601.7.7
+2018-10-16 14:55:16 DEBUG LoggerAspectJ:77 - Header Name: accept-language Header Value : en-us
+2018-10-16 14:55:16 DEBUG LoggerAspectJ:77 - Header Name: referer Header Value : http://127.0.0.1:8080/swagger-ui.html
+2018-10-16 14:55:16 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate
+2018-10-16 14:55:16 DEBUG LoggerAspectJ:79 - Request Path info :/error
+2018-10-16 14:55:16 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-10-16 14:55:16 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error () execution time : 27 ms
+2018-10-16 14:55:16 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 14:55:16 DEBUG LoggerAspectJ:65 - Entering in Method :  error
+2018-10-16 14:55:16 DEBUG LoggerAspectJ:66 - Class Name :  org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 14:55:16 DEBUG LoggerAspectJ:67 - Arguments :  [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@6a598b11]]
+2018-10-16 14:55:16 DEBUG LoggerAspectJ:68 - Target class : org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 14:55:16 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-10-16 14:55:16 DEBUG LoggerAspectJ:72 - Method Type : GET
+2018-10-16 14:55:16 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : 127.0.0.1:8080
+2018-10-16 14:55:16 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-10-16 14:55:16 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : */*
+2018-10-16 14:55:16 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/601.7.7 (KHTML, like Gecko) Version/9.1.2 Safari/601.7.7
+2018-10-16 14:55:16 DEBUG LoggerAspectJ:77 - Header Name: accept-language Header Value : en-us
+2018-10-16 14:55:16 DEBUG LoggerAspectJ:77 - Header Name: referer Header Value : http://127.0.0.1:8080/swagger-ui.html
+2018-10-16 14:55:16 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate
+2018-10-16 14:55:16 DEBUG LoggerAspectJ:79 - Request Path info :/error
+2018-10-16 14:55:16 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-10-16 14:55:16 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error () execution time : 5 ms
+2018-10-16 14:55:39 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 14:55:39 DEBUG LoggerAspectJ:94 - Method springfox.documentation.swagger.web.ApiResourceController.uiConfiguration () execution time : 11 ms
+2018-10-16 14:55:39 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 14:55:39 DEBUG LoggerAspectJ:94 - Method springfox.documentation.swagger.web.ApiResourceController.securityConfiguration () execution time : 0 ms
+2018-10-16 14:55:39 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 14:55:39 DEBUG LoggerAspectJ:94 - Method springfox.documentation.swagger.web.ApiResourceController.swaggerResources () execution time : 0 ms
+2018-10-16 14:55:39 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 14:55:39 DEBUG LoggerAspectJ:65 - Entering in Method :  error
+2018-10-16 14:55:39 DEBUG LoggerAspectJ:66 - Class Name :  org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 14:55:39 DEBUG LoggerAspectJ:67 - Arguments :  [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@602fbb97]]
+2018-10-16 14:55:39 DEBUG LoggerAspectJ:68 - Target class : org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 14:55:39 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-10-16 14:55:39 DEBUG LoggerAspectJ:72 - Method Type : GET
+2018-10-16 14:55:39 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : 127.0.0.1:8080
+2018-10-16 14:55:39 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-10-16 14:55:39 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : */*
+2018-10-16 14:55:39 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/601.7.7 (KHTML, like Gecko) Version/9.1.2 Safari/601.7.7
+2018-10-16 14:55:39 DEBUG LoggerAspectJ:77 - Header Name: accept-language Header Value : en-us
+2018-10-16 14:55:39 DEBUG LoggerAspectJ:77 - Header Name: referer Header Value : http://127.0.0.1:8080/swagger-ui.html
+2018-10-16 14:55:39 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate
+2018-10-16 14:55:39 DEBUG LoggerAspectJ:79 - Request Path info :/error
+2018-10-16 14:55:39 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-10-16 14:55:39 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error () execution time : 6 ms
+2018-10-16 14:55:39 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 14:55:39 DEBUG LoggerAspectJ:65 - Entering in Method :  error
+2018-10-16 14:55:39 DEBUG LoggerAspectJ:66 - Class Name :  org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 14:55:39 DEBUG LoggerAspectJ:67 - Arguments :  [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@5ae64c77]]
+2018-10-16 14:55:39 DEBUG LoggerAspectJ:68 - Target class : org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 14:55:39 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-10-16 14:55:39 DEBUG LoggerAspectJ:72 - Method Type : GET
+2018-10-16 14:55:39 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : 127.0.0.1:8080
+2018-10-16 14:55:39 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-10-16 14:55:39 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : */*
+2018-10-16 14:55:39 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/601.7.7 (KHTML, like Gecko) Version/9.1.2 Safari/601.7.7
+2018-10-16 14:55:39 DEBUG LoggerAspectJ:77 - Header Name: accept-language Header Value : en-us
+2018-10-16 14:55:39 DEBUG LoggerAspectJ:77 - Header Name: referer Header Value : http://127.0.0.1:8080/swagger-ui.html
+2018-10-16 14:55:39 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate
+2018-10-16 14:55:39 DEBUG LoggerAspectJ:79 - Request Path info :/error
+2018-10-16 14:55:39 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-10-16 14:55:39 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error () execution time : 8 ms
+2018-10-16 14:55:47 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 14:55:47 DEBUG LoggerAspectJ:94 - Method springfox.documentation.swagger.web.ApiResourceController.uiConfiguration () execution time : 1 ms
+2018-10-16 14:55:47 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 14:55:47 DEBUG LoggerAspectJ:94 - Method springfox.documentation.swagger.web.ApiResourceController.securityConfiguration () execution time : 1 ms
+2018-10-16 14:55:47 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 14:55:47 DEBUG LoggerAspectJ:94 - Method springfox.documentation.swagger.web.ApiResourceController.swaggerResources () execution time : 1 ms
+2018-10-16 14:55:47 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 14:55:47 DEBUG LoggerAspectJ:65 - Entering in Method :  error
+2018-10-16 14:55:47 DEBUG LoggerAspectJ:66 - Class Name :  org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 14:55:47 DEBUG LoggerAspectJ:67 - Arguments :  [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@523510fb]]
+2018-10-16 14:55:47 DEBUG LoggerAspectJ:68 - Target class : org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 14:55:47 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-10-16 14:55:47 DEBUG LoggerAspectJ:72 - Method Type : GET
+2018-10-16 14:55:47 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : 127.0.0.1:8080
+2018-10-16 14:55:47 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-10-16 14:55:47 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+2018-10-16 14:55:47 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : */*
+2018-10-16 14:55:47 DEBUG LoggerAspectJ:77 - Header Name: referer Header Value : http://127.0.0.1:8080/swagger-ui.html
+2018-10-16 14:55:47 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate, br
+2018-10-16 14:55:47 DEBUG LoggerAspectJ:77 - Header Name: accept-language Header Value : en-US,en;q=0.9,vi;q=0.8
+2018-10-16 14:55:47 DEBUG LoggerAspectJ:77 - Header Name: cookie Header Value : JSESSIONID=B6134B63914594321B5B224CF7942B1B
+2018-10-16 14:55:47 DEBUG LoggerAspectJ:79 - Request Path info :/error
+2018-10-16 14:55:47 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-10-16 14:55:47 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error () execution time : 5 ms
+2018-10-16 14:55:47 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 14:55:47 DEBUG LoggerAspectJ:65 - Entering in Method :  error
+2018-10-16 14:55:47 DEBUG LoggerAspectJ:66 - Class Name :  org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 14:55:47 DEBUG LoggerAspectJ:67 - Arguments :  [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@1495fc86]]
+2018-10-16 14:55:47 DEBUG LoggerAspectJ:68 - Target class : org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 14:55:47 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-10-16 14:55:47 DEBUG LoggerAspectJ:72 - Method Type : GET
+2018-10-16 14:55:47 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : 127.0.0.1:8080
+2018-10-16 14:55:47 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-10-16 14:55:47 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+2018-10-16 14:55:47 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : */*
+2018-10-16 14:55:47 DEBUG LoggerAspectJ:77 - Header Name: referer Header Value : http://127.0.0.1:8080/swagger-ui.html
+2018-10-16 14:55:47 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate, br
+2018-10-16 14:55:47 DEBUG LoggerAspectJ:77 - Header Name: accept-language Header Value : en-US,en;q=0.9,vi;q=0.8
+2018-10-16 14:55:47 DEBUG LoggerAspectJ:77 - Header Name: cookie Header Value : JSESSIONID=B6134B63914594321B5B224CF7942B1B
+2018-10-16 14:55:47 DEBUG LoggerAspectJ:79 - Request Path info :/error
+2018-10-16 14:55:47 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-10-16 14:55:47 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error () execution time : 5 ms
+2018-10-16 15:01:29 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 15:01:29 DEBUG LoggerAspectJ:94 - Method springfox.documentation.swagger.web.ApiResourceController.uiConfiguration () execution time : 85 ms
+2018-10-16 15:01:29 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 15:01:29 DEBUG LoggerAspectJ:94 - Method springfox.documentation.swagger.web.ApiResourceController.securityConfiguration () execution time : 1 ms
+2018-10-16 15:01:29 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 15:01:29 DEBUG LoggerAspectJ:94 - Method springfox.documentation.swagger.web.ApiResourceController.swaggerResources () execution time : 1 ms
+2018-10-16 15:01:29 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 15:01:29 DEBUG LoggerAspectJ:65 - Entering in Method :  error
+2018-10-16 15:01:29 DEBUG LoggerAspectJ:66 - Class Name :  org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 15:01:29 DEBUG LoggerAspectJ:67 - Arguments :  [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@3549b35b]]
+2018-10-16 15:01:29 DEBUG LoggerAspectJ:68 - Target class : org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 15:01:29 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-10-16 15:01:29 DEBUG LoggerAspectJ:72 - Method Type : GET
+2018-10-16 15:01:29 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : 127.0.0.1:8080
+2018-10-16 15:01:29 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-10-16 15:01:29 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+2018-10-16 15:01:29 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : */*
+2018-10-16 15:01:29 DEBUG LoggerAspectJ:77 - Header Name: referer Header Value : http://127.0.0.1:8080/swagger-ui.html
+2018-10-16 15:01:29 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate, br
+2018-10-16 15:01:29 DEBUG LoggerAspectJ:77 - Header Name: accept-language Header Value : en-US,en;q=0.9,vi;q=0.8
+2018-10-16 15:01:29 DEBUG LoggerAspectJ:77 - Header Name: cookie Header Value : JSESSIONID=B6134B63914594321B5B224CF7942B1B
+2018-10-16 15:01:29 DEBUG LoggerAspectJ:79 - Request Path info :/error
+2018-10-16 15:01:29 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-10-16 15:01:29 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error () execution time : 14 ms
+2018-10-16 15:01:29 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-10-16 15:01:29 DEBUG LoggerAspectJ:65 - Entering in Method :  error
+2018-10-16 15:01:29 DEBUG LoggerAspectJ:66 - Class Name :  org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 15:01:29 DEBUG LoggerAspectJ:67 - Arguments :  [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@191f1c96]]
+2018-10-16 15:01:29 DEBUG LoggerAspectJ:68 - Target class : org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-10-16 15:01:29 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-10-16 15:01:29 DEBUG LoggerAspectJ:72 - Method Type : GET
+2018-10-16 15:01:29 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : 127.0.0.1:8080
+2018-10-16 15:01:29 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-10-16 15:01:29 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+2018-10-16 15:01:29 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : */*
+2018-10-16 15:01:29 DEBUG LoggerAspectJ:77 - Header Name: referer Header Value : http://127.0.0.1:8080/swagger-ui.html
+2018-10-16 15:01:29 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate, br
+2018-10-16 15:01:29 DEBUG LoggerAspectJ:77 - Header Name: accept-language Header Value : en-US,en;q=0.9,vi;q=0.8
+2018-10-16 15:01:29 DEBUG LoggerAspectJ:77 - Header Name: cookie Header Value : JSESSIONID=B6134B63914594321B5B224CF7942B1B
+2018-10-16 15:01:29 DEBUG LoggerAspectJ:79 - Request Path info :/error
+2018-10-16 15:01:29 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-10-16 15:01:29 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error () execution time : 5 ms

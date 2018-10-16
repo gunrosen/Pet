@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -19,13 +20,13 @@ public class OrderController {
     @Autowired
     OrderService orderService;
 
-    @RequestMapping("/by-customer/{id}")
+    @RequestMapping(value = "/by-customer/{id}",method = RequestMethod.GET)
     ResponseEntity<?> getListOrderByCustomer(@PathVariable int id){
         ListDto<?> result = orderService.getListOrderByCustomer(id);
         return new Envelop(result).toResponseEntity();
     }
 
-    @RequestMapping("/{id}")
+    @RequestMapping(value="/{id}",method = RequestMethod.GET)
     ResponseEntity<?> getOrderDetail(@PathVariable int id){
         OrderDto dto = orderService.getOrderInfo(id);
         return new Envelop(dto).toResponseEntity();
