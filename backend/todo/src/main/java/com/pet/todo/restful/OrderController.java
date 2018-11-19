@@ -4,11 +4,9 @@ import com.pet.todo.restful.dto.common.ListDto;
 import com.pet.todo.restful.dto.order.OrderDto;
 import com.pet.todo.service.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.PageRequest;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 /**
  * Created by Gun on 10/9/18.
@@ -30,5 +28,11 @@ public class OrderController {
     ResponseEntity<?> getOrderDetail(@PathVariable int id){
         OrderDto dto = orderService.getOrderInfo(id);
         return new Envelop(dto).toResponseEntity();
+    }
+
+    @RequestMapping(method = RequestMethod.GET)
+    ResponseEntity<?> getAllPagable(@RequestParam int page,@RequestParam int size){
+        ListDto<?> result = orderService.getList(PageRequest.of(page, size));
+        return  new Envelop(result).toResponseEntity();
     }
 }

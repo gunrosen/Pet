@@ -46,6 +46,7 @@ public class CustomerServiceImpl extends AbstractService<CustomerDto, Customer, 
         List<CustomerDto> lstDto8 = lst.stream().map(customer -> {
             return new CustomerDto(customer);
         }).collect(Collectors.toList());
+        int odd = 1;
         return new ListDto<>(lstDto);
     }
 

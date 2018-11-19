@@ -1,23 +1,27 @@
 package com.pet.todo;
 
 
-import com.pet.todo.config.DocumentConfig;
 import org.hibernate.boot.model.naming.PhysicalNamingStrategy;
 import org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.builder.SpringApplicationBuilder;
+import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
-import org.springframework.context.annotation.Import;
 
 
 @SpringBootApplication
 @ComponentScan(basePackages = {"com.pet.todo.config","com.pet.todo.security"})
-//@Import(DocumentConfig.class)
-public class TodoApplication {
+public class TodoApplication extends SpringBootServletInitializer{
 
 	public static void main(String[] args) {
 		 SpringApplication.run(TodoApplication.class, args);
+	}
+
+	@Override
+	protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
+		return builder.sources(TodoApplication.class);
 	}
 
 	@Bean

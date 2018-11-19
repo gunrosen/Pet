@@ -1,15 +1,20 @@
 package com.pet.todo.service.impl;
 
+import com.pet.todo.domain.Customer;
 import com.pet.todo.domain.Order;
 import com.pet.todo.domain.OrderDetail;
+import com.pet.todo.repository.CustomerRepository;
 import com.pet.todo.repository.OrderDetailRepository;
 import com.pet.todo.repository.OrderRepository;
+import com.pet.todo.restful.dto.CustomerDto;
 import com.pet.todo.restful.dto.order.OrderDetailDto;
 import com.pet.todo.restful.dto.order.OrderDto;
 import com.pet.todo.restful.dto.order.OrderListDto;
 import com.pet.todo.restful.dto.common.ListDto;
+import com.pet.todo.service.CustomerService;
 import com.pet.todo.service.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Service;
 
@@ -28,6 +33,10 @@ public class OrderServiceImpl extends AbstractService<OrderListDto,Order,Integer
     @Autowired
     OrderDetailRepository orderDetailRepository;
 
+    @Autowired
+    @Qualifier(value = "customerService1")
+    CustomerService customerService;
+
     @Override
     public ListDto<OrderListDto> getListOrderByCustomer(int customerNumber) {
         List<Order> lst = orderRepository.getListOrderByCustomer(customerNumber);
@@ -37,6 +46,7 @@ public class OrderServiceImpl extends AbstractService<OrderListDto,Order,Integer
 
     @Override
     public OrderDto getOrderInfo(int orderNumber) {
+
         List<OrderDetail> orderDetails = orderDetailRepository.getOrderDetail(orderNumber);
         OrderDetailDto[] orderDetailDtos = orderDetails.stream()
                 .map(OrderDetailDto::new)
@@ -50,6 +60,8 @@ public class OrderServiceImpl extends AbstractService<OrderListDto,Order,Integer
         dto.setOrderDate(order.getOrderDate());
         dto.setRequiredDate(order.getRequiredDate());
         dto.setItems(orderDetailDtos);
+        CustomerDto customerDto = customerService.findById(order.getCustomerNumber());
+        dto.setCustomer(customerDto);
         return dto;
     }
 
