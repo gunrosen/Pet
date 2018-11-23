@@ -1,9 +1,0 @@
-logs
-*.log
-npm-debug.log*
-.tmp/
-coverage/
-dist/
-node_modules/
-.npm
-.eslintcache
