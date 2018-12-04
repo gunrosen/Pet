@@ -11,6 +11,10 @@ import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
+import org.springframework.web.filter.DelegatingFilterProxy;
+
+import javax.servlet.DispatcherType;
+import java.util.Arrays;
 
 
 @SpringBootApplication
@@ -38,4 +42,18 @@ public class TodoApplication extends SpringBootServletInitializer{
 		registrationBean.addUrlPatterns("/*");
 		return  registrationBean;
 	}
+
+	@Bean
+	public FilterRegistrationBean corsFilterRegistrationBean(){
+		DelegatingFilterProxy corsFilter = new DelegatingFilterProxy("corsFilter");
+
+		FilterRegistrationBean registrationBean = new FilterRegistrationBean();
+		registrationBean.setFilter(corsFilter);
+		registrationBean.setUrlPatterns(Arrays.asList("/*"));
+		registrationBean.setDispatcherTypes(DispatcherType.REQUEST);
+		registrationBean.setOrder(2);
+
+		return registrationBean;
+	}
+
 }

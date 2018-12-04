@@ -1975,3 +1975,399 @@
 2018-11-22 15:09:09 INFO  LogInterceptor:26 - Headers of Request: accept-encoding
 2018-11-22 15:09:09 INFO  LogInterceptor:26 - Headers of Request: connection
 2018-11-22 15:09:17 INFO  LogInterceptor:35 - Headers of Response: [Content-Type, Transfer-Encoding, Date]
+2018-12-04 15:21:07 INFO  LogInterceptor:26 - Headers of Request: host
+2018-12-04 15:21:07 INFO  LogInterceptor:26 - Headers of Request: connection
+2018-12-04 15:21:07 INFO  LogInterceptor:26 - Headers of Request: upgrade-insecure-requests
+2018-12-04 15:21:07 INFO  LogInterceptor:26 - Headers of Request: user-agent
+2018-12-04 15:21:07 INFO  LogInterceptor:26 - Headers of Request: host
+2018-12-04 15:21:07 INFO  LogInterceptor:26 - Headers of Request: accept
+2018-12-04 15:21:07 INFO  LogInterceptor:26 - Headers of Request: connection
+2018-12-04 15:21:07 INFO  LogInterceptor:26 - Headers of Request: accept-encoding
+2018-12-04 15:21:07 INFO  LogInterceptor:26 - Headers of Request: user-agent
+2018-12-04 15:21:07 INFO  LogInterceptor:26 - Headers of Request: accept-language
+2018-12-04 15:21:07 INFO  LogInterceptor:26 - Headers of Request: accept
+2018-12-04 15:21:07 INFO  LogInterceptor:26 - Headers of Request: accept-encoding
+2018-12-04 15:21:07 INFO  LogInterceptor:26 - Headers of Request: cookie
+2018-12-04 15:21:07 INFO  LogInterceptor:26 - Headers of Request: accept-language
+2018-12-04 15:21:07 INFO  LogInterceptor:26 - Headers of Request: cookie
+2018-12-04 15:21:07 INFO  LogInterceptor:35 - Headers of Response: [X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options]
+2018-12-04 15:21:07 INFO  LogInterceptor:26 - Headers of Request: host
+2018-12-04 15:21:07 INFO  LogInterceptor:26 - Headers of Request: connection
+2018-12-04 15:21:07 INFO  LogInterceptor:26 - Headers of Request: user-agent
+2018-12-04 15:21:07 INFO  LogInterceptor:26 - Headers of Request: accept
+2018-12-04 15:21:07 INFO  LogInterceptor:26 - Headers of Request: accept-encoding
+2018-12-04 15:21:07 INFO  LogInterceptor:26 - Headers of Request: accept-language
+2018-12-04 15:21:07 INFO  LogInterceptor:26 - Headers of Request: cookie
+2018-12-04 15:21:07 INFO  LogInterceptor:35 - Headers of Response: [Last-Modified, Accept-Ranges, Content-Type, Content-Length, Date]
+2018-12-04 15:21:07 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-12-04 15:21:07 DEBUG LoggerAspectJ:65 - Entering in Method :  error
+2018-12-04 15:21:07 DEBUG LoggerAspectJ:66 - Class Name :  org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-12-04 15:21:07 DEBUG LoggerAspectJ:67 - Arguments :  [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@691586f]]
+2018-12-04 15:21:07 DEBUG LoggerAspectJ:68 - Target class : org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-12-04 15:21:07 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-12-04 15:21:07 DEBUG LoggerAspectJ:72 - Method Type : GET
+2018-12-04 15:21:07 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : localhost:8080
+2018-12-04 15:21:07 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-12-04 15:21:07 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36
+2018-12-04 15:21:07 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : */*
+2018-12-04 15:21:07 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate, br
+2018-12-04 15:21:07 DEBUG LoggerAspectJ:77 - Header Name: accept-language Header Value : en-US,en;q=0.9,vi;q=0.8
+2018-12-04 15:21:07 DEBUG LoggerAspectJ:77 - Header Name: cookie Header Value : _ga=GA1.1.373225076.1523950554; COOKIE_SUPPORT=true; SCREEN_NAME=59442b394f5130716535465a37452b6c53316b6575773d3d; GUEST_LANGUAGE_ID=vi_VN
+2018-12-04 15:21:07 DEBUG LoggerAspectJ:79 - Request Path info :/error
+2018-12-04 15:21:07 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-12-04 15:21:07 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error () execution time : 73 ms
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: host
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: connection
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: user-agent
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: accept
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: referer
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: accept-encoding
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: accept-language
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: cookie
+2018-12-04 15:21:08 INFO  LogInterceptor:35 - Headers of Response: [Last-Modified, Accept-Ranges, Content-Type, Content-Length, Date]
+2018-12-04 15:21:08 INFO  LogInterceptor:35 - Headers of Response: [X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Transfer-Encoding, Date]
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: host
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: host
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: connection
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: user-agent
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: accept
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: referer
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: accept-encoding
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: accept-language
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: cookie
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: connection
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: user-agent
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: accept
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: referer
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: accept-encoding
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: accept-language
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: cookie
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: host
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: connection
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: user-agent
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: accept
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: referer
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: accept-encoding
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: accept-language
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: cookie
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: host
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: connection
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: user-agent
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: accept
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: referer
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: accept-encoding
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: accept-language
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: cookie
+2018-12-04 15:21:08 INFO  LogInterceptor:35 - Headers of Response: [Last-Modified, Accept-Ranges, Content-Type, Content-Length, Date]
+2018-12-04 15:21:08 INFO  LogInterceptor:35 - Headers of Response: [Last-Modified, Accept-Ranges, Content-Type, Content-Length, Date]
+2018-12-04 15:21:08 INFO  LogInterceptor:35 - Headers of Response: [Last-Modified, Accept-Ranges, Content-Type, Content-Length, Date]
+2018-12-04 15:21:08 INFO  LogInterceptor:35 - Headers of Response: [Last-Modified, Accept-Ranges, Content-Type, Content-Length, Date]
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: host
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: connection
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: accept
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: user-agent
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: content-type
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: referer
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: accept-encoding
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: accept-language
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: cookie
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: host
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: connection
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: user-agent
+2018-12-04 15:21:08 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: accept
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: referer
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: accept-encoding
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: accept-language
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: cookie
+2018-12-04 15:21:08 INFO  LogInterceptor:35 - Headers of Response: [Last-Modified, Accept-Ranges, Content-Type, Content-Length, Date]
+2018-12-04 15:21:08 DEBUG LoggerAspectJ:94 - Method springfox.documentation.swagger.web.ApiResourceController.uiConfiguration () execution time : 48 ms
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: host
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: connection
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: user-agent
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: accept
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: referer
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: accept-encoding
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: accept-language
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: cookie
+2018-12-04 15:21:08 INFO  LogInterceptor:35 - Headers of Response: [Last-Modified, Accept-Ranges, Content-Type, Content-Length, Date]
+2018-12-04 15:21:08 INFO  LogInterceptor:35 - Headers of Response: [X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Transfer-Encoding, Date]
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: host
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: connection
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: accept
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: user-agent
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: content-type
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: referer
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: accept-encoding
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: accept-language
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: cookie
+2018-12-04 15:21:08 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-12-04 15:21:08 DEBUG LoggerAspectJ:94 - Method springfox.documentation.swagger.web.ApiResourceController.securityConfiguration () execution time : 2 ms
+2018-12-04 15:21:08 INFO  LogInterceptor:35 - Headers of Response: [X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Transfer-Encoding, Date]
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: host
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: connection
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: accept
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: user-agent
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: content-type
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: referer
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: accept-encoding
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: accept-language
+2018-12-04 15:21:08 INFO  LogInterceptor:26 - Headers of Request: cookie
+2018-12-04 15:21:08 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-12-04 15:21:08 DEBUG LoggerAspectJ:94 - Method springfox.documentation.swagger.web.ApiResourceController.swaggerResources () execution time : 1 ms
+2018-12-04 15:21:08 INFO  LogInterceptor:35 - Headers of Response: [Content-Type, Transfer-Encoding, Date]
+2018-12-04 15:21:09 INFO  LogInterceptor:26 - Headers of Request: host
+2018-12-04 15:21:09 INFO  LogInterceptor:26 - Headers of Request: connection
+2018-12-04 15:21:09 INFO  LogInterceptor:26 - Headers of Request: user-agent
+2018-12-04 15:21:09 INFO  LogInterceptor:26 - Headers of Request: accept
+2018-12-04 15:21:09 INFO  LogInterceptor:26 - Headers of Request: referer
+2018-12-04 15:21:09 INFO  LogInterceptor:26 - Headers of Request: accept-encoding
+2018-12-04 15:21:09 INFO  LogInterceptor:26 - Headers of Request: accept-language
+2018-12-04 15:21:09 INFO  LogInterceptor:26 - Headers of Request: cookie
+2018-12-04 15:21:09 INFO  LogInterceptor:35 - Headers of Response: [X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options]
+2018-12-04 15:21:09 INFO  LogInterceptor:26 - Headers of Request: host
+2018-12-04 15:21:09 INFO  LogInterceptor:26 - Headers of Request: connection
+2018-12-04 15:21:09 INFO  LogInterceptor:26 - Headers of Request: user-agent
+2018-12-04 15:21:09 INFO  LogInterceptor:26 - Headers of Request: accept
+2018-12-04 15:21:09 INFO  LogInterceptor:26 - Headers of Request: referer
+2018-12-04 15:21:09 INFO  LogInterceptor:26 - Headers of Request: accept-encoding
+2018-12-04 15:21:09 INFO  LogInterceptor:26 - Headers of Request: accept-language
+2018-12-04 15:21:09 INFO  LogInterceptor:26 - Headers of Request: cookie
+2018-12-04 15:21:09 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-12-04 15:21:09 DEBUG LoggerAspectJ:65 - Entering in Method :  error
+2018-12-04 15:21:09 DEBUG LoggerAspectJ:66 - Class Name :  org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-12-04 15:21:09 DEBUG LoggerAspectJ:67 - Arguments :  [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@27d5d67a]]
+2018-12-04 15:21:09 DEBUG LoggerAspectJ:68 - Target class : org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-12-04 15:21:09 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-12-04 15:21:09 DEBUG LoggerAspectJ:72 - Method Type : GET
+2018-12-04 15:21:09 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : localhost:8080
+2018-12-04 15:21:09 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-12-04 15:21:09 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36
+2018-12-04 15:21:09 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : */*
+2018-12-04 15:21:09 DEBUG LoggerAspectJ:77 - Header Name: referer Header Value : http://localhost:8080/swagger-ui.html
+2018-12-04 15:21:09 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate, br
+2018-12-04 15:21:09 DEBUG LoggerAspectJ:77 - Header Name: accept-language Header Value : en-US,en;q=0.9,vi;q=0.8
+2018-12-04 15:21:09 DEBUG LoggerAspectJ:77 - Header Name: cookie Header Value : _ga=GA1.1.373225076.1523950554; COOKIE_SUPPORT=true; SCREEN_NAME=59442b394f5130716535465a37452b6c53316b6575773d3d; GUEST_LANGUAGE_ID=vi_VN; Webstorm-69182d4d=86b4c19c-e739-4fe5-a956-93ab97101691
+2018-12-04 15:21:09 DEBUG LoggerAspectJ:79 - Request Path info :/error
+2018-12-04 15:21:09 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-12-04 15:21:09 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error () execution time : 5 ms
+2018-12-04 15:21:09 INFO  LogInterceptor:35 - Headers of Response: [X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Transfer-Encoding, Date]
+2018-12-04 15:21:09 INFO  LogInterceptor:26 - Headers of Request: host
+2018-12-04 15:21:09 INFO  LogInterceptor:26 - Headers of Request: connection
+2018-12-04 15:21:09 INFO  LogInterceptor:26 - Headers of Request: origin
+2018-12-04 15:21:09 INFO  LogInterceptor:26 - Headers of Request: user-agent
+2018-12-04 15:21:09 INFO  LogInterceptor:26 - Headers of Request: accept
+2018-12-04 15:21:09 INFO  LogInterceptor:26 - Headers of Request: referer
+2018-12-04 15:21:09 INFO  LogInterceptor:26 - Headers of Request: accept-encoding
+2018-12-04 15:21:09 INFO  LogInterceptor:26 - Headers of Request: host
+2018-12-04 15:21:09 INFO  LogInterceptor:26 - Headers of Request: connection
+2018-12-04 15:21:09 INFO  LogInterceptor:26 - Headers of Request: accept-language
+2018-12-04 15:21:09 INFO  LogInterceptor:26 - Headers of Request: origin
+2018-12-04 15:21:09 INFO  LogInterceptor:26 - Headers of Request: cookie
+2018-12-04 15:21:09 INFO  LogInterceptor:26 - Headers of Request: user-agent
+2018-12-04 15:21:09 INFO  LogInterceptor:26 - Headers of Request: accept
+2018-12-04 15:21:09 INFO  LogInterceptor:26 - Headers of Request: referer
+2018-12-04 15:21:09 INFO  LogInterceptor:26 - Headers of Request: accept-encoding
+2018-12-04 15:21:09 INFO  LogInterceptor:26 - Headers of Request: accept-language
+2018-12-04 15:21:09 INFO  LogInterceptor:26 - Headers of Request: cookie
+2018-12-04 15:21:09 INFO  LogInterceptor:35 - Headers of Response: [Last-Modified, Accept-Ranges, Content-Type, Content-Length, Date]
+2018-12-04 15:21:09 INFO  LogInterceptor:26 - Headers of Request: host
+2018-12-04 15:21:09 INFO  LogInterceptor:26 - Headers of Request: connection
+2018-12-04 15:21:09 INFO  LogInterceptor:26 - Headers of Request: user-agent
+2018-12-04 15:21:09 INFO  LogInterceptor:26 - Headers of Request: accept
+2018-12-04 15:21:09 INFO  LogInterceptor:26 - Headers of Request: referer
+2018-12-04 15:21:09 INFO  LogInterceptor:26 - Headers of Request: accept-encoding
+2018-12-04 15:21:09 INFO  LogInterceptor:26 - Headers of Request: accept-language
+2018-12-04 15:21:09 INFO  LogInterceptor:26 - Headers of Request: cookie
+2018-12-04 15:21:09 INFO  LogInterceptor:35 - Headers of Response: [Last-Modified, Accept-Ranges, Content-Type, Content-Length, Date]
+2018-12-04 15:21:09 INFO  LogInterceptor:35 - Headers of Response: [X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options]
+2018-12-04 15:21:09 INFO  LogInterceptor:26 - Headers of Request: host
+2018-12-04 15:21:09 INFO  LogInterceptor:26 - Headers of Request: connection
+2018-12-04 15:21:09 INFO  LogInterceptor:26 - Headers of Request: user-agent
+2018-12-04 15:21:09 INFO  LogInterceptor:26 - Headers of Request: accept
+2018-12-04 15:21:09 INFO  LogInterceptor:26 - Headers of Request: referer
+2018-12-04 15:21:09 INFO  LogInterceptor:26 - Headers of Request: accept-encoding
+2018-12-04 15:21:09 INFO  LogInterceptor:26 - Headers of Request: accept-language
+2018-12-04 15:21:09 INFO  LogInterceptor:26 - Headers of Request: cookie
+2018-12-04 15:21:09 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-12-04 15:21:09 DEBUG LoggerAspectJ:65 - Entering in Method :  error
+2018-12-04 15:21:09 DEBUG LoggerAspectJ:66 - Class Name :  org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-12-04 15:21:09 DEBUG LoggerAspectJ:67 - Arguments :  [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@378c9033]]
+2018-12-04 15:21:09 DEBUG LoggerAspectJ:68 - Target class : org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-12-04 15:21:09 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-12-04 15:21:09 DEBUG LoggerAspectJ:72 - Method Type : GET
+2018-12-04 15:21:09 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : localhost:8080
+2018-12-04 15:21:09 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-12-04 15:21:09 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36
+2018-12-04 15:21:09 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : */*
+2018-12-04 15:21:09 DEBUG LoggerAspectJ:77 - Header Name: referer Header Value : http://localhost:8080/swagger-ui.html
+2018-12-04 15:21:09 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate, br
+2018-12-04 15:21:09 DEBUG LoggerAspectJ:77 - Header Name: accept-language Header Value : en-US,en;q=0.9,vi;q=0.8
+2018-12-04 15:21:09 DEBUG LoggerAspectJ:77 - Header Name: cookie Header Value : _ga=GA1.1.373225076.1523950554; COOKIE_SUPPORT=true; SCREEN_NAME=59442b394f5130716535465a37452b6c53316b6575773d3d; GUEST_LANGUAGE_ID=vi_VN; Webstorm-69182d4d=86b4c19c-e739-4fe5-a956-93ab97101691
+2018-12-04 15:21:09 DEBUG LoggerAspectJ:79 - Request Path info :/error
+2018-12-04 15:21:09 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-12-04 15:21:09 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error () execution time : 5 ms
+2018-12-04 15:21:09 INFO  LogInterceptor:35 - Headers of Response: [X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Transfer-Encoding, Date]
+2018-12-04 15:21:09 INFO  LogInterceptor:26 - Headers of Request: host
+2018-12-04 15:21:09 INFO  LogInterceptor:26 - Headers of Request: host
+2018-12-04 15:21:09 INFO  LogInterceptor:26 - Headers of Request: connection
+2018-12-04 15:21:09 INFO  LogInterceptor:26 - Headers of Request: connection
+2018-12-04 15:21:09 INFO  LogInterceptor:26 - Headers of Request: origin
+2018-12-04 15:21:09 INFO  LogInterceptor:26 - Headers of Request: origin
+2018-12-04 15:21:09 INFO  LogInterceptor:26 - Headers of Request: user-agent
+2018-12-04 15:21:09 INFO  LogInterceptor:26 - Headers of Request: user-agent
+2018-12-04 15:21:09 INFO  LogInterceptor:26 - Headers of Request: accept
+2018-12-04 15:21:09 INFO  LogInterceptor:26 - Headers of Request: accept
+2018-12-04 15:21:09 INFO  LogInterceptor:26 - Headers of Request: referer
+2018-12-04 15:21:09 INFO  LogInterceptor:26 - Headers of Request: referer
+2018-12-04 15:21:09 INFO  LogInterceptor:26 - Headers of Request: accept-encoding
+2018-12-04 15:21:09 INFO  LogInterceptor:26 - Headers of Request: accept-language
+2018-12-04 15:21:09 INFO  LogInterceptor:26 - Headers of Request: cookie
+2018-12-04 15:21:09 INFO  LogInterceptor:26 - Headers of Request: accept-encoding
+2018-12-04 15:21:09 INFO  LogInterceptor:26 - Headers of Request: accept-language
+2018-12-04 15:21:09 INFO  LogInterceptor:26 - Headers of Request: cookie
+2018-12-04 15:21:09 INFO  LogInterceptor:35 - Headers of Response: [Last-Modified, Accept-Ranges, Content-Type, Content-Length, Date]
+2018-12-04 15:21:09 INFO  LogInterceptor:35 - Headers of Response: [Last-Modified, Accept-Ranges, Content-Type, Content-Length, Date]
+2018-12-04 15:21:15 INFO  LogInterceptor:26 - Headers of Request: host
+2018-12-04 15:21:15 INFO  LogInterceptor:26 - Headers of Request: connection
+2018-12-04 15:21:15 INFO  LogInterceptor:26 - Headers of Request: origin
+2018-12-04 15:21:15 INFO  LogInterceptor:26 - Headers of Request: user-agent
+2018-12-04 15:21:15 INFO  LogInterceptor:26 - Headers of Request: accept
+2018-12-04 15:21:15 INFO  LogInterceptor:26 - Headers of Request: referer
+2018-12-04 15:21:15 INFO  LogInterceptor:26 - Headers of Request: accept-encoding
+2018-12-04 15:21:15 INFO  LogInterceptor:26 - Headers of Request: accept-language
+2018-12-04 15:21:15 INFO  LogInterceptor:26 - Headers of Request: cookie
+2018-12-04 15:21:15 INFO  LogInterceptor:35 - Headers of Response: [Last-Modified, Accept-Ranges, Content-Type, Content-Length, Date]
+2018-12-04 15:21:18 INFO  LogInterceptor:26 - Headers of Request: host
+2018-12-04 15:21:18 INFO  LogInterceptor:26 - Headers of Request: connection
+2018-12-04 15:21:18 INFO  LogInterceptor:26 - Headers of Request: origin
+2018-12-04 15:21:18 INFO  LogInterceptor:26 - Headers of Request: user-agent
+2018-12-04 15:21:18 INFO  LogInterceptor:26 - Headers of Request: accept
+2018-12-04 15:21:18 INFO  LogInterceptor:26 - Headers of Request: referer
+2018-12-04 15:21:18 INFO  LogInterceptor:26 - Headers of Request: accept-encoding
+2018-12-04 15:21:18 INFO  LogInterceptor:26 - Headers of Request: accept-language
+2018-12-04 15:21:18 INFO  LogInterceptor:26 - Headers of Request: cookie
+2018-12-04 15:21:18 INFO  LogInterceptor:35 - Headers of Response: [Last-Modified, Accept-Ranges, Content-Type, Content-Length, Date]
+2018-12-04 16:33:24 INFO  LogInterceptor:26 - Headers of Request: host
+2018-12-04 16:33:24 INFO  LogInterceptor:26 - Headers of Request: connection
+2018-12-04 16:33:24 INFO  LogInterceptor:26 - Headers of Request: pragma
+2018-12-04 16:33:24 INFO  LogInterceptor:26 - Headers of Request: cache-control
+2018-12-04 16:33:24 INFO  LogInterceptor:26 - Headers of Request: accept
+2018-12-04 16:33:24 INFO  LogInterceptor:26 - Headers of Request: origin
+2018-12-04 16:33:24 INFO  LogInterceptor:26 - Headers of Request: user-agent
+2018-12-04 16:33:24 INFO  LogInterceptor:26 - Headers of Request: referer
+2018-12-04 16:33:24 INFO  LogInterceptor:26 - Headers of Request: accept-encoding
+2018-12-04 16:33:24 INFO  LogInterceptor:26 - Headers of Request: accept-language
+2018-12-04 16:33:24 INFO  LogInterceptor:26 - Headers of Request: host
+2018-12-04 16:33:24 INFO  LogInterceptor:26 - Headers of Request: connection
+2018-12-04 16:33:24 INFO  LogInterceptor:26 - Headers of Request: pragma
+2018-12-04 16:33:24 INFO  LogInterceptor:26 - Headers of Request: cache-control
+2018-12-04 16:33:24 INFO  LogInterceptor:26 - Headers of Request: accept
+2018-12-04 16:33:24 INFO  LogInterceptor:26 - Headers of Request: origin
+2018-12-04 16:33:24 INFO  LogInterceptor:26 - Headers of Request: user-agent
+2018-12-04 16:33:24 INFO  LogInterceptor:26 - Headers of Request: referer
+2018-12-04 16:33:24 INFO  LogInterceptor:26 - Headers of Request: accept-encoding
+2018-12-04 16:33:24 INFO  LogInterceptor:26 - Headers of Request: accept-language
+2018-12-04 16:33:24 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-12-04 16:33:24 DEBUG LoggerAspectJ:65 - Entering in Method :  error
+2018-12-04 16:33:24 DEBUG LoggerAspectJ:66 - Class Name :  org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-12-04 16:33:24 DEBUG LoggerAspectJ:67 - Arguments :  [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@77ac3ceb]]
+2018-12-04 16:33:24 DEBUG LoggerAspectJ:68 - Target class : org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-12-04 16:33:24 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-12-04 16:33:24 DEBUG LoggerAspectJ:72 - Method Type : GET
+2018-12-04 16:33:24 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : localhost:8080
+2018-12-04 16:33:24 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-12-04 16:33:24 DEBUG LoggerAspectJ:77 - Header Name: pragma Header Value : no-cache
+2018-12-04 16:33:24 DEBUG LoggerAspectJ:77 - Header Name: cache-control Header Value : no-cache
+2018-12-04 16:33:24 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : application/json, text/plain, */*
+2018-12-04 16:33:24 DEBUG LoggerAspectJ:77 - Header Name: origin Header Value : http://localhost:9000
+2018-12-04 16:33:24 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36
+2018-12-04 16:33:24 DEBUG LoggerAspectJ:77 - Header Name: referer Header Value : http://localhost:9000/
+2018-12-04 16:33:24 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate, br
+2018-12-04 16:33:24 DEBUG LoggerAspectJ:77 - Header Name: accept-language Header Value : en-US,en;q=0.9,vi;q=0.8
+2018-12-04 16:33:24 DEBUG LoggerAspectJ:79 - Request Path info :/error
+2018-12-04 16:33:24 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-12-04 16:33:24 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error () execution time : 8 ms
+2018-12-04 16:33:24 INFO  LogInterceptor:35 - Headers of Response: [Content-Type, Transfer-Encoding, Date, Connection]
+2018-12-04 16:34:00 INFO  LogInterceptor:26 - Headers of Request: host
+2018-12-04 16:34:00 INFO  LogInterceptor:26 - Headers of Request: connection
+2018-12-04 16:34:00 INFO  LogInterceptor:26 - Headers of Request: pragma
+2018-12-04 16:34:00 INFO  LogInterceptor:26 - Headers of Request: cache-control
+2018-12-04 16:34:00 INFO  LogInterceptor:26 - Headers of Request: accept
+2018-12-04 16:34:00 INFO  LogInterceptor:26 - Headers of Request: origin
+2018-12-04 16:34:00 INFO  LogInterceptor:26 - Headers of Request: user-agent
+2018-12-04 16:34:00 INFO  LogInterceptor:26 - Headers of Request: referer
+2018-12-04 16:34:00 INFO  LogInterceptor:26 - Headers of Request: accept-encoding
+2018-12-04 16:34:00 INFO  LogInterceptor:26 - Headers of Request: accept-language
+2018-12-04 16:34:00 INFO  LogInterceptor:26 - Headers of Request: host
+2018-12-04 16:34:00 INFO  LogInterceptor:26 - Headers of Request: connection
+2018-12-04 16:34:00 INFO  LogInterceptor:26 - Headers of Request: pragma
+2018-12-04 16:34:00 INFO  LogInterceptor:26 - Headers of Request: cache-control
+2018-12-04 16:34:00 INFO  LogInterceptor:26 - Headers of Request: accept
+2018-12-04 16:34:00 INFO  LogInterceptor:26 - Headers of Request: origin
+2018-12-04 16:34:00 INFO  LogInterceptor:26 - Headers of Request: user-agent
+2018-12-04 16:34:00 INFO  LogInterceptor:26 - Headers of Request: referer
+2018-12-04 16:34:00 INFO  LogInterceptor:26 - Headers of Request: accept-encoding
+2018-12-04 16:34:00 INFO  LogInterceptor:26 - Headers of Request: accept-language
+2018-12-04 16:34:00 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-12-04 16:34:00 DEBUG LoggerAspectJ:65 - Entering in Method :  error
+2018-12-04 16:34:00 DEBUG LoggerAspectJ:66 - Class Name :  org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-12-04 16:34:00 DEBUG LoggerAspectJ:67 - Arguments :  [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@3bdb2d2c]]
+2018-12-04 16:34:00 DEBUG LoggerAspectJ:68 - Target class : org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-12-04 16:34:00 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-12-04 16:34:00 DEBUG LoggerAspectJ:72 - Method Type : GET
+2018-12-04 16:34:00 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : localhost:8080
+2018-12-04 16:34:00 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-12-04 16:34:00 DEBUG LoggerAspectJ:77 - Header Name: pragma Header Value : no-cache
+2018-12-04 16:34:00 DEBUG LoggerAspectJ:77 - Header Name: cache-control Header Value : no-cache
+2018-12-04 16:34:00 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : application/json, text/plain, */*
+2018-12-04 16:34:00 DEBUG LoggerAspectJ:77 - Header Name: origin Header Value : http://localhost:9000
+2018-12-04 16:34:00 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36
+2018-12-04 16:34:00 DEBUG LoggerAspectJ:77 - Header Name: referer Header Value : http://localhost:9000/
+2018-12-04 16:34:00 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate, br
+2018-12-04 16:34:00 DEBUG LoggerAspectJ:77 - Header Name: accept-language Header Value : en-US,en;q=0.9,vi;q=0.8
+2018-12-04 16:34:00 DEBUG LoggerAspectJ:79 - Request Path info :/error
+2018-12-04 16:34:00 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-12-04 16:34:00 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error () execution time : 5 ms
+2018-12-04 16:34:00 INFO  LogInterceptor:35 - Headers of Response: [Content-Type, Transfer-Encoding, Date, Connection]
+2018-12-04 16:59:43 INFO  LogInterceptor:26 - Headers of Request: host
+2018-12-04 16:59:43 INFO  LogInterceptor:26 - Headers of Request: connection
+2018-12-04 16:59:43 INFO  LogInterceptor:26 - Headers of Request: pragma
+2018-12-04 16:59:43 INFO  LogInterceptor:26 - Headers of Request: cache-control
+2018-12-04 16:59:43 INFO  LogInterceptor:26 - Headers of Request: accept
+2018-12-04 16:59:43 INFO  LogInterceptor:26 - Headers of Request: origin
+2018-12-04 16:59:43 INFO  LogInterceptor:26 - Headers of Request: user-agent
+2018-12-04 16:59:43 INFO  LogInterceptor:26 - Headers of Request: referer
+2018-12-04 16:59:43 INFO  LogInterceptor:26 - Headers of Request: accept-encoding
+2018-12-04 16:59:43 INFO  LogInterceptor:26 - Headers of Request: accept-language
+2018-12-04 16:59:43 INFO  LogInterceptor:26 - Headers of Request: host
+2018-12-04 16:59:43 INFO  LogInterceptor:26 - Headers of Request: connection
+2018-12-04 16:59:43 INFO  LogInterceptor:26 - Headers of Request: pragma
+2018-12-04 16:59:43 INFO  LogInterceptor:26 - Headers of Request: cache-control
+2018-12-04 16:59:43 INFO  LogInterceptor:26 - Headers of Request: accept
+2018-12-04 16:59:43 INFO  LogInterceptor:26 - Headers of Request: origin
+2018-12-04 16:59:43 INFO  LogInterceptor:26 - Headers of Request: user-agent
+2018-12-04 16:59:43 INFO  LogInterceptor:26 - Headers of Request: referer
+2018-12-04 16:59:43 INFO  LogInterceptor:26 - Headers of Request: accept-encoding
+2018-12-04 16:59:43 INFO  LogInterceptor:26 - Headers of Request: accept-language
+2018-12-04 16:59:43 INFO  LoggerAspectJ:58 - BEFORE controller
+2018-12-04 16:59:43 DEBUG LoggerAspectJ:65 - Entering in Method :  error
+2018-12-04 16:59:43 DEBUG LoggerAspectJ:66 - Class Name :  org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-12-04 16:59:43 DEBUG LoggerAspectJ:67 - Arguments :  [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@1180aea8]]
+2018-12-04 16:59:43 DEBUG LoggerAspectJ:68 - Target class : org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+2018-12-04 16:59:43 DEBUG LoggerAspectJ:71 - Start Header Section of request 
+2018-12-04 16:59:43 DEBUG LoggerAspectJ:72 - Method Type : GET
+2018-12-04 16:59:43 DEBUG LoggerAspectJ:77 - Header Name: host Header Value : localhost:8080
+2018-12-04 16:59:43 DEBUG LoggerAspectJ:77 - Header Name: connection Header Value : keep-alive
+2018-12-04 16:59:43 DEBUG LoggerAspectJ:77 - Header Name: pragma Header Value : no-cache
+2018-12-04 16:59:43 DEBUG LoggerAspectJ:77 - Header Name: cache-control Header Value : no-cache
+2018-12-04 16:59:43 DEBUG LoggerAspectJ:77 - Header Name: accept Header Value : application/json, text/plain, */*
+2018-12-04 16:59:43 DEBUG LoggerAspectJ:77 - Header Name: origin Header Value : http://localhost:9000
+2018-12-04 16:59:43 DEBUG LoggerAspectJ:77 - Header Name: user-agent Header Value : Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36
+2018-12-04 16:59:43 DEBUG LoggerAspectJ:77 - Header Name: referer Header Value : http://localhost:9000/
+2018-12-04 16:59:43 DEBUG LoggerAspectJ:77 - Header Name: accept-encoding Header Value : gzip, deflate, br
+2018-12-04 16:59:43 DEBUG LoggerAspectJ:77 - Header Name: accept-language Header Value : en-US,en;q=0.9,vi;q=0.8
+2018-12-04 16:59:43 DEBUG LoggerAspectJ:79 - Request Path info :/error
+2018-12-04 16:59:43 DEBUG LoggerAspectJ:80 - End Header Section of request 
+2018-12-04 16:59:43 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error () execution time : 22 ms
+2018-12-04 16:59:43 INFO  LogInterceptor:35 - Headers of Response: [Access-Control-Allow-Origin, Access-Control-Allow-Methods, Access-Control-Max-Age, Access-Control-Allow-Headers, Access-Control-Allow-Credentials, Content-Type, Transfer-Encoding, Date, Connection]
