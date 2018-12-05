@@ -2371,3 +2371,23 @@
 2018-12-04 16:59:43 DEBUG LoggerAspectJ:80 - End Header Section of request 
 2018-12-04 16:59:43 DEBUG LoggerAspectJ:94 - Method org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error () execution time : 22 ms
 2018-12-04 16:59:43 INFO  LogInterceptor:35 - Headers of Response: [Access-Control-Allow-Origin, Access-Control-Allow-Methods, Access-Control-Max-Age, Access-Control-Allow-Headers, Access-Control-Allow-Credentials, Content-Type, Transfer-Encoding, Date, Connection]
+2018-12-05 10:14:49 INFO  LogInterceptor:26 - Headers of Request: host
+2018-12-05 10:14:49 INFO  LogInterceptor:26 - Headers of Request: connection
+2018-12-05 10:14:49 INFO  LogInterceptor:26 - Headers of Request: pragma
+2018-12-05 10:14:49 INFO  LogInterceptor:26 - Headers of Request: cache-control
+2018-12-05 10:14:49 INFO  LogInterceptor:26 - Headers of Request: accept
+2018-12-05 10:14:49 INFO  LogInterceptor:26 - Headers of Request: origin
+2018-12-05 10:14:49 INFO  LogInterceptor:26 - Headers of Request: user-agent
+2018-12-05 10:14:49 INFO  LogInterceptor:26 - Headers of Request: referer
+2018-12-05 10:14:49 INFO  LogInterceptor:26 - Headers of Request: accept-encoding
+2018-12-05 10:14:49 INFO  LogInterceptor:26 - Headers of Request: accept-language
+2018-12-05 10:14:50 INFO  LogInterceptor:35 - Headers of Response: [Access-Control-Allow-Origin, Access-Control-Allow-Methods, Access-Control-Max-Age, Access-Control-Allow-Headers, Access-Control-Allow-Credentials, Content-Type, Transfer-Encoding, Date]
+2018-12-05 14:36:51 INFO  LogInterceptor:26 - Headers of Request: host
+2018-12-05 14:36:51 INFO  LogInterceptor:26 - Headers of Request: connection
+2018-12-05 14:36:51 INFO  LogInterceptor:26 - Headers of Request: accept
+2018-12-05 14:36:51 INFO  LogInterceptor:26 - Headers of Request: origin
+2018-12-05 14:36:51 INFO  LogInterceptor:26 - Headers of Request: user-agent
+2018-12-05 14:36:51 INFO  LogInterceptor:26 - Headers of Request: referer
+2018-12-05 14:36:51 INFO  LogInterceptor:26 - Headers of Request: accept-encoding
+2018-12-05 14:36:51 INFO  LogInterceptor:26 - Headers of Request: accept-language
+2018-12-05 14:36:51 INFO  LogInterceptor:35 - Headers of Response: [Access-Control-Allow-Origin, Access-Control-Allow-Methods, Access-Control-Max-Age, Access-Control-Allow-Headers, Access-Control-Allow-Credentials, Content-Type, Transfer-Encoding, Date]

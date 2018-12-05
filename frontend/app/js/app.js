@@ -42,7 +42,9 @@ angular.module('myApp', [
     
     $scope.requestDate = function () {
         var params = {
-            category:'customer'
+            category:'customer',
+            page:0,
+            size:10
         }
         webFactory.doGet(params)
     }
